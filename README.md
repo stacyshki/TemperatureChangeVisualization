@@ -1,1 +1,1 @@
-Economic Freedom Visualization project
+Temperature Change Visualization Project
