@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Project Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-</head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Project Dashboard</title>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="https://d3js.org/d3.v7.min.js"></script>
+		<script src="https://unpkg.com/topojson-client@3"></script>
+	</head>
 
-<body>
-    <header>
-        <h1>Temperature Change Data Analysis</h1>
-        <p>Introudction(will be written)</p>
-        <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="data.html">Data</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+	<body>
+		<header>
+			<h1>Temperature Change</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="team.html">Team</a></li>
+					<li><a href="data.html">Data</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
 
-    <section id="interactive-section">
-        <div class="interactive-box">Intercative element</div>
-        <div class="geo-map">Geo Map</div>
-    </section>
+		<section id="interactive-section">
+			<div class="geo-map"></div>
+		</section>
 
-    <section id="problem-outline">
-        <h2>Problem Outline</h2>
-        <p>There will be description</p>
-    </section>
+		<section id="problem-outline">
+			<h2>Problem Outline</h2>
+			<p>There will be description</p>
+		</section>
 
-    <section id="comments">
-        <h2>Comments</h2>
-        <div class="graph" id="graph1"></div>
-        <div class="graph" id="graph2"></div>
-    </section>
+		<section id="comments">
+			<h2>Comments</h2>
+			<div class="graph" id="graph1"></div>
+			<div class="graph" id="graph2"></div>
+		</section>
 
-    <section id="conclusion">
-        <h2>Conclusion</h2>
-        <div class="graph" id="final-graph"></div>
-        <a href="https://github.com/stacyshki/TemperatureChangeVisualization/" target="_blank">GitHub Repo (click me)</a>
-    </section>
+		<section id="conclusion">
+			<h2>Conclusion</h2>
+			<div class="graph" id="final-graph"></div>
+			<a
+				href="https://github.com/stacyshki/TemperatureChangeVisualization/"
+				target="_blank"
+				>GitHub Repo (click me)</a
+			>
+		</section>
 
-    <script src="script.js"></script>
-    <section id="csv-data">
-        <h2>Temperature Change Over Time</h2>
-        <div id="csv-graph" class="graph"></div>
-    </section>    
-</body>
+		<script src="script.js"></script>
+		<section id="csv-data">
+			<h2>Temperature Change Over Time</h2>
+			<div id="csv-graph" class="graph"></div>
+		</section>
+	</body>
 </html>
