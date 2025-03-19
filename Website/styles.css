@@ -17,6 +17,8 @@ header {
 	color: #fff;
 	padding: 20px 0;
 	text-align: center;
+	position: sticky;
+	top: 0;
 }
 
 nav {
@@ -240,9 +242,22 @@ a:hover {
 
 /* data page */
 
+#data-section {
+	max-width: 800px;
+	text-align: left;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin-top: 1rem;
+}
+
 .source-link,
 .repo-link {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	gap: 1rem;
 	margin-top: 1rem;
