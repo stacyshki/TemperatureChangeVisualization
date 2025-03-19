@@ -79,7 +79,7 @@ yearSlider.on('input', function () {
 	yearDisplay.text(this.value)
 	const selectedYear = this.value
 	const selectedMonth = monthSelect.node().value // Get the selected month
-	loadCSV('temperatureChange.csv').then(data =>
+	loadCSV('tabels/temperatureChange.csv').then(data =>
 		updateMap(data, selectedYear, selectedMonth)
 	)
 })
@@ -87,7 +87,7 @@ yearSlider.on('input', function () {
 monthSelect.on('change', function () {
 	const selectedMonth = this.value
 	const selectedYear = yearSlider.node().value
-	loadCSV('temperatureChange.csv').then(data =>
+	loadCSV('tabels/temperatureChange.csv').then(data =>
 		updateMap(data, selectedYear, selectedMonth)
 	)
 })
@@ -179,6 +179,6 @@ async function updateMap(data, selectedYear, selectedMonth) {
 }
 
 // Initialize the map with the default data and filters
-loadCSV('temperatureChange.csv').then(data =>
+loadCSV('tabels/temperatureChange.csv').then(data =>
 	updateMap(data, '2019', 'January')
 )
