@@ -278,5 +278,71 @@ d3.csv("tabels/temperatureChange.csv").then(function (data) {
 	.text("Global Temperature Change (°C)")
 	.style("font-size", "14px")
 	.style("fill", "#333");
+});
 
+d3.csv("tabels/temperatureChange.csv").then(function (data) {
+	const graphContainer = d3.select("#graph2");
+	graphContainer.html("");
+
+	const containerWidth = graphContainer.node().getBoundingClientRect().width;
+	const containerHeight = graphContainer.node().getBoundingClientRect().height || 470;
+	const margin = { top: 40, right: 30, bottom: 50, left: 60 };
+	const width = containerWidth - margin.left - margin.right;
+	const height = containerHeight - margin.top - margin.bottom;
+
+	const svg = graphContainer
+		.append("svg")
+		.attr("width", width + margin.left + margin.right)
+		.attr("height", height + margin.top + margin.bottom)
+		.append("g")
+		.attr("transform", `translate(${margin.left},${margin.top})`);
+
+	data.forEach(d => {
+		d.Year = +d.Year;
+		d["Temperature Change"] = +d["Temperature Change"];
+	});
+
+	const avgByYear = d3.rollups(
+		data.filter(d => !isNaN(d["Temperature Change"])),
+		v => d3.mean(v, d => d["Temperature Change"]),
+		d => d.Year
+	);
+	const globalAverages = avgByYear
+		.map(([year, value]) => ({ year, value }))
+		.sort((a, b) => a.year - b.year);
+
+	const x = d3.scaleBand()
+		.domain(globalAverages.map(d => d.year))
+		.range([0, width])
+		.padding(0.1);
+
+	const y = d3.scaleLinear()
+		.domain([0, d3.max(globalAverages, d => d.value)])
+		.range([height, 0]);
+
+	svg.selectAll(".bar")
+		.data(globalAverages)
+		.enter()
+		.append("rect")
+		.attr("class", "bar")
+		.attr("x", d => x(d.year))
+		.attr("y", d => y(d.value))
+		.attr("width", x.bandwidth())
+		.attr("height", d => height - y(d.value))
+		.attr("fill", "tomato");
+
+	svg.append("g")
+		.attr("transform", `translate(0,${height})`)
+		.call(d3.axisBottom(x).tickValues(x.domain().filter(d => d % 5 === 0)));
+
+	svg.append("g").call(d3.axisLeft(y));
+
+	svg.append("text")
+		.attr("x", width / 2)
+		.attr("y", -10)
+		.attr("text-anchor", "middle")
+		.style("font-size", "18px")
+		.style("font-weight", "bold")
+		.style("fill", "#333")
+		.text("Yearly Global Temperature Change (Bar Chart)");
 });
