@@ -154,7 +154,6 @@ async function updateMap(data, selectedYear, selectedMonth) {
 		.attr('fill', d => {
 			const regionName = normalizeName(d.properties.name)
 
-			// Find matching data for the region
 			const regionData = filteredData.find(
 				f => normalizeName(f.Area) === regionName
 			)
@@ -178,16 +177,14 @@ async function updateMap(data, selectedYear, selectedMonth) {
 		})
 }
 
-// Initialize the map with the default data and filters
 loadCSV('tabels/temperatureChange.csv').then(data =>
 	updateMap(data, '2019', 'January')
 )
 
 d3.csv("tabels/temperatureChange.csv").then(function (data) {
 	const graphContainer = d3.select("#graph1");
-	graphContainer.html(""); // Clear old chart if reloaded
+	graphContainer.html(""); 
 
-	// Get actual size from container
 	const containerWidth = graphContainer.node().getBoundingClientRect().width;
 	const containerHeight = graphContainer.node().getBoundingClientRect().height || 470;
 
@@ -203,7 +200,6 @@ d3.csv("tabels/temperatureChange.csv").then(function (data) {
 		.attr("transform", `translate(${margin.left},${margin.top})`);
 
 
-	// title
 	svg.append("text")
 	.attr("x", width / 2)
 	.attr("y", 0)
@@ -213,13 +209,11 @@ d3.csv("tabels/temperatureChange.csv").then(function (data) {
 	.style("fill", "#333")
 	.text("Global average temperature change over time");
 
-	// parsing values
 	data.forEach(d => {
 		d.Year = +d.Year;
 		d["Temperature Change"] = +d["Temperature Change"];
 	});
 
-	// group by year and calculate global avg
 	const avgByYear = d3.rollups(
 		data.filter(d => !isNaN(d["Temperature Change"])),
 		v => d3.mean(v, d => d["Temperature Change"]),
@@ -231,7 +225,6 @@ d3.csv("tabels/temperatureChange.csv").then(function (data) {
 
 	console.log("Global Averages:", globalAverages);
 
-	// setting sclaes
 	const x = d3.scaleLinear()
 		.domain(d3.extent(globalAverages, d => d.year))
 		.range([0, width]);
@@ -245,7 +238,6 @@ d3.csv("tabels/temperatureChange.csv").then(function (data) {
 		.x(d => x(d.year))
 		.y(d => y(d.value));
 
-	// the line on the graph
 	svg.append("path")
 		.datum(globalAverages)
 		.attr("fill", "none")
@@ -345,4 +337,111 @@ d3.csv("tabels/temperatureChange.csv").then(function (data) {
 		.style("font-weight", "bold")
 		.style("fill", "#333")
 		.text("Yearly Global Temperature Change (Bar Chart)");
+});
+
+d3.csv("tabels/temperatureChange.csv").then(function (data) {
+	const graphContainer = d3.select("#graph3");
+	graphContainer.html(""); 
+
+	const countries = [...new Set(data.map(d => d.Area))].sort();
+
+	const dropdown = graphContainer
+		.append("select")
+		.style("margin-bottom", "10px")
+		.style("font-size", "16px")
+		.on("change", function () {
+			updateChart(this.value);
+		});
+
+	dropdown
+		.selectAll("option")
+		.data(countries)
+		.enter()
+		.append("option")
+		.text(d => d)
+		.attr("value", d => d);
+
+	const margin = { top: 40, right: 30, bottom: 50, left: 60 };
+	const width = graphContainer.node().getBoundingClientRect().width - margin.left - margin.right;
+	const height = 400 - margin.top - margin.bottom;
+
+	const svg = graphContainer
+		.append("svg")
+		.attr("width", width + margin.left + margin.right)
+		.attr("height", height + margin.top + margin.bottom)
+		.append("g")
+		.attr("transform", `translate(${margin.left},${margin.top})`);
+
+	const x = d3.scaleLinear().range([0, width]);
+	const y = d3.scaleLinear().range([height, 0]);
+
+	const xAxis = svg.append("g").attr("transform", `translate(0,${height})`);
+	const yAxis = svg.append("g");
+
+	svg.append("text")
+		.attr("x", width / 2)
+		.attr("y", -10)
+		.attr("text-anchor", "middle")
+		.style("font-size", "18px")
+		.style("font-weight", "bold")
+		.text("Temperature Change Over Time");
+
+	svg.append("text")
+		.attr("x", width / 2)
+		.attr("y", height + margin.bottom - 5)
+		.attr("text-anchor", "middle")
+		.style("font-size", "14px")
+		.text("Year");
+
+	svg.append("text")
+		.attr("transform", "rotate(-90)")
+		.attr("x", -height / 2)
+		.attr("y", -margin.left + 15)
+		.attr("text-anchor", "middle")
+		.style("font-size", "14px")
+		.text("Temperature Change (°C)");
+
+	const line = d3.line()
+		.defined(d => !isNaN(d.value)) 
+		.x(d => x(d.year))
+		.y(d => y(d.value))
+		.curve(d3.curveMonotoneX); 
+
+	function updateChart(selectedCountry) {
+		const countryData = data
+			.filter(d => d.Area === selectedCountry && !isNaN(d["Temperature Change"]))
+			.map(d => ({
+				year: +d.Year,
+				value: +d["Temperature Change"]
+			}))
+			.sort((a, b) => a.year - b.year); 
+
+		const allYears = d3.range(d3.min(countryData, d => d.year), d3.max(countryData, d => d.year) + 1);
+		const filledData = allYears.map(year => ({
+			year,
+			value: countryData.find(d => d.year === year)?.value ?? null 
+		}));
+
+		x.domain(d3.extent(filledData, d => d.year));
+		y.domain(d3.extent(filledData.filter(d => d.value !== null), d => d.value));
+
+		xAxis.transition().duration(1000).call(d3.axisBottom(x).tickFormat(d3.format("d")));
+		yAxis.transition().duration(1000).call(d3.axisLeft(y));
+
+		const path = svg.selectAll(".line").data([filledData]);
+
+		path.enter()
+			.append("path")
+			.attr("class", "line")
+			.merge(path)
+			.transition()
+			.duration(1000)
+			.attr("fill", "none")
+			.attr("stroke", "steelblue")
+			.attr("stroke-width", 2)
+			.attr("d", line);
+
+		path.exit().remove();
+	}
+	updateChart(countries[0]);
 });
