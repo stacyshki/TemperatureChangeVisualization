@@ -43,23 +43,28 @@
 
 			<section id="feedback">
 				<h2>Feedback<br /><br /></h2>
-				<form action="#" method="post">
+				<form>
 					<textarea
 						id="feedback-message"
 						rows="5"
 						placeholder="Type your message here..."
 					></textarea>
-					<button type="submit">Send</button>
+					<button type="submit" onclick="confirmFeedback()">Send</button>
+					<script>
+						function confirmFeedback() {
+							confirm('Thanks for the feedback! Click OK to close.')
+						}
+					</script>
 				</form>
 			</section>
 
 			<section id="user-comments">
 				<h2>User comments</h2>
 				<div class="comment:">
-					<p><strong>Amir:</strong>Great analysis!</p>
+					<p><strong>Amir: </strong>Great analysis!</p>
 				</div>
 				<div class="comment:">
-					<p><strong>Antoine:</strong>Good</p>
+					<p><strong>Antoine: </strong>Good</p>
 				</div>
 			</section>
 		</main>
