@@ -19,6 +19,7 @@ header {
 	text-align: center;
 	position: sticky;
 	top: 0;
+	z-index: 1000;
 }
 
 nav {
@@ -51,21 +52,6 @@ header h1 {
 	margin-bottom: 10px;
 }
 
-.graph {
-    min-height: 500px;  /* Ensures a base height */
-    height: auto;        /* Let it expand naturally */
-    width: 100%;
-    background: #e2e2e2;
-    border-radius: 10px;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative; /* Ensures it respects child size */
-    overflow: visible; /* Prevents it from cutting off content */
-}
-
-
 #interactive-section {
 	display: flex;
 	flex-wrap: wrap;
@@ -87,23 +73,26 @@ header h1 {
 }
 
 .graph {
-    min-height: 500px; /* Ensure enough space */
-    height: auto; /* Allow it to grow */
-    background: #e2e2e2; /* Keep the background */
-    border-radius: 10px; /* Keep rounded corners */
-    padding: 20px; /* Extra space inside */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	min-height: 500px; /* Ensures a base height */
+	height: auto; /* Let it expand naturally */
+	width: 100%;
+	background: #e2e2e2;
+	border-radius: 10px;
+	padding: 20px;
+	display: inline;
+	align-items: center;
+	justify-content: center;
+	position: relative; /* Ensures it respects child size */
+	overflow: auto; /* Prevents it from cutting off content */
 }
 
 #comments {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px; /* More spacing between charts */
-    min-height: 800px; /* Ensures enough space */
-    width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px; /* More spacing between charts */
+	min-height: 800px; /* Ensures enough space */
+	width: 100%;
 }
 
 a {
@@ -263,6 +252,7 @@ a:hover {
 #data-section {
 	max-width: 800px;
 	text-align: left;
+	margin: 0 auto;
 }
 
 .container {
