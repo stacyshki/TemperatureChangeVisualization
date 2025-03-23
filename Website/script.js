@@ -79,7 +79,7 @@ yearSlider.on('input', function () {
 	yearDisplay.text(this.value)
 	const selectedYear = this.value
 	const selectedMonth = monthSelect.node().value // Get the selected month
-	loadCSV('tabels/temperatureChange.csv').then(data =>
+	loadCSV('tables/temperatureChange.csv').then(data =>
 		updateMap(data, selectedYear, selectedMonth)
 	)
 })
@@ -87,7 +87,7 @@ yearSlider.on('input', function () {
 monthSelect.on('change', function () {
 	const selectedMonth = this.value
 	const selectedYear = yearSlider.node().value
-	loadCSV('tabels/temperatureChange.csv').then(data =>
+	loadCSV('tables/temperatureChange.csv').then(data =>
 		updateMap(data, selectedYear, selectedMonth)
 	)
 })
@@ -177,11 +177,11 @@ async function updateMap(data, selectedYear, selectedMonth) {
 		})
 }
 
-loadCSV('tabels/temperatureChange.csv').then(data =>
+loadCSV('tables/temperatureChange.csv').then(data =>
 	updateMap(data, '2019', 'January')
 )
 
-d3.csv('tabels/temperatureChange.csv').then(function (data) {
+d3.csv('tables/temperatureChange.csv').then(function (data) {
 	const graphContainer = d3.select('#graph1')
 	graphContainer.html('')
 
@@ -279,8 +279,490 @@ d3.csv('tabels/temperatureChange.csv').then(function (data) {
 		.style('fill', '#333')
 })
 
-d3.csv('tabels/temperatureChange.csv').then(function (data) {
+d3.csv('tables/globalAvgStd.csv').then(function (data) {
+	const graphContainer = d3.select('#graph3')
+	graphContainer.html('')
+
+	const containerWidth = graphContainer.node().getBoundingClientRect().width
+	const containerHeight =
+		graphContainer.node().getBoundingClientRect().height || 470
+
+	const margin = { top: 20, right: 30, bottom: 50, left: 60 }
+	const width = containerWidth - margin.left - margin.right
+	const height = containerHeight - margin.top - margin.bottom
+
+	const svg = graphContainer
+		.append('svg')
+		.attr('width', width + margin.left + margin.right)
+		.attr('height', height + margin.top + margin.bottom)
+		.append('g')
+		.attr('transform', `translate(${margin.left},${margin.top})`)
+
+	svg
+		.append('text')
+		.attr('x', width / 2)
+		.attr('y', -5)
+		.attr('text-anchor', 'middle')
+		.style('font-size', '18px')
+		.style('font-weight', 'bold')
+		.style('fill', '#333')
+		.text('Global average standard deviation change over time')
+
+	// Parse CSV data
+	data.forEach(d => {
+		d.Year = +d.Year
+		d['Standard Deviation'] = +d['Standard Deviation']
+	})
+
+	data.sort((a, b) => a.Year - b.Year)
+
+	console.log('Parsed Data:', data)
+
+	const x = d3
+		.scaleLinear()
+		.domain(d3.extent(data, d => d.Year))
+		.range([0, width])
+
+	const y = d3
+		.scaleLinear()
+		.domain([
+			d3.min(data, d => d['Standard Deviation']),
+			d3.max(data, d => d['Standard Deviation']),
+		])
+		.range([height, 0])
+
+	const line = d3
+		.line()
+		.x(d => x(d.Year))
+		.y(d => y(d['Standard Deviation']))
+		.curve(d3.curveMonotoneX)
+
+	// Draw line
+	svg
+		.append('path')
+		.datum(data)
+		.attr('fill', 'none')
+		.attr('stroke', 'steelblue')
+		.attr('stroke-width', 2)
+		.attr('d', line)
+
+	svg
+		.append('g')
+		.attr('transform', `translate(0,${height})`)
+		.call(d3.axisBottom(x).tickFormat(d3.format('d')))
+
+	svg.append('g').call(d3.axisLeft(y))
+
+	svg
+		.append('text')
+		.attr('text-anchor', 'middle')
+		.attr('x', width / 2)
+		.attr('y', height + margin.bottom - 5)
+		.style('font-size', '14px')
+		.style('fill', '#333')
+		.text('Year')
+
+	svg
+		.append('text')
+		.attr('text-anchor', 'middle')
+		.attr('transform', `rotate(-90)`)
+		.attr('x', -height / 2)
+		.attr('y', -margin.left + 15)
+		.style('font-size', '14px')
+		.style('fill', '#333')
+		.text('Average standard deviation change')
+})
+
+d3.csv('tables/stdDescYear.csv').then(function (data) {
+	const graphContainer = d3.select('#graph4')
+	graphContainer.html('')
+
+	const containerWidth = graphContainer.node().getBoundingClientRect().width
+	const containerHeight =
+		graphContainer.node().getBoundingClientRect().height || 470
+
+	const margin = { top: 40, right: 30, bottom: 50, left: 60 }
+	const width = containerWidth - margin.left - margin.right
+	const height = containerHeight - margin.top - margin.bottom
+
+	const svg = graphContainer
+		.append('svg')
+		.attr('width', width + margin.left + margin.right)
+		.attr('height', height + margin.top + margin.bottom)
+		.append('g')
+		.attr('transform', `translate(${margin.left},${margin.top})`)
+
+	svg
+		.append('text')
+		.attr('x', width / 2)
+		.attr('y', -10)
+		.attr('text-anchor', 'middle')
+		.style('font-size', '18px')
+		.style('font-weight', 'bold')
+		.style('fill', '#333')
+		.text('Unusual years with extreme temperature deviation')
+
+	data.forEach(d => {
+		d.Year = +d.Year
+		d.mean = +d.mean
+	})
+
+	data.sort((a, b) => a.Year - b.Year)
+
+	const Q1 = d3.quantile(
+		data.map(d => d.mean),
+		0.25
+	)
+	const Q3 = d3.quantile(
+		data.map(d => d.mean),
+		0.75
+	)
+	const IQR = Q3 - Q1
+	const lower_bound = Q1 - 1.5 * IQR
+	const upper_bound = Q3 + 1.5 * IQR
+
+	const outliers = data.filter(
+		d => d.mean < lower_bound || d.mean > upper_bound
+	)
+
+	const overallMean = d3.mean(data, d => d.mean)
+
+	const x = d3
+		.scaleLinear()
+		.domain(d3.extent(data, d => d.Year))
+		.range([0, width])
+
+	const y = d3.scaleLinear().domain([0.72, 0.74]).range([height, 0])
+
+	const line = d3
+		.line()
+		.x(d => x(d.Year))
+		.y(d => y(d.mean))
+		.curve(d3.curveLinear)
+
+	// Draw mean temperature line
+	svg
+		.append('path')
+		.datum(data)
+		.attr('fill', 'none')
+		.attr('stroke', 'steelblue')
+		.attr('stroke-width', 2)
+		.attr('d', line)
+
+	// Draw outlier points (red dots)
+	svg
+		.selectAll('.outlier')
+		.data(outliers)
+		.enter()
+		.append('circle')
+		.attr('class', 'outlier')
+		.attr('cx', d => x(d.Year))
+		.attr('cy', d => y(d.mean))
+		.attr('r', 5)
+		.attr('fill', 'red')
+
+	// Add overall mean temperature line
+	svg
+		.append('line')
+		.attr('x1', 0)
+		.attr('y1', y(overallMean))
+		.attr('x2', width)
+		.attr('y2', y(overallMean))
+		.attr('stroke', 'gray')
+		.attr('stroke-dasharray', '6,6')
+		.attr('stroke-width', 2)
+
+	svg
+		.append('g')
+		.attr('transform', `translate(0,${height})`)
+		.call(d3.axisBottom(x).tickFormat(d3.format('d')))
+
+	svg.append('g').call(d3.axisLeft(y))
+
+	svg
+		.append('text')
+		.attr('text-anchor', 'middle')
+		.attr('x', width / 2)
+		.attr('y', height + margin.bottom - 5)
+		.style('font-size', '14px')
+		.style('fill', '#333')
+		.text('Year')
+
+	svg
+		.append('text')
+		.attr('text-anchor', 'middle')
+		.attr('transform', `rotate(-90)`)
+		.attr('x', -height / 2)
+		.attr('y', -margin.left + 15)
+		.style('font-size', '14px')
+		.style('fill', '#333')
+		.text('Mean temperature')
+
+	const legend = svg
+		.append('g')
+		.attr('transform', `translate(${width - 150}, 10)`)
+
+	legend
+		.append('circle')
+		.attr('cx', 10)
+		.attr('cy', 10)
+		.attr('r', 5)
+		.attr('fill', 'red')
+	legend
+		.append('text')
+		.attr('x', 20)
+		.attr('y', 15)
+		.text('IQR outliers')
+		.style('font-size', '12px')
+
+	legend
+		.append('line')
+		.attr('x1', 0)
+		.attr('y1', 30)
+		.attr('x2', 20)
+		.attr('y2', 30)
+		.attr('stroke', 'gray')
+		.attr('stroke-dasharray', '6,6')
+		.attr('stroke-width', 2)
+	legend
+		.append('text')
+		.attr('x', 25)
+		.attr('y', 35)
+		.text('Mean temperature')
+		.style('font-size', '12px')
+})
+
+d3.csv('tables/globalTempAvg.csv').then(function (data) {
 	const graphContainer = d3.select('#graph2')
+	graphContainer.html('')
+
+	const containerWidth = graphContainer.node().getBoundingClientRect().width
+	const containerHeight =
+		graphContainer.node().getBoundingClientRect().height || 500
+
+	const margin = { top: 50, right: 50, bottom: 60, left: 70 }
+	const width = containerWidth - margin.left - margin.right
+	const height = containerHeight - margin.top - margin.bottom
+
+	const svg = graphContainer
+		.append('svg')
+		.attr('width', width + margin.left + margin.right)
+		.attr('height', height + margin.top + margin.bottom)
+		.append('g')
+		.attr('transform', `translate(${margin.left},${margin.top})`)
+
+	svg
+		.append('text')
+		.attr('x', width / 2)
+		.attr('y', -10)
+		.attr('text-anchor', 'middle')
+		.style('font-size', '18px')
+		.style('font-weight', 'bold')
+		.style('fill', '#333')
+		.text('Global temperature change trend (1961-2019)')
+
+	// Convert columns to numbers
+	data.forEach(d => {
+		d.Year = +d.Year
+		d['Temperature Change'] = +d['Temperature Change']
+	})
+
+	data.sort((a, b) => a.Year - b.Year)
+
+	const xValues = data.map(d => d.Year)
+	const yValues = data.map(d => d['Temperature Change'])
+
+	const regression = ss.linearRegression(xValues.map((x, i) => [x, yValues[i]]))
+	const regressionLine = ss.linearRegressionLine(regression)
+
+	const polyFit = ss.linearRegression(xValues.map((x, i) => [x, yValues[i]]))
+	const poly = x => regressionLine(x)
+
+	const x0 = d3.range(
+		Math.max(1955, d3.min(xValues)),
+		Math.min(2050, d3.max(xValues)),
+		1
+	)
+
+	const hy0 = x0.map(poly)
+
+	const xMean = d3.mean(xValues)
+	const xVar = d3.variance(xValues)
+	const v0 = x0.map(x => (xVar + (x - xMean) ** 2) / (xValues.length * xVar))
+
+	const residuals = yValues.map((y, i) => y - regressionLine(xValues[i]))
+	const sse = d3.sum(residuals.map(e => e ** 2))
+	const hs2 = sse / (xValues.length - 2)
+
+	const alpha = 0.05
+	const t = jStat.studentt.inv(1 - alpha / 2, xValues.length - 2)
+	const eps_mean = v0.map(v => t * Math.sqrt(hs2 * v))
+	const eps_pred = v0.map(v => t * Math.sqrt(hs2 * (1 + v)))
+
+	const mean_l0 = hy0.map((y, i) => y - eps_mean[i])
+	const mean_up = hy0.map((y, i) => y + eps_mean[i])
+	const val_l0 = hy0.map((y, i) => y - eps_pred[i])
+	const val_up = hy0.map((y, i) => y + eps_pred[i])
+
+	const x = d3.scaleLinear().domain(d3.extent(xValues)).range([0, width])
+
+	const y = d3
+		.scaleLinear()
+		.domain([d3.min(val_l0) - 0.1, d3.max(val_up) + 0.1])
+		.range([height, 0])
+
+	svg
+		.append('g')
+		.attr('transform', `translate(0,${height})`)
+		.call(d3.axisBottom(x).tickFormat(d3.format('d')))
+
+	svg.append('g').call(d3.axisLeft(y))
+
+	svg
+		.append('text')
+		.attr('x', width / 2)
+		.attr('y', height + margin.bottom - 10)
+		.attr('text-anchor', 'middle')
+		.style('font-size', '14px')
+		.style('fill', '#333')
+		.text('Year')
+
+	svg
+		.append('text')
+		.attr('transform', 'rotate(-90)')
+		.attr('x', -height / 2)
+		.attr('y', -margin.left + 15)
+		.attr('text-anchor', 'middle')
+		.style('font-size', '14px')
+		.style('fill', '#333')
+		.text('Global average temperature change (°C)')
+
+	// Confidence interval
+	svg
+		.append('path')
+		.datum(x0.map((x, i) => ({ x, y1: mean_l0[i], y2: mean_up[i] })))
+		.attr('fill', 'lightblue')
+		.attr('opacity', 0.4)
+		.attr(
+			'd',
+			d3
+				.area()
+				.x(d => x(d.x))
+				.y0(d => y(d.y1))
+				.y1(d => y(d.y2))
+		)
+
+	// Prediction interval
+	svg
+		.append('path')
+		.datum(x0.map((x, i) => ({ x, y1: val_l0[i], y2: val_up[i] })))
+		.attr('fill', 'lightgreen')
+		.attr('opacity', 0.3)
+		.attr(
+			'd',
+			d3
+				.area()
+				.x(d => x(d.x))
+				.y0(d => y(d.y1))
+				.y1(d => y(d.y2))
+		)
+
+	// Regression line
+	svg
+		.append('path')
+		.datum(x0.map(x => ({ x, y: poly(x) })))
+		.attr('fill', 'none')
+		.attr('stroke', 'red')
+		.attr('stroke-width', 2)
+		.attr(
+			'd',
+			d3
+				.line()
+				.x(d => x(d.x))
+				.y(d => y(d.y))
+		)
+
+	// Scatterplot for observed data
+	svg
+		.selectAll('.dot')
+		.data(data)
+		.enter()
+		.append('circle')
+		.attr('class', 'dot')
+		.attr('cx', d => x(d.Year))
+		.attr('cy', d => y(d['Temperature Change']))
+		.attr('r', 4)
+		.attr('fill', 'darkblue')
+
+	const legend = svg
+		.append('g')
+		.attr('transform', `translate(${width - 180}, -50)`)
+
+	legend
+		.append('circle')
+		.attr('cx', 10)
+		.attr('cy', 10)
+		.attr('r', 5)
+		.attr('fill', 'darkblue')
+	legend
+		.append('text')
+		.attr('x', 20)
+		.attr('y', 15)
+		.text('Observed data')
+		.style('fill', '#333')
+		.style('font-size', '12px')
+
+	legend
+		.append('line')
+		.attr('x1', 0)
+		.attr('y1', 30)
+		.attr('x2', 20)
+		.attr('y2', 30)
+		.attr('stroke', 'red')
+		.attr('stroke-width', 2)
+	legend
+		.append('text')
+		.attr('x', 25)
+		.attr('y', 35)
+		.text('Regression line')
+		.style('fill', '#333')
+		.style('font-size', '12px')
+
+	legend
+		.append('rect')
+		.attr('x', 0)
+		.attr('y', 50)
+		.attr('width', 20)
+		.attr('height', 10)
+		.attr('fill', 'lightblue')
+		.attr('opacity', 0.4)
+	legend
+		.append('text')
+		.attr('x', 25)
+		.attr('y', 60)
+		.text('Confidence interval (mean)')
+		.style('fill', '#333')
+		.style('font-size', '12px')
+
+	legend
+		.append('rect')
+		.attr('x', 0)
+		.attr('y', 70)
+		.attr('width', 20)
+		.attr('height', 10)
+		.attr('fill', 'lightgreen')
+		.attr('opacity', 0.3)
+	legend
+		.append('text')
+		.attr('x', 25)
+		.attr('y', 80)
+		.text('Prediction interval (individual)')
+		.style('fill', '#333')
+		.style('font-size', '12px')
+})
+
+d3.csv('tables/temperatureChange.csv').then(function (data) {
+	const graphContainer = d3.select('#graph5')
 	graphContainer.html('')
 
 	const containerWidth = graphContainer.node().getBoundingClientRect().width
@@ -371,7 +853,7 @@ d3.csv('tabels/temperatureChange.csv').then(function (data) {
 		.text('Global average temperature change (bar chart)')
 })
 
-d3.csv('tabels/temperatureChange.csv').then(function (data) {
+d3.csv('tables/temperatureChange.csv').then(function (data) {
 	const graphContainer = d3.select('#final-graph')
 	graphContainer.html('')
 

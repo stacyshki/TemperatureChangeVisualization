@@ -114,9 +114,9 @@ header h1 {
 }
 
 /* General Layout */
-.container {
+.container-other-graphs {
 	display: flex;
-	height: 100vh;
+	height: 50vh;
 }
 
 /* Sidebar with clickable chart options */
