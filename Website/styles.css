@@ -59,6 +59,7 @@ header h1 {
 	align-items: center;
 }
 
+
 .interactive-box,
 .geo-map {
 	flex: 1 1 300px;
@@ -87,13 +88,29 @@ header h1 {
 }
 
 #problem-outline {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 30px; /* More spacing between charts */
-	min-height: 200px; /* Ensures enough space */
-	width: 100%;
+    max-width: 800px;  
+    margin: 40px auto; 
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 8px;  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
 }
+
+#problem-outline h2 {
+    font-size: 24px;  
+    font-weight: bold;
+    color: #333; 
+    text-align: center;  
+    margin-bottom: 10px;
+}
+
+#problem-outline p {
+    font-size: 16px;  /* 适中字体大小 */
+    line-height: 1.6;  
+    color: #555;  
+    text-align: justify;  
+}
+
 
 #comments {
 	display: flex;
