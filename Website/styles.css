@@ -86,12 +86,39 @@ header h1 {
 	overflow: auto; /* Prevents it from cutting off content */
 }
 
+#problem-outline {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px; /* More spacing between charts */
+	min-height: 200px; /* Ensures enough space */
+	width: 100%;
+}
+
 #comments {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 30px; /* More spacing between charts */
 	min-height: 800px; /* Ensures enough space */
+	width: 100%;
+}
+
+#conclusion {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px; /* More spacing between charts */
+	min-height: 200px; /* Ensures enough space */
+	width: 100%;
+}
+
+#csv-data {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px; /* More spacing between charts */
+	min-height: 200px; /* Ensures enough space */
 	width: 100%;
 }
 
