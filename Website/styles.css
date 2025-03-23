@@ -113,12 +113,54 @@ header h1 {
 	width: 100%;
 }
 
-#csv-data {
+/* General Layout */
+.container {
+	display: flex;
+	height: 100vh;
+}
+
+/* Sidebar with clickable chart options */
+.sidebar {
+	width: 20%;
+	background: #f4f4f4;
+	padding: 10px;
+	overflow-y: auto;
+}
+
+.chart-thumbnail {
+	padding: 10px;
+	margin-bottom: 5px;
+	background: #ddd;
+	cursor: pointer;
+	text-align: center;
+}
+
+.chart-thumbnail:hover {
+	background: #bbb;
+}
+
+/* Main chart display */
+.chart-display {
+	width: 80%;
+	padding: 20px;
+}
+
+/* Hide all charts by default */
+.chart-container {
+	display: none;
+}
+
+/* Show only the selected chart */
+.chart-container.active {
+	display: block;
+}
+
+#other-graphs {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: left;
 	gap: 30px; /* More spacing between charts */
-	min-height: 200px; /* Ensures enough space */
+	min-height: 50px; /* Ensures enough space */
 	width: 100%;
 }
 

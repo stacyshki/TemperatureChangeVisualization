@@ -8,6 +8,8 @@
 		<link rel="stylesheet" href="styles.css" />
 		<script src="https://d3js.org/d3.v7.min.js"></script>
 		<script src="https://unpkg.com/topojson-client@3"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/simple-statistics/7.8.3/simple-statistics.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jstat/1.9.6/jstat.min.js"></script
 	</head>
 
 	<body>
@@ -61,10 +63,27 @@
 			<p>Here we will write the conclusion</p>
 		</section>
 
-		<script src="script.js"></script>
-		<section id="csv-data">
+		<section id="other-graphs">
 			<h2><br /><br />Other useful graphs</h2>
-			<div id="csv-graph" class="graph"></div>
+			
+			<div class="container">
+        <!-- Sidebar: List of Charts -->
+        <div class="sidebar">
+            <div class="chart-thumbnail" onclick="updateChart('graph5')">Graph 5</div>
+            <div class="chart-thumbnail" onclick="updateChart('graph6')">Graph 6</div>
+            <div class="chart-thumbnail" onclick="updateChart('graph7')">Graph 7</div>
+        </div>
+
+        <!-- Main area: Where the selected graph is displayed -->
+        <div class="chart-display">
+            <div id="graph5" class="chart-container"></div>
+            <div id="graph6" class="chart-container"></div>
+            <div id="graph7" class="chart-container"></div>
+        </div>
+    </div>
+		</div>
 		</section>
+
+		<script src="script.js" defer></script>
 	</body>
 </html>
