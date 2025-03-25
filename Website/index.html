@@ -76,8 +76,18 @@
         <!-- Sidebar: List of Charts -->
         <div class="sidebar">
             <div class="chart-thumbnail" onclick="updateChart('graph5')">Seasonal temperature change</div>
+						<div class="chart-thumbnail" onclick="updateChart('graph13')">Seasonal temperature boxplots</div>
             <div class="chart-thumbnail" onclick="updateChart('graph6')">Seasonal deviation change</div>
+						<div class="chart-thumbnail" onclick="updateChart('graph14')">Seasonal deviation boxplots</div>
 						<div class="chart-thumbnail" onclick="updateChart('graph7')">Average temperature bar</div>
+						<div class="chart-thumbnail" onclick="updateChart('graph8')">Deviation with respect to temperature</div>
+						<div class="chart-thumbnail" onclick="updateChart('graph12')">3d visualization of temperature with respect to deviation</div>
+						<div class="chart-thumbnail" onclick="updateChart('graph9')">Temperature change among areas</div>
+						<div class="chart-thumbnail" onclick="updateChart('graph11')">Deviation change among areas</div>
+						<div class="chart-thumbnail" onclick="updateChart('graph10')">Trend of temperature change (radar)</div>
+						<div class="chart-thumbnail" onclick="updateChart('graph15')">Hottest countries</div>
+						<div class="chart-thumbnail" onclick="updateChart('graph16')">Coldest countries</div>
+						
         </div>
 
         <!-- Main area: Where the selected graph is displayed -->
@@ -85,6 +95,15 @@
             <div id="graph5" class="chart-container"></div>
             <div id="graph6" class="chart-container"></div>
 						<div id="graph7" class="chart-container"></div>
+						<div id="graph8" class="chart-container"></div>
+            <div id="graph9" class="chart-container"></div>
+						<div id="graph10" class="chart-container"></div>
+						<div id="graph11" class="chart-container"></div>
+            <div id="graph12" class="chart-container"></div>
+						<div id="graph13" class="chart-container"></div>
+						<div id="graph14" class="chart-container"></div>
+            <div id="graph15" class="chart-container"></div>
+						<div id="graph16" class="chart-container"></div>
         </div>
     </div>
 		</div>
