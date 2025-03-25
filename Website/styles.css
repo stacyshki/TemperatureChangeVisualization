@@ -342,21 +342,23 @@ a:hover {
 
 /* Team members */
 
-#team-photo-section {
+.team-photo {
+	max-width: 600px;
+	margin: 40px auto;
+	background: #e2e2e2;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 16px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 	text-align: center;
-	margin-bottom: 2rem;
-}
-
-#team-photo-section h2 {
-	margin-bottom: 1rem;
-	font-size: 1.8rem;
-}
-
-.team-photo img {
+  }
+  
+  .team-photo img {
 	max-width: 100%;
 	height: auto;
-	border-radius: 10px;
-}
+	border-radius: 8px;
+  }
+  
 
 #team-members {
 	display: flex;
