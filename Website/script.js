@@ -907,9 +907,185 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Load the first graph by default
 	document.getElementById('graph5').classList.add('active')
 
-	function drawGraph5() {}
+	function drawGraph5() {
+		d3.csv('tables/globalTempChangeByMonth.csv').then(data => {
+			const graphContainer = d3.select('#graph5');
+			graphContainer.html('');
 
-	function drawGraph6() {}
+			const containerWidth = graphContainer.node().getBoundingClientRect().width;
+			const containerHeight = graphContainer.node().getBoundingClientRect().height || 470;
+			const margin = { top: 40, right: 30, bottom: 100, left: 90 };
+			const width = containerWidth - margin.left - margin.right;
+			const height = containerHeight - margin.top - margin.bottom;
+
+			const svg = graphContainer.append('svg')
+				.attr('width', containerWidth)
+				.attr('height', containerHeight);
+			svg.append('text')
+				.attr('x',containerWidth/2)
+				.attr('y',30)
+				.attr('text-anchor','middle')
+				.style('font-size','16px')
+				.style('font-weight','bold')
+				.style('fill','#444')
+				.text('Global temperature change by month')
+			const chart = svg.append('g')
+				.attr('transform', `translate(${margin.left},${margin.top})`);
+
+			data.forEach(d => d["Temperature Change"] = +d["Temperature Change"]);
+
+			const x = d3.scaleBand()
+				.domain(data.map(d => d.Month))
+				.range([0, width])
+				.padding(0.2);
+			chart.append('text')
+				.attr('x',width/2)
+				.attr('y',height+90)
+				.attr('text-anchor','middle')
+				.style('font-size','16px')
+				.style('fill','#444')
+				.text('Month')
+
+			const y = d3.scaleLinear()
+				.domain([0, d3.max(data, d => d["Temperature Change"])]).nice()
+				.range([height, 0]);
+				chart.append('text')
+				.attr('transform', 'rotate(-90)')
+				.attr('x', -height / 2)
+				.attr('y', -margin.left +30)
+				.attr('text-anchor', 'middle')
+				.style('font-size', '16px')
+				.style('fill', '#444')
+				.text('Average temperature change (°C)');
+			  
+
+			const color = d3.scaleSequential()
+				.domain([0, data.length - 1])
+				.interpolator(d3.interpolateRainbow);
+
+			chart.append("g")
+				.attr("transform", `translate(0, ${height})`)
+				.call(d3.axisBottom(x))
+				.selectAll("text")
+				.attr("transform", "rotate(-45)")
+				.attr("dy", "0.6em")
+				.attr("dx", '-0.6em')
+				.style("text-anchor", "end")
+				.style('fill', '#444')
+				.style('font-size', '16px');
+
+			chart.append("g").call(d3.axisLeft(y))
+				.selectAll("text")
+				.style("fill", "#444")
+				.style("font-size", "16px");
+
+			chart.selectAll(".bar")
+				.data(data)
+				.enter().append("rect")
+				.attr("class", "bar")
+				.attr("x", d => x(d.Month))
+				.attr("y", d => y(d["Temperature Change"]))
+				.attr("width", x.bandwidth())
+				.attr("height", d => height - y(d["Temperature Change"]))
+				.attr("fill", (d, i) => color(i));
+			
+		});
+	}
+
+	function drawGraph6() {
+		d3.csv('tables/globalStdChangeByMonth.csv').then(data => {
+			const graphContainer = d3.select('#graph6');
+			graphContainer.html('');
+
+			const containerWidth = graphContainer.node().getBoundingClientRect().width;
+			const containerHeight = graphContainer.node().getBoundingClientRect().height || 470;
+			const margin = { top: 40, right: 30, bottom: 100, left: 90 };
+			const width = containerWidth - margin.left - margin.right;
+			const height = containerHeight - margin.top - margin.bottom;
+
+			const svg = graphContainer.append('svg')
+				.attr('width', containerWidth)
+				.attr('height', containerHeight);
+			svg.append('text')
+				.attr('x',containerWidth/2)
+				.attr('y',30)
+				.attr('text-anchor','middle')
+				.style('font-size','16px')
+				.style('font-weight','bold')
+				.style('fill','#444')
+				.text('Global temperature standard deviation by month')
+
+			const chart = svg.append('g')
+				.attr('transform', `translate(${margin.left},${margin.top})`);
+
+			data.forEach(d => d["Standard Deviation"] = +d["Standard Deviation"]);
+
+			const x = d3.scaleBand()
+				.domain(data.map(d => d.Month))
+				.range([0, width])
+				.padding(0.2);
+			chart.append('text')
+				.attr('x',width/2)
+				.attr('y',height+90)
+				.attr('text-anchor','middle')
+				.style('font-size','16px')
+				.style('fill','#444')
+				.text('Month')
+
+			const y = d3.scaleLinear()
+				.domain([0, d3.max(data, d => d["Standard Deviation"])]).nice()
+				.range([height, 0]);
+				chart.append('text')
+				.attr('transform', 'rotate(-90)')
+				.attr('x', -height / 2)
+				.attr('y', -margin.left +30)
+				.attr('text-anchor', 'middle')
+				.style('font-size', '16px')
+				.style('fill', '#444')
+				.text('Average temperature standard deviation (°C)');
+			  
+
+			const color = d3.scaleSequential()
+				.domain([0, data.length - 1])
+				.interpolator(d3.interpolateRainbow);
+
+			chart.append("g")
+				.attr("transform", `translate(0, ${height})`)
+				.call(d3.axisBottom(x))
+				.selectAll("text")
+				.attr("transform", "rotate(-45)")
+				.attr("dy", "0.6em")
+				.attr("dx", '-0.6em')
+				.style("text-anchor", "end")
+				.style("fill", "#444")
+				.style("font-size", "16px");
+
+			chart.append("g").call(d3.axisLeft(y))
+				.selectAll("text")
+				.style("fill", "#444")
+				.style("font-size", "16px");
+
+			chart.selectAll(".bar")
+				.data(data)
+				.enter().append("rect")
+				.attr("class", "bar")
+				.attr("x", d => x(d.Month))
+				.attr("y", d => y(d["Standard Deviation"]))
+				.attr("width", x.bandwidth())
+				.attr("height", d => height - y(d["Standard Deviation"]))
+				.attr("fill", (d, i) => color(i));
+
+			svgStd.append("text")
+				.attr("class", "axis-label")
+				.attr("x", -(height / 2) - margin.top)
+				.attr("y", 15)
+				.attr("transform", "rotate(-90")
+				.style("text-anchor", "middle")
+				.style("fill", "#444")
+				.style("font-size", "16px")
+				.text("Avg Standard Deviation (°C)");
+		});
+	}
 
 	function drawGraph7() {
 		d3.csv('tables/temperatureChange.csv').then(function (data) {
@@ -1008,13 +1184,25 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Draw the first graph by default
 	drawGraph5()
 
-	// Run the correct function when a graph is selected
 	thumbnails.forEach(thumbnail => {
 		thumbnail.addEventListener('click', function () {
 			const graphId = this.getAttribute('onclick').match(/'([^']+)'/)[1]
-			if (graphId === 'graph5') drawGraph5()
-			if (graphId === 'graph6') drawGraph6()
-			if (graphId === 'graph7') drawGraph7()
+			const allGraphs = ['graph5', 'graph6', 'graph7'];
+			allGraphs.forEach(id => {
+				const el = document.getElementById(id);
+				if (id === graphId) {
+					el.style.display = 'block';
+					el.classList.add('active');
+				} else {
+					el.style.display = 'none';
+					el.classList.remove('active');
+					
+				}
+			});
+
+			if (graphId === 'graph5') drawGraph5();
+			if (graphId === 'graph6') drawGraph6();
+			if (graphId === 'graph7') drawGraph7();
 		})
 	})
 })
