@@ -52,6 +52,20 @@ header h1 {
 	margin-bottom: 10px;
 }
 
+p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
 #interactive-section {
 	display: flex;
 	flex-wrap: wrap;
