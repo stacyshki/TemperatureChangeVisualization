@@ -7,14 +7,14 @@
 body {
 	font-family: Aptos, sans-serif;
 	line-height: 1.6;
-	background-color: #f4f4f4;
-	color: #333;
+	background-color: #f8f9fa;
+	color: #444;
 	padding: 20px;
 }
 
 header {
-	background: #333;
-	color: #fff;
+	background: #052c4d;
+	color: #e2e2e2;
 	padding: 20px 0;
 	text-align: center;
 	position: sticky;
@@ -23,7 +23,7 @@ header {
 }
 
 nav {
-	background: #444;
+	background: #052c4d;
 }
 
 nav ul {
@@ -37,14 +37,14 @@ nav li {
 }
 
 nav a {
-	color: #fff;
+	color: #e2e2e2;
 	text-decoration: none;
 	padding: 0.5rem;
 	transition: background 0.3s ease;
 }
 
 nav a:hover {
-	background: #555;
+	background: #074071;
 	border-radius: 3px;
 }
 
@@ -58,7 +58,6 @@ header h1 {
 	justify-content: space-around;
 	align-items: center;
 }
-
 
 .interactive-box,
 .geo-map {
@@ -74,8 +73,8 @@ header h1 {
 }
 
 .graph {
-	min-height: 500px; /* Ensures a base height */
-	height: auto; /* Let it expand naturally */
+	min-height: 500px;
+	height: auto;
 	width: 100%;
 	background: #e2e2e2;
 	border-radius: 10px;
@@ -83,54 +82,92 @@ header h1 {
 	display: inline;
 	align-items: center;
 	justify-content: center;
-	position: relative; /* Ensures it respects child size */
+	position: relative;
 	overflow: auto; /* Prevents it from cutting off content */
 }
 
 #problem-outline {
-    max-width: 800px;  
-    margin: 40px auto; 
-    padding: 20px;
-    background-color: #f9f9f9; 
-    border-radius: 8px;  
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #e2e2e2;
+	border-radius: 8px;
+	box-shadow: 0 4px 10px #052c4d;
 }
 
 #problem-outline h2 {
-    font-size: 24px;  
-    font-weight: bold;
-    color: #333; 
-    text-align: center;  
-    margin-bottom: 10px;
+	font-size: 26px;
+	font-weight: bold;
+	color: #444;
+	text-align: center;
+	margin-bottom: 10px;
 }
 
 #problem-outline p {
-    font-size: 16px;  /* 适中字体大小 */
-    line-height: 1.6;  
-    color: #555;  
-    text-align: justify;  
+	font-size: 16px;
+	line-height: 1.6;
+	color: #444;
+	text-align: justify;
 }
-
 
 #comments {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 30px; /* More spacing between charts */
-	min-height: 800px; /* Ensures enough space */
+	gap: 30px;
+	min-height: 800px;
 	width: 100%;
+}
+
+#simple-text {
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #e2e2e2;
+	border-radius: 8px;
+	box-shadow: 0 4px 10px #052c4d;
+}
+
+#comments h3,
+h2 {
+	font-size: 26px;
+	font-weight: bold;
+	color: #444;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#comments p {
+	font-size: 16px; /* 适中字体大小  --> HAHAHAHHA NICE COMMENT THANKS*/
+	line-height: 1.6;
+	color: #444;
+	text-align: justify;
 }
 
 #conclusion {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 30px; /* More spacing between charts */
-	min-height: 200px; /* Ensures enough space */
-	width: 100%;
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #e2e2e2;
+	border-radius: 8px;
+	box-shadow: 0 4px 10px #052c4d;
 }
 
-/* General Layout */
+#conclusion h2 {
+	font-size: 26px;
+	font-weight: bold;
+	color: #444;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#conclusion p {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #444;
+	text-align: justify;
+}
+
 .container-other-graphs {
 	display: flex;
 	height: 50vh;
@@ -139,7 +176,7 @@ header h1 {
 /* Sidebar with clickable chart options */
 .sidebar {
 	width: 20%;
-	background: #f4f4f4;
+	background: #e2e2e2;
 	padding: 10px;
 	overflow-y: auto;
 }
@@ -147,13 +184,14 @@ header h1 {
 .chart-thumbnail {
 	padding: 10px;
 	margin-bottom: 5px;
-	background: #ddd;
+	background: #052c4d;
+	color: #e2e2e2;
 	cursor: pointer;
 	text-align: center;
 }
 
 .chart-thumbnail:hover {
-	background: #bbb;
+	background: #074071;
 }
 
 /* Main chart display */
@@ -170,19 +208,27 @@ header h1 {
 /* Show only the selected chart */
 .chart-container.active {
 	display: block;
+	background-color: #e2e2e2;
+	height: auto;
+	width: 100%;
+	border-radius: 10px;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	overflow: auto;
 }
 
 #other-graphs {
 	display: flex;
 	flex-direction: column;
 	align-items: left;
-	gap: 30px; /* More spacing between charts */
-	min-height: 50px; /* Ensures enough space */
+	gap: 30px;
+	min-height: 50px;
 	width: 100%;
 }
 
 a {
-	color: #333;
+	color: #444;
 	text-decoration: none;
 }
 
@@ -193,11 +239,11 @@ a:hover {
 /* contact page */
 
 #contact-info {
-	background: #fff;
+	background: #e2e2e2;
 	padding: 1.5rem;
 	border-radius: 5px;
 	margin-bottom: 2rem;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 5px #052c4d;
 }
 
 #contact-info ul {
@@ -209,7 +255,7 @@ a:hover {
 }
 
 #contact-info a {
-	color: #333;
+	color: #444;
 	text-decoration: none;
 }
 
@@ -218,11 +264,11 @@ a:hover {
 }
 
 #feedback {
-	background: #fff;
+	background: #e2e2e2;
 	padding: 1.5rem;
 	border-radius: 5px;
 	margin-bottom: 2rem;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 5px #052c4d;
 }
 
 #feedback form {
@@ -236,6 +282,7 @@ a:hover {
 
 #feedback textarea {
 	resize: vertical;
+	background-color: #f8f9fa;
 	padding: 0.5rem;
 	margin-bottom: 1rem;
 	font-size: 1rem;
@@ -244,27 +291,27 @@ a:hover {
 #feedback button {
 	align-self: flex-start;
 	padding: 0.6rem 1.2rem;
-	background: #333;
-	color: #fff;
+	background: #052c4d;
+	color: #e2e2e2;
 	border: none;
 	cursor: pointer;
 	border-radius: 3px;
 }
 
 #feedback button:hover {
-	background: #555;
+	background: #074071;
 }
 
 /* User Comments Section */
 #user-comments {
-	background: #fff;
+	background: #e2e2e2;
 	padding: 1.5rem;
 	border-radius: 5px;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 5px #052c4d;
 }
 
 .comment {
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #e2e2e2;
 	padding: 1rem 0;
 }
 
@@ -303,12 +350,12 @@ a:hover {
 }
 
 .member {
-	background: #fff;
+	background: #e2e2e2;
 	border-radius: 5px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 5px #052c4d;
 }
 
 .member-photo {
@@ -361,15 +408,15 @@ a:hover {
 .repo-link img {
 	max-width: 200px;
 	height: auto;
-	border: 1px solid #ddd;
+	border: 1px solid #e2e2e2;
 	border-radius: 5px;
 }
 
 .source-link a,
 .repo-link a {
-	color: #333;
+	color: #e2e2e2;
 	text-decoration: none;
-	background: #ddd;
+	background: #052c4d;
 	padding: 0.5rem 1rem;
 	border-radius: 3px;
 	transition: background 0.3s ease;
@@ -377,5 +424,5 @@ a:hover {
 
 .source-link a:hover,
 .repo-link a:hover {
-	background: #bbb;
+	background: #074071;
 }

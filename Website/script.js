@@ -1,7 +1,6 @@
 const width = 960,
 	height = 600
 
-// Select the .geo-map container in the HTML
 const container = d3
 	.select('.geo-map')
 	.style('display', 'flex')
@@ -28,7 +27,7 @@ async function loadCSV(filePath) {
 	return data
 }
 
-const monthSelectContainer = container.append('div').style('margin', '10px')
+const monthSelectContainer = container.append('div').style('margin', '14px')
 const monthLabel = monthSelectContainer
 	.append('label')
 	.text('Select month: ')
@@ -55,7 +54,7 @@ months.forEach(month => {
 	monthSelect.append('option').attr('value', month).text(month)
 })
 
-const yearSelectContainer = container.append('div').style('margin', '10px')
+const yearSelectContainer = container.append('div').style('margin', '14px')
 const yearLabel = yearSelectContainer
 	.append('label')
 	.text('Select year: ')
@@ -71,14 +70,13 @@ const yearSlider = yearSelectContainer
 // Display selected year dynamically
 const yearDisplay = yearSelectContainer
 	.append('span')
-	.style('margin-left', '10px')
+	.style('margin-left', '14px')
 	.text(yearSlider.node().value)
 
-// Update the year display when the slider is moved
 yearSlider.on('input', function () {
 	yearDisplay.text(this.value)
 	const selectedYear = this.value
-	const selectedMonth = monthSelect.node().value // Get the selected month
+	const selectedMonth = monthSelect.node().value
 	loadCSV('tables/temperatureChange.csv').then(data =>
 		updateMap(data, selectedYear, selectedMonth)
 	)
@@ -107,8 +105,8 @@ async function updateMap(data, selectedYear, selectedMonth) {
 	console.log('Filtered Data:', filteredData)
 
 	const colorScale = d3
-		.scaleSequential(d3.interpolateCool)
-		.domain(d3.extent(filteredData, d => +d['Temperature Change']))
+		.scaleSequential(d3.interpolateRdBu)
+		.domain(d3.extent(filteredData, d => +d['Temperature Change']).reverse())
 
 	// Load the GeoJSON countries data
 	const world = await d3.json(
@@ -117,7 +115,7 @@ async function updateMap(data, selectedYear, selectedMonth) {
 	const countries = topojson.feature(world, world.objects.countries).features
 
 	const normalizeName = name => {
-		if (name === 'Russian Federation') return 'Russia' // Handle Russia
+		if (name === 'Russian Federation') return 'Russia'
 		if (name === 'Bolivia (Plurinational State of)') return 'Bolivia'
 		if (name === 'Venezuela (Bolivarian Republic of)') return 'Venezuela'
 		if (name === 'Dominican Republic') return 'Dominican Rep.'
@@ -162,7 +160,7 @@ async function updateMap(data, selectedYear, selectedMonth) {
 			}
 			return '#ccc'
 		})
-		.attr('stroke', '#333')
+		.attr('stroke', '#444')
 		.attr('stroke-width', 1)
 		.append('title')
 		.text(d => {
@@ -205,9 +203,9 @@ d3.csv('tables/temperatureChange.csv').then(function (data) {
 		.attr('x', width / 2)
 		.attr('y', 0)
 		.attr('text-anchor', 'middle')
-		.style('font-size', '18px')
+		.style('font-size', '16px')
 		.style('font-weight', 'bold')
-		.style('fill', '#333')
+		.style('fill', '#444')
 		.text('Global average temperature change over time')
 
 	data.forEach(d => {
@@ -263,8 +261,8 @@ d3.csv('tables/temperatureChange.csv').then(function (data) {
 		.attr('text-anchor', 'middle')
 		.attr('x', width / 2)
 		.attr('y', height + margin.bottom - 5)
-		.style('font-size', '14px')
-		.style('fill', '#333')
+		.style('font-size', '16px')
+		.style('fill', '#444')
 		.text('Year')
 
 	// y axis
@@ -275,8 +273,8 @@ d3.csv('tables/temperatureChange.csv').then(function (data) {
 		.attr('x', -height / 2)
 		.attr('y', -margin.left + 15)
 		.text('Average temperature change (°C)')
-		.style('font-size', '14px')
-		.style('fill', '#333')
+		.style('font-size', '16px')
+		.style('fill', '#444')
 })
 
 d3.csv('tables/globalAvgStd.csv').then(function (data) {
@@ -303,12 +301,11 @@ d3.csv('tables/globalAvgStd.csv').then(function (data) {
 		.attr('x', width / 2)
 		.attr('y', -5)
 		.attr('text-anchor', 'middle')
-		.style('font-size', '18px')
+		.style('font-size', '16px')
 		.style('font-weight', 'bold')
-		.style('fill', '#333')
+		.style('fill', '#444')
 		.text('Global average standard deviation change over time')
 
-	// Parse CSV data
 	data.forEach(d => {
 		d.Year = +d.Year
 		d['Standard Deviation'] = +d['Standard Deviation']
@@ -337,7 +334,6 @@ d3.csv('tables/globalAvgStd.csv').then(function (data) {
 		.y(d => y(d['Standard Deviation']))
 		.curve(d3.curveMonotoneX)
 
-	// Draw line
 	svg
 		.append('path')
 		.datum(data)
@@ -358,8 +354,8 @@ d3.csv('tables/globalAvgStd.csv').then(function (data) {
 		.attr('text-anchor', 'middle')
 		.attr('x', width / 2)
 		.attr('y', height + margin.bottom - 5)
-		.style('font-size', '14px')
-		.style('fill', '#333')
+		.style('font-size', '16px')
+		.style('fill', '#444')
 		.text('Year')
 
 	svg
@@ -368,8 +364,8 @@ d3.csv('tables/globalAvgStd.csv').then(function (data) {
 		.attr('transform', `rotate(-90)`)
 		.attr('x', -height / 2)
 		.attr('y', -margin.left + 15)
-		.style('font-size', '14px')
-		.style('fill', '#333')
+		.style('font-size', '16px')
+		.style('fill', '#444')
 		.text('Average standard deviation change')
 })
 
@@ -397,9 +393,9 @@ d3.csv('tables/stdDescYear.csv').then(function (data) {
 		.attr('x', width / 2)
 		.attr('y', -10)
 		.attr('text-anchor', 'middle')
-		.style('font-size', '18px')
+		.style('font-size', '16px')
 		.style('font-weight', 'bold')
-		.style('fill', '#333')
+		.style('fill', '#444')
 		.text('Unusual years with extreme temperature deviation')
 
 	data.forEach(d => {
@@ -484,8 +480,8 @@ d3.csv('tables/stdDescYear.csv').then(function (data) {
 		.attr('text-anchor', 'middle')
 		.attr('x', width / 2)
 		.attr('y', height + margin.bottom - 5)
-		.style('font-size', '14px')
-		.style('fill', '#333')
+		.style('font-size', '16px')
+		.style('fill', '#444')
 		.text('Year')
 
 	svg
@@ -494,8 +490,8 @@ d3.csv('tables/stdDescYear.csv').then(function (data) {
 		.attr('transform', `rotate(-90)`)
 		.attr('x', -height / 2)
 		.attr('y', -margin.left + 15)
-		.style('font-size', '14px')
-		.style('fill', '#333')
+		.style('font-size', '16px')
+		.style('fill', '#444')
 		.text('Mean temperature')
 
 	const legend = svg
@@ -513,7 +509,7 @@ d3.csv('tables/stdDescYear.csv').then(function (data) {
 		.attr('x', 20)
 		.attr('y', 15)
 		.text('IQR outliers')
-		.style('font-size', '12px')
+		.style('font-size', '14px')
 
 	legend
 		.append('line')
@@ -529,7 +525,7 @@ d3.csv('tables/stdDescYear.csv').then(function (data) {
 		.attr('x', 25)
 		.attr('y', 35)
 		.text('Mean temperature')
-		.style('font-size', '12px')
+		.style('font-size', '14px')
 })
 
 d3.csv('tables/globalTempAvg.csv').then(function (data) {
@@ -556,9 +552,9 @@ d3.csv('tables/globalTempAvg.csv').then(function (data) {
 		.attr('x', width / 2)
 		.attr('y', -10)
 		.attr('text-anchor', 'middle')
-		.style('font-size', '18px')
+		.style('font-size', '16px')
 		.style('font-weight', 'bold')
-		.style('fill', '#333')
+		.style('fill', '#444')
 		.text('Global temperature change trend (1961-2019)')
 
 	// Convert columns to numbers
@@ -623,8 +619,8 @@ d3.csv('tables/globalTempAvg.csv').then(function (data) {
 		.attr('x', width / 2)
 		.attr('y', height + margin.bottom - 10)
 		.attr('text-anchor', 'middle')
-		.style('font-size', '14px')
-		.style('fill', '#333')
+		.style('font-size', '16px')
+		.style('fill', '#444')
 		.text('Year')
 
 	svg
@@ -633,8 +629,8 @@ d3.csv('tables/globalTempAvg.csv').then(function (data) {
 		.attr('x', -height / 2)
 		.attr('y', -margin.left + 15)
 		.attr('text-anchor', 'middle')
-		.style('font-size', '14px')
-		.style('fill', '#333')
+		.style('font-size', '16px')
+		.style('fill', '#444')
 		.text('Global average temperature change (°C)')
 
 	// Confidence interval
@@ -709,8 +705,8 @@ d3.csv('tables/globalTempAvg.csv').then(function (data) {
 		.attr('x', 20)
 		.attr('y', 15)
 		.text('Observed data')
-		.style('fill', '#333')
-		.style('font-size', '12px')
+		.style('fill', '#444')
+		.style('font-size', '14px')
 
 	legend
 		.append('line')
@@ -725,8 +721,8 @@ d3.csv('tables/globalTempAvg.csv').then(function (data) {
 		.attr('x', 25)
 		.attr('y', 35)
 		.text('Regression line')
-		.style('fill', '#333')
-		.style('font-size', '12px')
+		.style('fill', '#444')
+		.style('font-size', '14px')
 
 	legend
 		.append('rect')
@@ -741,8 +737,8 @@ d3.csv('tables/globalTempAvg.csv').then(function (data) {
 		.attr('x', 25)
 		.attr('y', 60)
 		.text('Confidence interval (mean)')
-		.style('fill', '#333')
-		.style('font-size', '12px')
+		.style('fill', '#444')
+		.style('font-size', '14px')
 
 	legend
 		.append('rect')
@@ -757,100 +753,8 @@ d3.csv('tables/globalTempAvg.csv').then(function (data) {
 		.attr('x', 25)
 		.attr('y', 80)
 		.text('Prediction interval (individual)')
-		.style('fill', '#333')
-		.style('font-size', '12px')
-})
-
-d3.csv('tables/temperatureChange.csv').then(function (data) {
-	const graphContainer = d3.select('#graph5')
-	graphContainer.html('')
-
-	const containerWidth = graphContainer.node().getBoundingClientRect().width
-	const containerHeight =
-		graphContainer.node().getBoundingClientRect().height || 470
-	const margin = { top: 40, right: 30, bottom: 50, left: 60 }
-	const width = containerWidth - margin.left - margin.right
-	const height = containerHeight - margin.top - margin.bottom
-
-	const svg = graphContainer
-		.append('svg')
-		.attr('width', width + margin.left + margin.right)
-		.attr('height', height + margin.top + margin.bottom)
-		.append('g')
-		.attr('transform', `translate(${margin.left},${margin.top})`)
-
-	data.forEach(d => {
-		d.Year = +d.Year
-		d['Temperature Change'] = +d['Temperature Change']
-	})
-
-	const avgByYear = d3.rollups(
-		data.filter(d => !isNaN(d['Temperature Change'])),
-		v => d3.mean(v, d => d['Temperature Change']),
-		d => d.Year
-	)
-	const globalAverages = avgByYear
-		.map(([year, value]) => ({ year, value }))
-		.sort((a, b) => a.year - b.year)
-
-	const x = d3
-		.scaleBand()
-		.domain(globalAverages.map(d => d.year))
-		.range([0, width])
-		.padding(0.1)
-
-	const y = d3
-		.scaleLinear()
-		.domain([0, d3.max(globalAverages, d => d.value)])
-		.range([height, 0])
-
-	svg
-		.selectAll('.bar')
-		.data(globalAverages)
-		.enter()
-		.append('rect')
-		.attr('class', 'bar')
-		.attr('x', d => x(d.year))
-		.attr('y', d => y(d.value))
-		.attr('width', x.bandwidth())
-		.attr('height', d => height - y(d.value))
-		.attr('fill', 'tomato')
-
-	svg
-		.append('g')
-		.attr('transform', `translate(0,${height})`)
-		.call(d3.axisBottom(x).tickValues(x.domain().filter(d => d % 5 === 0)))
-
-	svg.append('g').call(d3.axisLeft(y))
-
-	svg
-		.append('text')
-		.attr('text-anchor', 'middle')
-		.attr('transform', `rotate(-90)`)
-		.attr('x', -height / 2)
-		.attr('y', -margin.left + 15)
-		.text('Average temperature change (°C)')
+		.style('fill', '#444')
 		.style('font-size', '14px')
-		.style('fill', '#333')
-
-	svg
-		.append('text')
-		.attr('x', width / 2)
-		.attr('y', height + margin.bottom - 5)
-		.attr('text-anchor', 'middle')
-		.style('font-size', '14px')
-		.style('fill', '#333')
-		.text('Year')
-
-	svg
-		.append('text')
-		.attr('x', width / 2)
-		.attr('y', -10)
-		.attr('text-anchor', 'middle')
-		.style('font-size', '18px')
-		.style('font-weight', 'bold')
-		.style('fill', '#333')
-		.text('Global average temperature change (bar chart)')
 })
 
 d3.csv('tables/temperatureChange.csv').then(function (data) {
@@ -861,7 +765,7 @@ d3.csv('tables/temperatureChange.csv').then(function (data) {
 
 	const dropdown = graphContainer
 		.append('select')
-		.style('margin-bottom', '10px')
+		.style('margin-bottom', '14px')
 		.style('font-size', '16px')
 		.on('change', function () {
 			updateChart(this.value)
@@ -900,17 +804,18 @@ d3.csv('tables/temperatureChange.csv').then(function (data) {
 		.attr('x', width / 2)
 		.attr('y', -10)
 		.attr('text-anchor', 'middle')
-		.style('font-size', '18px')
+		.style('font-size', '16px')
 		.style('font-weight', 'bold')
-		.style('fill', '#333')
-		.text('Temperature сhange over time by country')
+		.style('fill', '#444')
+		.text('Temperature change over time by country')
 
 	svg
 		.append('text')
 		.attr('x', width / 2)
 		.attr('y', height + margin.bottom - 5)
 		.attr('text-anchor', 'middle')
-		.style('font-size', '14px')
+		.style('font-size', '16px')
+		.style('fill', '#444')
 		.text('Year')
 
 	svg
@@ -919,7 +824,8 @@ d3.csv('tables/temperatureChange.csv').then(function (data) {
 		.attr('x', -height / 2)
 		.attr('y', -margin.left + 15)
 		.attr('text-anchor', 'middle')
-		.style('font-size', '14px')
+		.style('font-size', '16px')
+		.style('fill', '#444')
 		.text('Temperature change (°C)')
 
 	const line = d3
@@ -980,4 +886,135 @@ d3.csv('tables/temperatureChange.csv').then(function (data) {
 		path.exit().remove()
 	}
 	updateChart(countries[0])
+})
+
+document.addEventListener('DOMContentLoaded', function () {
+	const thumbnails = document.querySelectorAll('.chart-thumbnail')
+
+	thumbnails.forEach(thumbnail => {
+		thumbnail.addEventListener('click', function () {
+			const graphId = this.getAttribute('onclick').match(/'([^']+)'/)[1]
+
+			document.querySelectorAll('.chart-container').forEach(chart => {
+				chart.classList.remove('active')
+			})
+
+			// Show the selected graph
+			document.getElementById(graphId).classList.add('active')
+		})
+	})
+
+	// Load the first graph by default
+	document.getElementById('graph5').classList.add('active')
+
+	function drawGraph5() {}
+
+	function drawGraph6() {}
+
+	function drawGraph7() {
+		d3.csv('tables/temperatureChange.csv').then(function (data) {
+			const graphContainer = d3.select('#graph7')
+			graphContainer.html('')
+
+			const containerWidth = graphContainer.node().getBoundingClientRect().width
+			const containerHeight =
+				graphContainer.node().getBoundingClientRect().height || 470
+			const margin = { top: 40, right: 30, bottom: 50, left: 60 }
+			const width = containerWidth - margin.left - margin.right
+			const height = containerHeight - margin.top - margin.bottom
+
+			const svg = graphContainer
+				.append('svg')
+				.attr('width', width + margin.left + margin.right)
+				.attr('height', height + margin.top + margin.bottom)
+				.append('g')
+				.attr('transform', `translate(${margin.left},${margin.top})`)
+
+			data.forEach(d => {
+				d.Year = +d.Year
+				d['Temperature Change'] = +d['Temperature Change']
+			})
+
+			const avgByYear = d3.rollups(
+				data.filter(d => !isNaN(d['Temperature Change'])),
+				v => d3.mean(v, d => d['Temperature Change']),
+				d => d.Year
+			)
+			const globalAverages = avgByYear
+				.map(([year, value]) => ({ year, value }))
+				.sort((a, b) => a.year - b.year)
+
+			const x = d3
+				.scaleBand()
+				.domain(globalAverages.map(d => d.year))
+				.range([0, width])
+				.padding(0.1)
+
+			const y = d3
+				.scaleLinear()
+				.domain([0, d3.max(globalAverages, d => d.value)])
+				.range([height, 0])
+
+			svg
+				.selectAll('.bar')
+				.data(globalAverages)
+				.enter()
+				.append('rect')
+				.attr('class', 'bar')
+				.attr('x', d => x(d.year))
+				.attr('y', d => y(d.value))
+				.attr('width', x.bandwidth())
+				.attr('height', d => height - y(d.value))
+				.attr('fill', 'tomato')
+
+			svg
+				.append('g')
+				.attr('transform', `translate(0,${height})`)
+				.call(d3.axisBottom(x).tickValues(x.domain().filter(d => d % 5 === 0)))
+
+			svg.append('g').call(d3.axisLeft(y))
+
+			svg
+				.append('text')
+				.attr('text-anchor', 'middle')
+				.attr('transform', `rotate(-90)`)
+				.attr('x', -height / 2)
+				.attr('y', -margin.left + 15)
+				.text('Average temperature change (°C)')
+				.style('font-size', '16px')
+				.style('fill', '#444')
+
+			svg
+				.append('text')
+				.attr('x', width / 2)
+				.attr('y', height + margin.bottom - 5)
+				.attr('text-anchor', 'middle')
+				.style('font-size', '16px')
+				.style('fill', '#444')
+				.text('Year')
+
+			svg
+				.append('text')
+				.attr('x', width / 2)
+				.attr('y', -10)
+				.attr('text-anchor', 'middle')
+				.style('font-size', '16px')
+				.style('font-weight', 'bold')
+				.style('fill', '#444')
+				.text('Global average temperature change (bar chart)')
+		})
+	}
+
+	// Draw the first graph by default
+	drawGraph5()
+
+	// Run the correct function when a graph is selected
+	thumbnails.forEach(thumbnail => {
+		thumbnail.addEventListener('click', function () {
+			const graphId = this.getAttribute('onclick').match(/'([^']+)'/)[1]
+			if (graphId === 'graph5') drawGraph5()
+			if (graphId === 'graph6') drawGraph6()
+			if (graphId === 'graph7') drawGraph7()
+		})
+	})
 })
