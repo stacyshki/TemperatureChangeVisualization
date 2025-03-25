@@ -41,33 +41,18 @@
 					<li><strong>Call: </strong>+33 6 05 93 53 17</li>
 				</ul>
 			</section>
-
-			<section id="feedback">
-				<h2>Feedback<br /><br /></h2>
-				<form>
-					<textarea
-						id="feedback-message"
-						rows="5"
-						placeholder="Type your message here..."
-					></textarea>
-					<button type="submit" onclick="confirmFeedback()">Send</button>
-					<script>
-						function confirmFeedback() {
-							confirm('Thanks for the feedback! Click OK to close.')
-						}
-					</script>
-				</form>
-			</section>
-
-			<section id="user-comments">
-				<h2>User comments</h2>
-				<div class="comment:">
-					<p><strong>Amir: </strong>Great analysis!</p>
-				</div>
-				<div class="comment:">
-					<p><strong>Antoine: </strong>Good</p>
-				</div>
-			</section>
+			<section id="comments">
+				<h2>Comments</h2>
+				<div id="github-comments"></div>
+				<script src="https://utteranc.es/client.js"
+						repo="stacyshki/TemperatureChangeVisualization"
+						issue-term="pathname"
+						theme="github-light"
+						crossorigin="anonymous"
+						async>
+				</script>
+			  </section>
+			  
 		</main>
 	</body>
 </html>
