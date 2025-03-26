@@ -1201,18 +1201,18 @@ document.addEventListener('DOMContentLoaded', function () {
 		const container = d3.select("#graph8");
 		container.html(""); 
 		container.style("height", "auto").style("overflow", "visible");
-
-
 	  
-		const controls = container.append("div").attr("id", "controls7");
+		container.attr("class", "chart-container graph"); 
+	  
+		const controls = container.append("div").attr("id", "controls8");
 	  
 		controls.append("label")
-		  .attr("for", "country-select7")
+		  .attr("for", "country-select8")
 		  .style("margin-right", "6px")
 		  .text("Country:");
 	  
 		const select = controls.append("select")
-		  .attr("id", "country-select7")
+		  .attr("id", "country-select8")
 		  .style("font-size", "14px")
 		  .style("padding", "4px 6px");
 	  
@@ -1250,7 +1250,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		  const xScale = d3.scaleLinear().domain([-5.2, 5.2]).range([margin.left, width - margin.right]);
 		  const yScale = d3.scaleLinear().domain([0, maxStdDev + 0.5]).range([height - margin.bottom, margin.top]);
 	  
-		  
 		  const xAxis = d3.axisBottom(xScale).ticks(10);
 		  const yAxis = d3.axisLeft(yScale).ticks(10);
 	  
@@ -1277,7 +1276,6 @@ document.addEventListener('DOMContentLoaded', function () {
 			.style("font-size", "16px")
 			.text("Standard deviation");
 	  
-		  
 		  const legend = svg.append("g")
 			.attr("transform", `translate(${width - 60},${margin.top})`);
 	  
@@ -1324,7 +1322,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			drawBubbles(filtered);
 		  });
 	  
-		  drawBubbles(data);
+		  drawBubbles(data); 
 	  
 		  function drawBubbles(data) {
 			bubbleGroup.selectAll("*").remove();
@@ -1356,10 +1354,39 @@ document.addEventListener('DOMContentLoaded', function () {
 			  .data(d3.range(0, 1.1, 0.1))
 			  .attr("stop-color", d => colorScale(1 + d * (d3.max(bubbles, d => d.count) - 1)));
 	  
-			
+			bubbleGroup.selectAll("circle")
+			  .data(bubbles)
+			  .enter()
+			  .append("circle")
+			  .attr("cx", d => d.x)
+			  .attr("cy", d => d.y)
+			  .attr("r", 0)
+			  .attr("fill", d => colorScale(d.count))
+			  .attr("opacity", 0.7)
+			  .on("mouseover", (event, d) => {
+				const sample = d.items[0];
+				tooltip.style("opacity", 1)
+				  .html(
+					`<strong>${sample.Area}</strong><br>
+					Year: ${sample.Year}<br>
+					Month: ${sample.Months}<br>
+					Temp Change: ${sample.tempChange}<br>
+					Std Dev: ${sample.stdDev}`
+				  );
+			  })
+			  .on("mousemove", event => {
+				tooltip.style("left", (event.pageX + 10) + "px")
+					   .style("top", (event.pageY - 30) + "px");
+			  })
+			  .on("mouseout", () => tooltip.style("opacity", 0))
+			  .transition()
+			  .duration(1000)
+			  .attr("r", d => Math.min(20, d.count * 2 + 4));
 		  }
 		});
 	  }
+
+	  
 	  
 
 	// Draw the first graph by default
@@ -1384,6 +1411,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			if (graphId === 'graph6') drawGraph6()
 			if (graphId === 'graph7') drawGraph7()
 			if (graphId === 'graph8') drawGraph8()
+			if (graphId === 'graph9') drawGraph9()
 		})
 	})
 })
