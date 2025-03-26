@@ -1,0 +1,4161 @@
+Area,Season,Year,Months,Standard Deviation,Outlier Type
+Afghanistan,Winter,1961,February,2.597,High
+Antarctica,Spring,1961,April,1.868,High
+Antarctica,Summer,1961,June,1.929,High
+Antarctica,Summer,1961,July,1.801,High
+Antarctica,Summer,1961,August,2.216,High
+Antarctica,Fall,1961,September,2.058,High
+Argentina,Summer,1961,July,1.424,High
+Austria,Winter,1961,February,2.924,High
+Austria,Spring,1961,March,2.054,High
+Belgium-Luxembourg,Winter,1961,February,2.905,High
+Belgium-Luxembourg,Spring,1961,March,1.844,High
+Belgium-Luxembourg,Summer,1961,July,1.397,High
+Bulgaria,Winter,1961,February,2.776,High
+Bulgaria,Summer,1961,August,1.343,High
+Canada,Spring,1961,March,1.875,High
+Czechoslovakia,Winter,1961,February,3.13,High
+Czechoslovakia,Spring,1961,March,2.322,High
+Denmark,Winter,1961,February,2.55,High
+Denmark,Spring,1961,March,2.01,High
+Finland,Winter,1961,January,3.335,High
+Finland,Winter,1961,February,3.566,High
+Finland,Spring,1961,March,2.892,High
+Finland,Summer,1961,June,1.583,High
+Finland,Summer,1961,July,1.38,High
+Finland,Fall,1961,October,1.915,High
+Finland,Fall,1961,November,2.28,High
+Finland,Winter,1961,December,3.499,High
+Germany,Winter,1961,February,2.957,High
+Germany,Spring,1961,March,2.037,High
+Greenland,Spring,1961,March,2.021,High
+Hungary,Winter,1961,February,3.171,High
+Hungary,Spring,1961,March,2.223,High
+Iceland,Spring,1961,March,2.196,High
+Liechtenstein,Winter,1961,February,2.814,High
+Liechtenstein,Spring,1961,March,1.959,High
+Mongolia,Winter,1961,February,3.021,High
+Mongolia,Spring,1961,March,1.962,High
+Mongolia,Fall,1961,November,2.235,High
+Mongolia,Winter,1961,December,2.926,High
+Netherlands,Winter,1961,February,2.75,High
+Norway,Spring,1961,March,2.1,High
+Norway,Summer,1961,June,1.468,High
+Paraguay,Summer,1961,June,1.592,High
+Paraguay,Summer,1961,July,2.058,High
+Paraguay,Summer,1961,August,1.58,High
+Poland,Winter,1961,January,2.587,High
+Poland,Winter,1961,February,3.375,High
+Poland,Spring,1961,March,2.815,High
+Poland,Summer,1961,July,1.336,High
+Romania,Winter,1961,February,3.065,High
+Romania,Spring,1961,March,2.027,High
+Romania,Fall,1961,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1961,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1961,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1961,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1961,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1961,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1961,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1961,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1961,December,4.189,High
+Sweden,Winter,1961,January,2.681,High
+Sweden,Winter,1961,February,3.178,High
+Sweden,Spring,1961,March,2.462,High
+Sweden,Summer,1961,June,1.359,High
+Sweden,Fall,1961,November,1.927,High
+Sweden,Winter,1961,December,2.699,High
+Switzerland,Winter,1961,February,2.724,High
+Switzerland,Spring,1961,March,1.836,High
+Uruguay,Summer,1961,June,1.463,High
+Uruguay,Summer,1961,July,1.606,High
+Yugoslav SFR,Winter,1961,February,2.753,High
+Northern Europe,Winter,1961,February,2.643,High
+Northern Europe,Spring,1961,March,1.93,High
+Afghanistan,Winter,1962,February,2.597,High
+Antarctica,Spring,1962,April,1.868,High
+Antarctica,Summer,1962,June,1.929,High
+Antarctica,Summer,1962,July,1.801,High
+Antarctica,Summer,1962,August,2.216,High
+Antarctica,Fall,1962,September,2.058,High
+Argentina,Summer,1962,July,1.424,High
+Austria,Winter,1962,February,2.924,High
+Austria,Spring,1962,March,2.054,High
+Belgium-Luxembourg,Winter,1962,February,2.905,High
+Belgium-Luxembourg,Spring,1962,March,1.844,High
+Belgium-Luxembourg,Summer,1962,July,1.397,High
+Bulgaria,Winter,1962,February,2.776,High
+Bulgaria,Summer,1962,August,1.343,High
+Canada,Spring,1962,March,1.875,High
+Czechoslovakia,Winter,1962,February,3.13,High
+Czechoslovakia,Spring,1962,March,2.322,High
+Denmark,Winter,1962,February,2.55,High
+Denmark,Spring,1962,March,2.01,High
+Finland,Winter,1962,January,3.335,High
+Finland,Winter,1962,February,3.566,High
+Finland,Spring,1962,March,2.892,High
+Finland,Summer,1962,June,1.583,High
+Finland,Summer,1962,July,1.38,High
+Finland,Fall,1962,October,1.915,High
+Finland,Fall,1962,November,2.28,High
+Finland,Winter,1962,December,3.499,High
+Germany,Winter,1962,February,2.957,High
+Germany,Spring,1962,March,2.037,High
+Greenland,Spring,1962,March,2.021,High
+Hungary,Winter,1962,February,3.171,High
+Hungary,Spring,1962,March,2.223,High
+Iceland,Spring,1962,March,2.196,High
+Liechtenstein,Winter,1962,February,2.814,High
+Liechtenstein,Spring,1962,March,1.959,High
+Mongolia,Winter,1962,February,3.021,High
+Mongolia,Spring,1962,March,1.962,High
+Mongolia,Fall,1962,November,2.235,High
+Mongolia,Winter,1962,December,2.926,High
+Netherlands,Winter,1962,February,2.75,High
+Norway,Spring,1962,March,2.1,High
+Norway,Summer,1962,June,1.468,High
+Paraguay,Summer,1962,June,1.592,High
+Paraguay,Summer,1962,July,2.058,High
+Paraguay,Summer,1962,August,1.58,High
+Poland,Winter,1962,January,2.587,High
+Poland,Winter,1962,February,3.375,High
+Poland,Spring,1962,March,2.815,High
+Poland,Summer,1962,July,1.336,High
+Romania,Winter,1962,February,3.065,High
+Romania,Spring,1962,March,2.027,High
+Romania,Fall,1962,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1962,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1962,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1962,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1962,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1962,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1962,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1962,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1962,December,4.189,High
+Sweden,Winter,1962,January,2.681,High
+Sweden,Winter,1962,February,3.178,High
+Sweden,Spring,1962,March,2.462,High
+Sweden,Summer,1962,June,1.359,High
+Sweden,Fall,1962,November,1.927,High
+Sweden,Winter,1962,December,2.699,High
+Switzerland,Winter,1962,February,2.724,High
+Switzerland,Spring,1962,March,1.836,High
+Uruguay,Summer,1962,June,1.463,High
+Uruguay,Summer,1962,July,1.606,High
+Yugoslav SFR,Winter,1962,February,2.753,High
+Northern Europe,Winter,1962,February,2.643,High
+Northern Europe,Spring,1962,March,1.93,High
+Afghanistan,Winter,1963,February,2.597,High
+Antarctica,Spring,1963,April,1.868,High
+Antarctica,Summer,1963,June,1.929,High
+Antarctica,Summer,1963,July,1.801,High
+Antarctica,Summer,1963,August,2.216,High
+Antarctica,Fall,1963,September,2.058,High
+Argentina,Summer,1963,July,1.424,High
+Austria,Winter,1963,February,2.924,High
+Austria,Spring,1963,March,2.054,High
+Belgium-Luxembourg,Winter,1963,February,2.905,High
+Belgium-Luxembourg,Spring,1963,March,1.844,High
+Belgium-Luxembourg,Summer,1963,July,1.397,High
+Bulgaria,Winter,1963,February,2.776,High
+Bulgaria,Summer,1963,August,1.343,High
+Canada,Spring,1963,March,1.875,High
+Czechoslovakia,Winter,1963,February,3.13,High
+Czechoslovakia,Spring,1963,March,2.322,High
+Denmark,Winter,1963,February,2.55,High
+Denmark,Spring,1963,March,2.01,High
+Finland,Winter,1963,January,3.335,High
+Finland,Winter,1963,February,3.566,High
+Finland,Spring,1963,March,2.892,High
+Finland,Summer,1963,June,1.583,High
+Finland,Summer,1963,July,1.38,High
+Finland,Fall,1963,October,1.915,High
+Finland,Fall,1963,November,2.28,High
+Finland,Winter,1963,December,3.499,High
+Germany,Winter,1963,February,2.957,High
+Germany,Spring,1963,March,2.037,High
+Greenland,Spring,1963,March,2.021,High
+Hungary,Winter,1963,February,3.171,High
+Hungary,Spring,1963,March,2.223,High
+Iceland,Spring,1963,March,2.196,High
+Liechtenstein,Winter,1963,February,2.814,High
+Liechtenstein,Spring,1963,March,1.959,High
+Mongolia,Winter,1963,February,3.021,High
+Mongolia,Spring,1963,March,1.962,High
+Mongolia,Fall,1963,November,2.235,High
+Mongolia,Winter,1963,December,2.926,High
+Netherlands,Winter,1963,February,2.75,High
+Norway,Spring,1963,March,2.1,High
+Norway,Summer,1963,June,1.468,High
+Paraguay,Summer,1963,June,1.592,High
+Paraguay,Summer,1963,July,2.058,High
+Paraguay,Summer,1963,August,1.58,High
+Poland,Winter,1963,January,2.587,High
+Poland,Winter,1963,February,3.375,High
+Poland,Spring,1963,March,2.815,High
+Poland,Summer,1963,July,1.336,High
+Romania,Winter,1963,February,3.065,High
+Romania,Spring,1963,March,2.027,High
+Romania,Fall,1963,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1963,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1963,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1963,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1963,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1963,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1963,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1963,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1963,December,4.189,High
+Sweden,Winter,1963,January,2.681,High
+Sweden,Winter,1963,February,3.178,High
+Sweden,Spring,1963,March,2.462,High
+Sweden,Summer,1963,June,1.359,High
+Sweden,Fall,1963,November,1.927,High
+Sweden,Winter,1963,December,2.699,High
+Switzerland,Winter,1963,February,2.724,High
+Switzerland,Spring,1963,March,1.836,High
+Uruguay,Summer,1963,June,1.463,High
+Uruguay,Summer,1963,July,1.606,High
+Yugoslav SFR,Winter,1963,February,2.753,High
+Northern Europe,Winter,1963,February,2.643,High
+Northern Europe,Spring,1963,March,1.93,High
+Afghanistan,Winter,1964,February,2.597,High
+Antarctica,Spring,1964,April,1.868,High
+Antarctica,Summer,1964,June,1.929,High
+Antarctica,Summer,1964,July,1.801,High
+Antarctica,Summer,1964,August,2.216,High
+Antarctica,Fall,1964,September,2.058,High
+Argentina,Summer,1964,July,1.424,High
+Austria,Winter,1964,February,2.924,High
+Austria,Spring,1964,March,2.054,High
+Belgium-Luxembourg,Winter,1964,February,2.905,High
+Belgium-Luxembourg,Spring,1964,March,1.844,High
+Belgium-Luxembourg,Summer,1964,July,1.397,High
+Bulgaria,Winter,1964,February,2.776,High
+Bulgaria,Summer,1964,August,1.343,High
+Canada,Spring,1964,March,1.875,High
+Czechoslovakia,Winter,1964,February,3.13,High
+Czechoslovakia,Spring,1964,March,2.322,High
+Denmark,Winter,1964,February,2.55,High
+Denmark,Spring,1964,March,2.01,High
+Finland,Winter,1964,January,3.335,High
+Finland,Winter,1964,February,3.566,High
+Finland,Spring,1964,March,2.892,High
+Finland,Summer,1964,June,1.583,High
+Finland,Summer,1964,July,1.38,High
+Finland,Fall,1964,October,1.915,High
+Finland,Fall,1964,November,2.28,High
+Finland,Winter,1964,December,3.499,High
+Germany,Winter,1964,February,2.957,High
+Germany,Spring,1964,March,2.037,High
+Greenland,Spring,1964,March,2.021,High
+Hungary,Winter,1964,February,3.171,High
+Hungary,Spring,1964,March,2.223,High
+Iceland,Spring,1964,March,2.196,High
+Liechtenstein,Winter,1964,February,2.814,High
+Liechtenstein,Spring,1964,March,1.959,High
+Mongolia,Winter,1964,February,3.021,High
+Mongolia,Spring,1964,March,1.962,High
+Mongolia,Fall,1964,November,2.235,High
+Mongolia,Winter,1964,December,2.926,High
+Netherlands,Winter,1964,February,2.75,High
+Norway,Spring,1964,March,2.1,High
+Norway,Summer,1964,June,1.468,High
+Paraguay,Summer,1964,June,1.592,High
+Paraguay,Summer,1964,July,2.058,High
+Paraguay,Summer,1964,August,1.58,High
+Poland,Winter,1964,January,2.587,High
+Poland,Winter,1964,February,3.375,High
+Poland,Spring,1964,March,2.815,High
+Poland,Summer,1964,July,1.336,High
+Romania,Winter,1964,February,3.065,High
+Romania,Spring,1964,March,2.027,High
+Romania,Fall,1964,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1964,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1964,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1964,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1964,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1964,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1964,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1964,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1964,December,4.189,High
+Sweden,Winter,1964,January,2.681,High
+Sweden,Winter,1964,February,3.178,High
+Sweden,Spring,1964,March,2.462,High
+Sweden,Summer,1964,June,1.359,High
+Sweden,Fall,1964,November,1.927,High
+Sweden,Winter,1964,December,2.699,High
+Switzerland,Winter,1964,February,2.724,High
+Switzerland,Spring,1964,March,1.836,High
+Uruguay,Summer,1964,June,1.463,High
+Uruguay,Summer,1964,July,1.606,High
+Yugoslav SFR,Winter,1964,February,2.753,High
+Northern Europe,Winter,1964,February,2.643,High
+Northern Europe,Spring,1964,March,1.93,High
+Afghanistan,Winter,1965,February,2.597,High
+Antarctica,Spring,1965,April,1.868,High
+Antarctica,Summer,1965,June,1.929,High
+Antarctica,Summer,1965,July,1.801,High
+Antarctica,Summer,1965,August,2.216,High
+Antarctica,Fall,1965,September,2.058,High
+Argentina,Summer,1965,July,1.424,High
+Austria,Winter,1965,February,2.924,High
+Austria,Spring,1965,March,2.054,High
+Belgium-Luxembourg,Winter,1965,February,2.905,High
+Belgium-Luxembourg,Spring,1965,March,1.844,High
+Belgium-Luxembourg,Summer,1965,July,1.397,High
+Bulgaria,Winter,1965,February,2.776,High
+Bulgaria,Summer,1965,August,1.343,High
+Canada,Spring,1965,March,1.875,High
+Czechoslovakia,Winter,1965,February,3.13,High
+Czechoslovakia,Spring,1965,March,2.322,High
+Denmark,Winter,1965,February,2.55,High
+Denmark,Spring,1965,March,2.01,High
+Finland,Winter,1965,January,3.335,High
+Finland,Winter,1965,February,3.566,High
+Finland,Spring,1965,March,2.892,High
+Finland,Summer,1965,June,1.583,High
+Finland,Summer,1965,July,1.38,High
+Finland,Fall,1965,October,1.915,High
+Finland,Fall,1965,November,2.28,High
+Finland,Winter,1965,December,3.499,High
+Germany,Winter,1965,February,2.957,High
+Germany,Spring,1965,March,2.037,High
+Greenland,Spring,1965,March,2.021,High
+Hungary,Winter,1965,February,3.171,High
+Hungary,Spring,1965,March,2.223,High
+Iceland,Spring,1965,March,2.196,High
+Liechtenstein,Winter,1965,February,2.814,High
+Liechtenstein,Spring,1965,March,1.959,High
+Mongolia,Winter,1965,February,3.021,High
+Mongolia,Spring,1965,March,1.962,High
+Mongolia,Fall,1965,November,2.235,High
+Mongolia,Winter,1965,December,2.926,High
+Netherlands,Winter,1965,February,2.75,High
+Norway,Spring,1965,March,2.1,High
+Norway,Summer,1965,June,1.468,High
+Paraguay,Summer,1965,June,1.592,High
+Paraguay,Summer,1965,July,2.058,High
+Paraguay,Summer,1965,August,1.58,High
+Poland,Winter,1965,January,2.587,High
+Poland,Winter,1965,February,3.375,High
+Poland,Spring,1965,March,2.815,High
+Poland,Summer,1965,July,1.336,High
+Romania,Winter,1965,February,3.065,High
+Romania,Spring,1965,March,2.027,High
+Romania,Fall,1965,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1965,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1965,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1965,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1965,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1965,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1965,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1965,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1965,December,4.189,High
+Sweden,Winter,1965,January,2.681,High
+Sweden,Winter,1965,February,3.178,High
+Sweden,Spring,1965,March,2.462,High
+Sweden,Summer,1965,June,1.359,High
+Sweden,Fall,1965,November,1.927,High
+Sweden,Winter,1965,December,2.699,High
+Switzerland,Winter,1965,February,2.724,High
+Switzerland,Spring,1965,March,1.836,High
+Uruguay,Summer,1965,June,1.463,High
+Uruguay,Summer,1965,July,1.606,High
+Yugoslav SFR,Winter,1965,February,2.753,High
+Northern Europe,Winter,1965,February,2.643,High
+Northern Europe,Spring,1965,March,1.93,High
+Afghanistan,Winter,1966,February,2.597,High
+Antarctica,Spring,1966,April,1.868,High
+Antarctica,Summer,1966,June,1.929,High
+Antarctica,Summer,1966,July,1.801,High
+Antarctica,Summer,1966,August,2.216,High
+Antarctica,Fall,1966,September,2.058,High
+Argentina,Summer,1966,July,1.424,High
+Austria,Winter,1966,February,2.924,High
+Austria,Spring,1966,March,2.054,High
+Belgium-Luxembourg,Winter,1966,February,2.905,High
+Belgium-Luxembourg,Spring,1966,March,1.844,High
+Belgium-Luxembourg,Summer,1966,July,1.397,High
+Bulgaria,Winter,1966,February,2.776,High
+Bulgaria,Summer,1966,August,1.343,High
+Canada,Spring,1966,March,1.875,High
+Czechoslovakia,Winter,1966,February,3.13,High
+Czechoslovakia,Spring,1966,March,2.322,High
+Denmark,Winter,1966,February,2.55,High
+Denmark,Spring,1966,March,2.01,High
+Finland,Winter,1966,January,3.335,High
+Finland,Winter,1966,February,3.566,High
+Finland,Spring,1966,March,2.892,High
+Finland,Summer,1966,June,1.583,High
+Finland,Summer,1966,July,1.38,High
+Finland,Fall,1966,October,1.915,High
+Finland,Fall,1966,November,2.28,High
+Finland,Winter,1966,December,3.499,High
+Germany,Winter,1966,February,2.957,High
+Germany,Spring,1966,March,2.037,High
+Greenland,Spring,1966,March,2.021,High
+Hungary,Winter,1966,February,3.171,High
+Hungary,Spring,1966,March,2.223,High
+Iceland,Spring,1966,March,2.196,High
+Liechtenstein,Winter,1966,February,2.814,High
+Liechtenstein,Spring,1966,March,1.959,High
+Mongolia,Winter,1966,February,3.021,High
+Mongolia,Spring,1966,March,1.962,High
+Mongolia,Fall,1966,November,2.235,High
+Mongolia,Winter,1966,December,2.926,High
+Netherlands,Winter,1966,February,2.75,High
+Norway,Spring,1966,March,2.1,High
+Norway,Summer,1966,June,1.468,High
+Paraguay,Summer,1966,June,1.592,High
+Paraguay,Summer,1966,July,2.058,High
+Paraguay,Summer,1966,August,1.58,High
+Poland,Winter,1966,January,2.587,High
+Poland,Winter,1966,February,3.375,High
+Poland,Spring,1966,March,2.815,High
+Poland,Summer,1966,July,1.336,High
+Romania,Winter,1966,February,3.065,High
+Romania,Spring,1966,March,2.027,High
+Romania,Fall,1966,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1966,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1966,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1966,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1966,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1966,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1966,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1966,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1966,December,4.189,High
+Sweden,Winter,1966,January,2.681,High
+Sweden,Winter,1966,February,3.178,High
+Sweden,Spring,1966,March,2.462,High
+Sweden,Summer,1966,June,1.359,High
+Sweden,Fall,1966,November,1.927,High
+Sweden,Winter,1966,December,2.699,High
+Switzerland,Winter,1966,February,2.724,High
+Switzerland,Spring,1966,March,1.836,High
+Uruguay,Summer,1966,June,1.463,High
+Uruguay,Summer,1966,July,1.606,High
+Yugoslav SFR,Winter,1966,February,2.753,High
+Northern Europe,Winter,1966,February,2.643,High
+Northern Europe,Spring,1966,March,1.93,High
+Afghanistan,Winter,1967,February,2.597,High
+Antarctica,Spring,1967,April,1.868,High
+Antarctica,Summer,1967,June,1.929,High
+Antarctica,Summer,1967,July,1.801,High
+Antarctica,Summer,1967,August,2.216,High
+Antarctica,Fall,1967,September,2.058,High
+Argentina,Summer,1967,July,1.424,High
+Austria,Winter,1967,February,2.924,High
+Austria,Spring,1967,March,2.054,High
+Belgium-Luxembourg,Winter,1967,February,2.905,High
+Belgium-Luxembourg,Spring,1967,March,1.844,High
+Belgium-Luxembourg,Summer,1967,July,1.397,High
+Bulgaria,Winter,1967,February,2.776,High
+Bulgaria,Summer,1967,August,1.343,High
+Canada,Spring,1967,March,1.875,High
+Czechoslovakia,Winter,1967,February,3.13,High
+Czechoslovakia,Spring,1967,March,2.322,High
+Denmark,Winter,1967,February,2.55,High
+Denmark,Spring,1967,March,2.01,High
+Finland,Winter,1967,January,3.335,High
+Finland,Winter,1967,February,3.566,High
+Finland,Spring,1967,March,2.892,High
+Finland,Summer,1967,June,1.583,High
+Finland,Summer,1967,July,1.38,High
+Finland,Fall,1967,October,1.915,High
+Finland,Fall,1967,November,2.28,High
+Finland,Winter,1967,December,3.499,High
+Germany,Winter,1967,February,2.957,High
+Germany,Spring,1967,March,2.037,High
+Greenland,Spring,1967,March,2.021,High
+Hungary,Winter,1967,February,3.171,High
+Hungary,Spring,1967,March,2.223,High
+Iceland,Spring,1967,March,2.196,High
+Liechtenstein,Winter,1967,February,2.814,High
+Liechtenstein,Spring,1967,March,1.959,High
+Mongolia,Winter,1967,February,3.021,High
+Mongolia,Spring,1967,March,1.962,High
+Mongolia,Fall,1967,November,2.235,High
+Mongolia,Winter,1967,December,2.926,High
+Netherlands,Winter,1967,February,2.75,High
+Norway,Spring,1967,March,2.1,High
+Norway,Summer,1967,June,1.468,High
+Paraguay,Summer,1967,June,1.592,High
+Paraguay,Summer,1967,July,2.058,High
+Paraguay,Summer,1967,August,1.58,High
+Poland,Winter,1967,January,2.587,High
+Poland,Winter,1967,February,3.375,High
+Poland,Spring,1967,March,2.815,High
+Poland,Summer,1967,July,1.336,High
+Romania,Winter,1967,February,3.065,High
+Romania,Spring,1967,March,2.027,High
+Romania,Fall,1967,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1967,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1967,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1967,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1967,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1967,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1967,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1967,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1967,December,4.189,High
+Sweden,Winter,1967,January,2.681,High
+Sweden,Winter,1967,February,3.178,High
+Sweden,Spring,1967,March,2.462,High
+Sweden,Summer,1967,June,1.359,High
+Sweden,Fall,1967,November,1.927,High
+Sweden,Winter,1967,December,2.699,High
+Switzerland,Winter,1967,February,2.724,High
+Switzerland,Spring,1967,March,1.836,High
+Uruguay,Summer,1967,June,1.463,High
+Uruguay,Summer,1967,July,1.606,High
+Yugoslav SFR,Winter,1967,February,2.753,High
+Northern Europe,Winter,1967,February,2.643,High
+Northern Europe,Spring,1967,March,1.93,High
+Afghanistan,Winter,1968,February,2.597,High
+Antarctica,Spring,1968,April,1.868,High
+Antarctica,Summer,1968,June,1.929,High
+Antarctica,Summer,1968,July,1.801,High
+Antarctica,Summer,1968,August,2.216,High
+Antarctica,Fall,1968,September,2.058,High
+Argentina,Summer,1968,July,1.424,High
+Austria,Winter,1968,February,2.924,High
+Austria,Spring,1968,March,2.054,High
+Belgium-Luxembourg,Winter,1968,February,2.905,High
+Belgium-Luxembourg,Spring,1968,March,1.844,High
+Belgium-Luxembourg,Summer,1968,July,1.397,High
+Bulgaria,Winter,1968,February,2.776,High
+Bulgaria,Summer,1968,August,1.343,High
+Canada,Spring,1968,March,1.875,High
+Czechoslovakia,Winter,1968,February,3.13,High
+Czechoslovakia,Spring,1968,March,2.322,High
+Denmark,Winter,1968,February,2.55,High
+Denmark,Spring,1968,March,2.01,High
+Finland,Winter,1968,January,3.335,High
+Finland,Winter,1968,February,3.566,High
+Finland,Spring,1968,March,2.892,High
+Finland,Summer,1968,June,1.583,High
+Finland,Summer,1968,July,1.38,High
+Finland,Fall,1968,October,1.915,High
+Finland,Fall,1968,November,2.28,High
+Finland,Winter,1968,December,3.499,High
+Germany,Winter,1968,February,2.957,High
+Germany,Spring,1968,March,2.037,High
+Greenland,Spring,1968,March,2.021,High
+Hungary,Winter,1968,February,3.171,High
+Hungary,Spring,1968,March,2.223,High
+Iceland,Spring,1968,March,2.196,High
+Liechtenstein,Winter,1968,February,2.814,High
+Liechtenstein,Spring,1968,March,1.959,High
+Mongolia,Winter,1968,February,3.021,High
+Mongolia,Spring,1968,March,1.962,High
+Mongolia,Fall,1968,November,2.235,High
+Mongolia,Winter,1968,December,2.926,High
+Netherlands,Winter,1968,February,2.75,High
+Norway,Spring,1968,March,2.1,High
+Norway,Summer,1968,June,1.468,High
+Paraguay,Summer,1968,June,1.592,High
+Paraguay,Summer,1968,July,2.058,High
+Paraguay,Summer,1968,August,1.58,High
+Poland,Winter,1968,January,2.587,High
+Poland,Winter,1968,February,3.375,High
+Poland,Spring,1968,March,2.815,High
+Poland,Summer,1968,July,1.336,High
+Romania,Winter,1968,February,3.065,High
+Romania,Spring,1968,March,2.027,High
+Romania,Fall,1968,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1968,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1968,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1968,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1968,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1968,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1968,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1968,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1968,December,4.189,High
+Sweden,Winter,1968,January,2.681,High
+Sweden,Winter,1968,February,3.178,High
+Sweden,Spring,1968,March,2.462,High
+Sweden,Summer,1968,June,1.359,High
+Sweden,Fall,1968,November,1.927,High
+Sweden,Winter,1968,December,2.699,High
+Switzerland,Winter,1968,February,2.724,High
+Switzerland,Spring,1968,March,1.836,High
+Uruguay,Summer,1968,June,1.463,High
+Uruguay,Summer,1968,July,1.606,High
+Yugoslav SFR,Winter,1968,February,2.753,High
+Northern Europe,Winter,1968,February,2.643,High
+Northern Europe,Spring,1968,March,1.93,High
+Afghanistan,Winter,1969,February,2.597,High
+Antarctica,Spring,1969,April,1.868,High
+Antarctica,Summer,1969,June,1.929,High
+Antarctica,Summer,1969,July,1.801,High
+Antarctica,Summer,1969,August,2.216,High
+Antarctica,Fall,1969,September,2.058,High
+Argentina,Summer,1969,July,1.424,High
+Austria,Winter,1969,February,2.924,High
+Austria,Spring,1969,March,2.054,High
+Belgium-Luxembourg,Winter,1969,February,2.905,High
+Belgium-Luxembourg,Spring,1969,March,1.844,High
+Belgium-Luxembourg,Summer,1969,July,1.397,High
+Bulgaria,Winter,1969,February,2.776,High
+Bulgaria,Summer,1969,August,1.343,High
+Canada,Spring,1969,March,1.875,High
+Czechoslovakia,Winter,1969,February,3.13,High
+Czechoslovakia,Spring,1969,March,2.322,High
+Denmark,Winter,1969,February,2.55,High
+Denmark,Spring,1969,March,2.01,High
+Finland,Winter,1969,January,3.335,High
+Finland,Winter,1969,February,3.566,High
+Finland,Spring,1969,March,2.892,High
+Finland,Summer,1969,June,1.583,High
+Finland,Summer,1969,July,1.38,High
+Finland,Fall,1969,October,1.915,High
+Finland,Fall,1969,November,2.28,High
+Finland,Winter,1969,December,3.499,High
+Germany,Winter,1969,February,2.957,High
+Germany,Spring,1969,March,2.037,High
+Greenland,Spring,1969,March,2.021,High
+Hungary,Winter,1969,February,3.171,High
+Hungary,Spring,1969,March,2.223,High
+Iceland,Spring,1969,March,2.196,High
+Liechtenstein,Winter,1969,February,2.814,High
+Liechtenstein,Spring,1969,March,1.959,High
+Mongolia,Winter,1969,February,3.021,High
+Mongolia,Spring,1969,March,1.962,High
+Mongolia,Fall,1969,November,2.235,High
+Mongolia,Winter,1969,December,2.926,High
+Netherlands,Winter,1969,February,2.75,High
+Norway,Spring,1969,March,2.1,High
+Norway,Summer,1969,June,1.468,High
+Paraguay,Summer,1969,June,1.592,High
+Paraguay,Summer,1969,July,2.058,High
+Paraguay,Summer,1969,August,1.58,High
+Poland,Winter,1969,January,2.587,High
+Poland,Winter,1969,February,3.375,High
+Poland,Spring,1969,March,2.815,High
+Poland,Summer,1969,July,1.336,High
+Romania,Winter,1969,February,3.065,High
+Romania,Spring,1969,March,2.027,High
+Romania,Fall,1969,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1969,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1969,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1969,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1969,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1969,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1969,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1969,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1969,December,4.189,High
+Sweden,Winter,1969,January,2.681,High
+Sweden,Winter,1969,February,3.178,High
+Sweden,Spring,1969,March,2.462,High
+Sweden,Summer,1969,June,1.359,High
+Sweden,Fall,1969,November,1.927,High
+Sweden,Winter,1969,December,2.699,High
+Switzerland,Winter,1969,February,2.724,High
+Switzerland,Spring,1969,March,1.836,High
+Uruguay,Summer,1969,June,1.463,High
+Uruguay,Summer,1969,July,1.606,High
+Yugoslav SFR,Winter,1969,February,2.753,High
+Northern Europe,Winter,1969,February,2.643,High
+Northern Europe,Spring,1969,March,1.93,High
+Afghanistan,Winter,1970,February,2.597,High
+Antarctica,Spring,1970,April,1.868,High
+Antarctica,Summer,1970,June,1.929,High
+Antarctica,Summer,1970,July,1.801,High
+Antarctica,Summer,1970,August,2.216,High
+Antarctica,Fall,1970,September,2.058,High
+Argentina,Summer,1970,July,1.424,High
+Austria,Winter,1970,February,2.924,High
+Austria,Spring,1970,March,2.054,High
+Belgium-Luxembourg,Winter,1970,February,2.905,High
+Belgium-Luxembourg,Spring,1970,March,1.844,High
+Belgium-Luxembourg,Summer,1970,July,1.397,High
+Bulgaria,Winter,1970,February,2.776,High
+Bulgaria,Summer,1970,August,1.343,High
+Canada,Spring,1970,March,1.875,High
+Czechoslovakia,Winter,1970,February,3.13,High
+Czechoslovakia,Spring,1970,March,2.322,High
+Denmark,Winter,1970,February,2.55,High
+Denmark,Spring,1970,March,2.01,High
+Finland,Winter,1970,January,3.335,High
+Finland,Winter,1970,February,3.566,High
+Finland,Spring,1970,March,2.892,High
+Finland,Summer,1970,June,1.583,High
+Finland,Summer,1970,July,1.38,High
+Finland,Fall,1970,October,1.915,High
+Finland,Fall,1970,November,2.28,High
+Finland,Winter,1970,December,3.499,High
+Germany,Winter,1970,February,2.957,High
+Germany,Spring,1970,March,2.037,High
+Greenland,Spring,1970,March,2.021,High
+Hungary,Winter,1970,February,3.171,High
+Hungary,Spring,1970,March,2.223,High
+Iceland,Spring,1970,March,2.196,High
+Liechtenstein,Winter,1970,February,2.814,High
+Liechtenstein,Spring,1970,March,1.959,High
+Mongolia,Winter,1970,February,3.021,High
+Mongolia,Spring,1970,March,1.962,High
+Mongolia,Fall,1970,November,2.235,High
+Mongolia,Winter,1970,December,2.926,High
+Netherlands,Winter,1970,February,2.75,High
+Norway,Spring,1970,March,2.1,High
+Norway,Summer,1970,June,1.468,High
+Paraguay,Summer,1970,June,1.592,High
+Paraguay,Summer,1970,July,2.058,High
+Paraguay,Summer,1970,August,1.58,High
+Poland,Winter,1970,January,2.587,High
+Poland,Winter,1970,February,3.375,High
+Poland,Spring,1970,March,2.815,High
+Poland,Summer,1970,July,1.336,High
+Romania,Winter,1970,February,3.065,High
+Romania,Spring,1970,March,2.027,High
+Romania,Fall,1970,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1970,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1970,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1970,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1970,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1970,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1970,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1970,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1970,December,4.189,High
+Sweden,Winter,1970,January,2.681,High
+Sweden,Winter,1970,February,3.178,High
+Sweden,Spring,1970,March,2.462,High
+Sweden,Summer,1970,June,1.359,High
+Sweden,Fall,1970,November,1.927,High
+Sweden,Winter,1970,December,2.699,High
+Switzerland,Winter,1970,February,2.724,High
+Switzerland,Spring,1970,March,1.836,High
+Uruguay,Summer,1970,June,1.463,High
+Uruguay,Summer,1970,July,1.606,High
+Yugoslav SFR,Winter,1970,February,2.753,High
+Northern Europe,Winter,1970,February,2.643,High
+Northern Europe,Spring,1970,March,1.93,High
+Afghanistan,Winter,1971,February,2.597,High
+Antarctica,Spring,1971,April,1.868,High
+Antarctica,Summer,1971,June,1.929,High
+Antarctica,Summer,1971,July,1.801,High
+Antarctica,Summer,1971,August,2.216,High
+Antarctica,Fall,1971,September,2.058,High
+Argentina,Summer,1971,July,1.424,High
+Austria,Winter,1971,February,2.924,High
+Austria,Spring,1971,March,2.054,High
+Belgium-Luxembourg,Winter,1971,February,2.905,High
+Belgium-Luxembourg,Spring,1971,March,1.844,High
+Belgium-Luxembourg,Summer,1971,July,1.397,High
+Bulgaria,Winter,1971,February,2.776,High
+Bulgaria,Summer,1971,August,1.343,High
+Canada,Spring,1971,March,1.875,High
+Czechoslovakia,Winter,1971,February,3.13,High
+Czechoslovakia,Spring,1971,March,2.322,High
+Denmark,Winter,1971,February,2.55,High
+Denmark,Spring,1971,March,2.01,High
+Finland,Winter,1971,January,3.335,High
+Finland,Winter,1971,February,3.566,High
+Finland,Spring,1971,March,2.892,High
+Finland,Summer,1971,June,1.583,High
+Finland,Summer,1971,July,1.38,High
+Finland,Fall,1971,October,1.915,High
+Finland,Fall,1971,November,2.28,High
+Finland,Winter,1971,December,3.499,High
+Germany,Winter,1971,February,2.957,High
+Germany,Spring,1971,March,2.037,High
+Greenland,Spring,1971,March,2.021,High
+Hungary,Winter,1971,February,3.171,High
+Hungary,Spring,1971,March,2.223,High
+Iceland,Spring,1971,March,2.196,High
+Liechtenstein,Winter,1971,February,2.814,High
+Liechtenstein,Spring,1971,March,1.959,High
+Mongolia,Winter,1971,February,3.021,High
+Mongolia,Spring,1971,March,1.962,High
+Mongolia,Fall,1971,November,2.235,High
+Mongolia,Winter,1971,December,2.926,High
+Netherlands,Winter,1971,February,2.75,High
+Norway,Spring,1971,March,2.1,High
+Norway,Summer,1971,June,1.468,High
+Paraguay,Summer,1971,June,1.592,High
+Paraguay,Summer,1971,July,2.058,High
+Paraguay,Summer,1971,August,1.58,High
+Poland,Winter,1971,January,2.587,High
+Poland,Winter,1971,February,3.375,High
+Poland,Spring,1971,March,2.815,High
+Poland,Summer,1971,July,1.336,High
+Romania,Winter,1971,February,3.065,High
+Romania,Spring,1971,March,2.027,High
+Romania,Fall,1971,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1971,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1971,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1971,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1971,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1971,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1971,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1971,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1971,December,4.189,High
+Sweden,Winter,1971,January,2.681,High
+Sweden,Winter,1971,February,3.178,High
+Sweden,Spring,1971,March,2.462,High
+Sweden,Summer,1971,June,1.359,High
+Sweden,Fall,1971,November,1.927,High
+Sweden,Winter,1971,December,2.699,High
+Switzerland,Winter,1971,February,2.724,High
+Switzerland,Spring,1971,March,1.836,High
+Uruguay,Summer,1971,June,1.463,High
+Uruguay,Summer,1971,July,1.606,High
+Yugoslav SFR,Winter,1971,February,2.753,High
+Northern Europe,Winter,1971,February,2.643,High
+Northern Europe,Spring,1971,March,1.93,High
+Afghanistan,Winter,1972,February,2.597,High
+Antarctica,Spring,1972,April,1.868,High
+Antarctica,Summer,1972,June,1.929,High
+Antarctica,Summer,1972,July,1.801,High
+Antarctica,Summer,1972,August,2.216,High
+Antarctica,Fall,1972,September,2.058,High
+Argentina,Summer,1972,July,1.424,High
+Austria,Winter,1972,February,2.924,High
+Austria,Spring,1972,March,2.054,High
+Belgium-Luxembourg,Winter,1972,February,2.905,High
+Belgium-Luxembourg,Spring,1972,March,1.844,High
+Belgium-Luxembourg,Summer,1972,July,1.397,High
+Bulgaria,Winter,1972,February,2.776,High
+Bulgaria,Summer,1972,August,1.343,High
+Canada,Spring,1972,March,1.875,High
+Czechoslovakia,Winter,1972,February,3.13,High
+Czechoslovakia,Spring,1972,March,2.322,High
+Denmark,Winter,1972,February,2.55,High
+Denmark,Spring,1972,March,2.01,High
+Finland,Winter,1972,January,3.335,High
+Finland,Winter,1972,February,3.566,High
+Finland,Spring,1972,March,2.892,High
+Finland,Summer,1972,June,1.583,High
+Finland,Summer,1972,July,1.38,High
+Finland,Fall,1972,October,1.915,High
+Finland,Fall,1972,November,2.28,High
+Finland,Winter,1972,December,3.499,High
+Germany,Winter,1972,February,2.957,High
+Germany,Spring,1972,March,2.037,High
+Greenland,Spring,1972,March,2.021,High
+Hungary,Winter,1972,February,3.171,High
+Hungary,Spring,1972,March,2.223,High
+Iceland,Spring,1972,March,2.196,High
+Liechtenstein,Winter,1972,February,2.814,High
+Liechtenstein,Spring,1972,March,1.959,High
+Mongolia,Winter,1972,February,3.021,High
+Mongolia,Spring,1972,March,1.962,High
+Mongolia,Fall,1972,November,2.235,High
+Mongolia,Winter,1972,December,2.926,High
+Netherlands,Winter,1972,February,2.75,High
+Norway,Spring,1972,March,2.1,High
+Norway,Summer,1972,June,1.468,High
+Paraguay,Summer,1972,June,1.592,High
+Paraguay,Summer,1972,July,2.058,High
+Paraguay,Summer,1972,August,1.58,High
+Poland,Winter,1972,January,2.587,High
+Poland,Winter,1972,February,3.375,High
+Poland,Spring,1972,March,2.815,High
+Poland,Summer,1972,July,1.336,High
+Romania,Winter,1972,February,3.065,High
+Romania,Spring,1972,March,2.027,High
+Romania,Fall,1972,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1972,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1972,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1972,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1972,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1972,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1972,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1972,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1972,December,4.189,High
+Sweden,Winter,1972,January,2.681,High
+Sweden,Winter,1972,February,3.178,High
+Sweden,Spring,1972,March,2.462,High
+Sweden,Summer,1972,June,1.359,High
+Sweden,Fall,1972,November,1.927,High
+Sweden,Winter,1972,December,2.699,High
+Switzerland,Winter,1972,February,2.724,High
+Switzerland,Spring,1972,March,1.836,High
+Uruguay,Summer,1972,June,1.463,High
+Uruguay,Summer,1972,July,1.606,High
+Yugoslav SFR,Winter,1972,February,2.753,High
+Northern Europe,Winter,1972,February,2.643,High
+Northern Europe,Spring,1972,March,1.93,High
+Afghanistan,Winter,1973,February,2.597,High
+Antarctica,Spring,1973,April,1.868,High
+Antarctica,Summer,1973,June,1.929,High
+Antarctica,Summer,1973,July,1.801,High
+Antarctica,Summer,1973,August,2.216,High
+Antarctica,Fall,1973,September,2.058,High
+Argentina,Summer,1973,July,1.424,High
+Austria,Winter,1973,February,2.924,High
+Austria,Spring,1973,March,2.054,High
+Belgium-Luxembourg,Winter,1973,February,2.905,High
+Belgium-Luxembourg,Spring,1973,March,1.844,High
+Belgium-Luxembourg,Summer,1973,July,1.397,High
+Bulgaria,Winter,1973,February,2.776,High
+Bulgaria,Summer,1973,August,1.343,High
+Canada,Spring,1973,March,1.875,High
+Czechoslovakia,Winter,1973,February,3.13,High
+Czechoslovakia,Spring,1973,March,2.322,High
+Denmark,Winter,1973,February,2.55,High
+Denmark,Spring,1973,March,2.01,High
+Finland,Winter,1973,January,3.335,High
+Finland,Winter,1973,February,3.566,High
+Finland,Spring,1973,March,2.892,High
+Finland,Summer,1973,June,1.583,High
+Finland,Summer,1973,July,1.38,High
+Finland,Fall,1973,October,1.915,High
+Finland,Fall,1973,November,2.28,High
+Finland,Winter,1973,December,3.499,High
+Germany,Winter,1973,February,2.957,High
+Germany,Spring,1973,March,2.037,High
+Greenland,Spring,1973,March,2.021,High
+Hungary,Winter,1973,February,3.171,High
+Hungary,Spring,1973,March,2.223,High
+Iceland,Spring,1973,March,2.196,High
+Liechtenstein,Winter,1973,February,2.814,High
+Liechtenstein,Spring,1973,March,1.959,High
+Mongolia,Winter,1973,February,3.021,High
+Mongolia,Spring,1973,March,1.962,High
+Mongolia,Fall,1973,November,2.235,High
+Mongolia,Winter,1973,December,2.926,High
+Netherlands,Winter,1973,February,2.75,High
+Norway,Spring,1973,March,2.1,High
+Norway,Summer,1973,June,1.468,High
+Paraguay,Summer,1973,June,1.592,High
+Paraguay,Summer,1973,July,2.058,High
+Paraguay,Summer,1973,August,1.58,High
+Poland,Winter,1973,January,2.587,High
+Poland,Winter,1973,February,3.375,High
+Poland,Spring,1973,March,2.815,High
+Poland,Summer,1973,July,1.336,High
+Romania,Winter,1973,February,3.065,High
+Romania,Spring,1973,March,2.027,High
+Romania,Fall,1973,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1973,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1973,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1973,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1973,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1973,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1973,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1973,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1973,December,4.189,High
+Sweden,Winter,1973,January,2.681,High
+Sweden,Winter,1973,February,3.178,High
+Sweden,Spring,1973,March,2.462,High
+Sweden,Summer,1973,June,1.359,High
+Sweden,Fall,1973,November,1.927,High
+Sweden,Winter,1973,December,2.699,High
+Switzerland,Winter,1973,February,2.724,High
+Switzerland,Spring,1973,March,1.836,High
+Uruguay,Summer,1973,June,1.463,High
+Uruguay,Summer,1973,July,1.606,High
+Yugoslav SFR,Winter,1973,February,2.753,High
+Northern Europe,Winter,1973,February,2.643,High
+Northern Europe,Spring,1973,March,1.93,High
+Afghanistan,Winter,1974,February,2.597,High
+Antarctica,Spring,1974,April,1.868,High
+Antarctica,Summer,1974,June,1.929,High
+Antarctica,Summer,1974,July,1.801,High
+Antarctica,Summer,1974,August,2.216,High
+Antarctica,Fall,1974,September,2.058,High
+Argentina,Summer,1974,July,1.424,High
+Austria,Winter,1974,February,2.924,High
+Austria,Spring,1974,March,2.054,High
+Belgium-Luxembourg,Winter,1974,February,2.905,High
+Belgium-Luxembourg,Spring,1974,March,1.844,High
+Belgium-Luxembourg,Summer,1974,July,1.397,High
+Bulgaria,Winter,1974,February,2.776,High
+Bulgaria,Summer,1974,August,1.343,High
+Canada,Spring,1974,March,1.875,High
+Czechoslovakia,Winter,1974,February,3.13,High
+Czechoslovakia,Spring,1974,March,2.322,High
+Denmark,Winter,1974,February,2.55,High
+Denmark,Spring,1974,March,2.01,High
+Finland,Winter,1974,January,3.335,High
+Finland,Winter,1974,February,3.566,High
+Finland,Spring,1974,March,2.892,High
+Finland,Summer,1974,June,1.583,High
+Finland,Summer,1974,July,1.38,High
+Finland,Fall,1974,October,1.915,High
+Finland,Fall,1974,November,2.28,High
+Finland,Winter,1974,December,3.499,High
+Germany,Winter,1974,February,2.957,High
+Germany,Spring,1974,March,2.037,High
+Greenland,Spring,1974,March,2.021,High
+Hungary,Winter,1974,February,3.171,High
+Hungary,Spring,1974,March,2.223,High
+Iceland,Spring,1974,March,2.196,High
+Liechtenstein,Winter,1974,February,2.814,High
+Liechtenstein,Spring,1974,March,1.959,High
+Mongolia,Winter,1974,February,3.021,High
+Mongolia,Spring,1974,March,1.962,High
+Mongolia,Fall,1974,November,2.235,High
+Mongolia,Winter,1974,December,2.926,High
+Netherlands,Winter,1974,February,2.75,High
+Norway,Spring,1974,March,2.1,High
+Norway,Summer,1974,June,1.468,High
+Paraguay,Summer,1974,June,1.592,High
+Paraguay,Summer,1974,July,2.058,High
+Paraguay,Summer,1974,August,1.58,High
+Poland,Winter,1974,January,2.587,High
+Poland,Winter,1974,February,3.375,High
+Poland,Spring,1974,March,2.815,High
+Poland,Summer,1974,July,1.336,High
+Romania,Winter,1974,February,3.065,High
+Romania,Spring,1974,March,2.027,High
+Romania,Fall,1974,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1974,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1974,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1974,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1974,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1974,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1974,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1974,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1974,December,4.189,High
+Sweden,Winter,1974,January,2.681,High
+Sweden,Winter,1974,February,3.178,High
+Sweden,Spring,1974,March,2.462,High
+Sweden,Summer,1974,June,1.359,High
+Sweden,Fall,1974,November,1.927,High
+Sweden,Winter,1974,December,2.699,High
+Switzerland,Winter,1974,February,2.724,High
+Switzerland,Spring,1974,March,1.836,High
+Uruguay,Summer,1974,June,1.463,High
+Uruguay,Summer,1974,July,1.606,High
+Yugoslav SFR,Winter,1974,February,2.753,High
+Northern Europe,Winter,1974,February,2.643,High
+Northern Europe,Spring,1974,March,1.93,High
+Afghanistan,Winter,1975,February,2.597,High
+Antarctica,Spring,1975,April,1.868,High
+Antarctica,Summer,1975,June,1.929,High
+Antarctica,Summer,1975,July,1.801,High
+Antarctica,Summer,1975,August,2.216,High
+Antarctica,Fall,1975,September,2.058,High
+Argentina,Summer,1975,July,1.424,High
+Austria,Winter,1975,February,2.924,High
+Austria,Spring,1975,March,2.054,High
+Belgium-Luxembourg,Winter,1975,February,2.905,High
+Belgium-Luxembourg,Spring,1975,March,1.844,High
+Belgium-Luxembourg,Summer,1975,July,1.397,High
+Bulgaria,Winter,1975,February,2.776,High
+Bulgaria,Summer,1975,August,1.343,High
+Canada,Spring,1975,March,1.875,High
+Czechoslovakia,Winter,1975,February,3.13,High
+Czechoslovakia,Spring,1975,March,2.322,High
+Denmark,Winter,1975,February,2.55,High
+Denmark,Spring,1975,March,2.01,High
+Finland,Winter,1975,January,3.335,High
+Finland,Winter,1975,February,3.566,High
+Finland,Spring,1975,March,2.892,High
+Finland,Summer,1975,June,1.583,High
+Finland,Summer,1975,July,1.38,High
+Finland,Fall,1975,October,1.915,High
+Finland,Fall,1975,November,2.28,High
+Finland,Winter,1975,December,3.499,High
+Germany,Winter,1975,February,2.957,High
+Germany,Spring,1975,March,2.037,High
+Greenland,Spring,1975,March,2.021,High
+Hungary,Winter,1975,February,3.171,High
+Hungary,Spring,1975,March,2.223,High
+Iceland,Spring,1975,March,2.196,High
+Liechtenstein,Winter,1975,February,2.814,High
+Liechtenstein,Spring,1975,March,1.959,High
+Mongolia,Winter,1975,February,3.021,High
+Mongolia,Spring,1975,March,1.962,High
+Mongolia,Fall,1975,November,2.235,High
+Mongolia,Winter,1975,December,2.926,High
+Netherlands,Winter,1975,February,2.75,High
+Norway,Spring,1975,March,2.1,High
+Norway,Summer,1975,June,1.468,High
+Paraguay,Summer,1975,June,1.592,High
+Paraguay,Summer,1975,July,2.058,High
+Paraguay,Summer,1975,August,1.58,High
+Poland,Winter,1975,January,2.587,High
+Poland,Winter,1975,February,3.375,High
+Poland,Spring,1975,March,2.815,High
+Poland,Summer,1975,July,1.336,High
+Romania,Winter,1975,February,3.065,High
+Romania,Spring,1975,March,2.027,High
+Romania,Fall,1975,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1975,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1975,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1975,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1975,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1975,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1975,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1975,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1975,December,4.189,High
+Sweden,Winter,1975,January,2.681,High
+Sweden,Winter,1975,February,3.178,High
+Sweden,Spring,1975,March,2.462,High
+Sweden,Summer,1975,June,1.359,High
+Sweden,Fall,1975,November,1.927,High
+Sweden,Winter,1975,December,2.699,High
+Switzerland,Winter,1975,February,2.724,High
+Switzerland,Spring,1975,March,1.836,High
+Uruguay,Summer,1975,June,1.463,High
+Uruguay,Summer,1975,July,1.606,High
+Yugoslav SFR,Winter,1975,February,2.753,High
+Northern Europe,Winter,1975,February,2.643,High
+Northern Europe,Spring,1975,March,1.93,High
+Afghanistan,Winter,1976,February,2.597,High
+Antarctica,Spring,1976,April,1.868,High
+Antarctica,Summer,1976,June,1.929,High
+Antarctica,Summer,1976,July,1.801,High
+Antarctica,Summer,1976,August,2.216,High
+Antarctica,Fall,1976,September,2.058,High
+Argentina,Summer,1976,July,1.424,High
+Austria,Winter,1976,February,2.924,High
+Austria,Spring,1976,March,2.054,High
+Belgium-Luxembourg,Winter,1976,February,2.905,High
+Belgium-Luxembourg,Spring,1976,March,1.844,High
+Belgium-Luxembourg,Summer,1976,July,1.397,High
+Bulgaria,Winter,1976,February,2.776,High
+Bulgaria,Summer,1976,August,1.343,High
+Canada,Spring,1976,March,1.875,High
+Czechoslovakia,Winter,1976,February,3.13,High
+Czechoslovakia,Spring,1976,March,2.322,High
+Denmark,Winter,1976,February,2.55,High
+Denmark,Spring,1976,March,2.01,High
+Finland,Winter,1976,January,3.335,High
+Finland,Winter,1976,February,3.566,High
+Finland,Spring,1976,March,2.892,High
+Finland,Summer,1976,June,1.583,High
+Finland,Summer,1976,July,1.38,High
+Finland,Fall,1976,October,1.915,High
+Finland,Fall,1976,November,2.28,High
+Finland,Winter,1976,December,3.499,High
+Germany,Winter,1976,February,2.957,High
+Germany,Spring,1976,March,2.037,High
+Greenland,Spring,1976,March,2.021,High
+Hungary,Winter,1976,February,3.171,High
+Hungary,Spring,1976,March,2.223,High
+Iceland,Spring,1976,March,2.196,High
+Liechtenstein,Winter,1976,February,2.814,High
+Liechtenstein,Spring,1976,March,1.959,High
+Mongolia,Winter,1976,February,3.021,High
+Mongolia,Spring,1976,March,1.962,High
+Mongolia,Fall,1976,November,2.235,High
+Mongolia,Winter,1976,December,2.926,High
+Netherlands,Winter,1976,February,2.75,High
+Norway,Spring,1976,March,2.1,High
+Norway,Summer,1976,June,1.468,High
+Paraguay,Summer,1976,June,1.592,High
+Paraguay,Summer,1976,July,2.058,High
+Paraguay,Summer,1976,August,1.58,High
+Poland,Winter,1976,January,2.587,High
+Poland,Winter,1976,February,3.375,High
+Poland,Spring,1976,March,2.815,High
+Poland,Summer,1976,July,1.336,High
+Romania,Winter,1976,February,3.065,High
+Romania,Spring,1976,March,2.027,High
+Romania,Fall,1976,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1976,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1976,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1976,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1976,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1976,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1976,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1976,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1976,December,4.189,High
+Sweden,Winter,1976,January,2.681,High
+Sweden,Winter,1976,February,3.178,High
+Sweden,Spring,1976,March,2.462,High
+Sweden,Summer,1976,June,1.359,High
+Sweden,Fall,1976,November,1.927,High
+Sweden,Winter,1976,December,2.699,High
+Switzerland,Winter,1976,February,2.724,High
+Switzerland,Spring,1976,March,1.836,High
+Uruguay,Summer,1976,June,1.463,High
+Uruguay,Summer,1976,July,1.606,High
+Yugoslav SFR,Winter,1976,February,2.753,High
+Northern Europe,Winter,1976,February,2.643,High
+Northern Europe,Spring,1976,March,1.93,High
+Afghanistan,Winter,1977,February,2.597,High
+Antarctica,Spring,1977,April,1.868,High
+Antarctica,Summer,1977,June,1.929,High
+Antarctica,Summer,1977,July,1.801,High
+Antarctica,Summer,1977,August,2.216,High
+Antarctica,Fall,1977,September,2.058,High
+Argentina,Summer,1977,July,1.424,High
+Austria,Winter,1977,February,2.924,High
+Austria,Spring,1977,March,2.054,High
+Belgium-Luxembourg,Winter,1977,February,2.905,High
+Belgium-Luxembourg,Spring,1977,March,1.844,High
+Belgium-Luxembourg,Summer,1977,July,1.397,High
+Bulgaria,Winter,1977,February,2.776,High
+Bulgaria,Summer,1977,August,1.343,High
+Canada,Spring,1977,March,1.875,High
+Czechoslovakia,Winter,1977,February,3.13,High
+Czechoslovakia,Spring,1977,March,2.322,High
+Denmark,Winter,1977,February,2.55,High
+Denmark,Spring,1977,March,2.01,High
+Finland,Winter,1977,January,3.335,High
+Finland,Winter,1977,February,3.566,High
+Finland,Spring,1977,March,2.892,High
+Finland,Summer,1977,June,1.583,High
+Finland,Summer,1977,July,1.38,High
+Finland,Fall,1977,October,1.915,High
+Finland,Fall,1977,November,2.28,High
+Finland,Winter,1977,December,3.499,High
+Germany,Winter,1977,February,2.957,High
+Germany,Spring,1977,March,2.037,High
+Greenland,Spring,1977,March,2.021,High
+Hungary,Winter,1977,February,3.171,High
+Hungary,Spring,1977,March,2.223,High
+Iceland,Spring,1977,March,2.196,High
+Liechtenstein,Winter,1977,February,2.814,High
+Liechtenstein,Spring,1977,March,1.959,High
+Mongolia,Winter,1977,February,3.021,High
+Mongolia,Spring,1977,March,1.962,High
+Mongolia,Fall,1977,November,2.235,High
+Mongolia,Winter,1977,December,2.926,High
+Netherlands,Winter,1977,February,2.75,High
+Norway,Spring,1977,March,2.1,High
+Norway,Summer,1977,June,1.468,High
+Paraguay,Summer,1977,June,1.592,High
+Paraguay,Summer,1977,July,2.058,High
+Paraguay,Summer,1977,August,1.58,High
+Poland,Winter,1977,January,2.587,High
+Poland,Winter,1977,February,3.375,High
+Poland,Spring,1977,March,2.815,High
+Poland,Summer,1977,July,1.336,High
+Romania,Winter,1977,February,3.065,High
+Romania,Spring,1977,March,2.027,High
+Romania,Fall,1977,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1977,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1977,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1977,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1977,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1977,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1977,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1977,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1977,December,4.189,High
+Sweden,Winter,1977,January,2.681,High
+Sweden,Winter,1977,February,3.178,High
+Sweden,Spring,1977,March,2.462,High
+Sweden,Summer,1977,June,1.359,High
+Sweden,Fall,1977,November,1.927,High
+Sweden,Winter,1977,December,2.699,High
+Switzerland,Winter,1977,February,2.724,High
+Switzerland,Spring,1977,March,1.836,High
+Uruguay,Summer,1977,June,1.463,High
+Uruguay,Summer,1977,July,1.606,High
+Yugoslav SFR,Winter,1977,February,2.753,High
+Northern Europe,Winter,1977,February,2.643,High
+Northern Europe,Spring,1977,March,1.93,High
+Afghanistan,Winter,1978,February,2.597,High
+Antarctica,Spring,1978,April,1.868,High
+Antarctica,Summer,1978,June,1.929,High
+Antarctica,Summer,1978,July,1.801,High
+Antarctica,Summer,1978,August,2.216,High
+Antarctica,Fall,1978,September,2.058,High
+Argentina,Summer,1978,July,1.424,High
+Austria,Winter,1978,February,2.924,High
+Austria,Spring,1978,March,2.054,High
+Belgium-Luxembourg,Winter,1978,February,2.905,High
+Belgium-Luxembourg,Spring,1978,March,1.844,High
+Belgium-Luxembourg,Summer,1978,July,1.397,High
+Bulgaria,Winter,1978,February,2.776,High
+Bulgaria,Summer,1978,August,1.343,High
+Canada,Spring,1978,March,1.875,High
+Czechoslovakia,Winter,1978,February,3.13,High
+Czechoslovakia,Spring,1978,March,2.322,High
+Denmark,Winter,1978,February,2.55,High
+Denmark,Spring,1978,March,2.01,High
+Finland,Winter,1978,January,3.335,High
+Finland,Winter,1978,February,3.566,High
+Finland,Spring,1978,March,2.892,High
+Finland,Summer,1978,June,1.583,High
+Finland,Summer,1978,July,1.38,High
+Finland,Fall,1978,October,1.915,High
+Finland,Fall,1978,November,2.28,High
+Finland,Winter,1978,December,3.499,High
+Germany,Winter,1978,February,2.957,High
+Germany,Spring,1978,March,2.037,High
+Greenland,Spring,1978,March,2.021,High
+Hungary,Winter,1978,February,3.171,High
+Hungary,Spring,1978,March,2.223,High
+Iceland,Spring,1978,March,2.196,High
+Liechtenstein,Winter,1978,February,2.814,High
+Liechtenstein,Spring,1978,March,1.959,High
+Mongolia,Winter,1978,February,3.021,High
+Mongolia,Spring,1978,March,1.962,High
+Mongolia,Fall,1978,November,2.235,High
+Mongolia,Winter,1978,December,2.926,High
+Netherlands,Winter,1978,February,2.75,High
+Norway,Spring,1978,March,2.1,High
+Norway,Summer,1978,June,1.468,High
+Paraguay,Summer,1978,June,1.592,High
+Paraguay,Summer,1978,July,2.058,High
+Paraguay,Summer,1978,August,1.58,High
+Poland,Winter,1978,January,2.587,High
+Poland,Winter,1978,February,3.375,High
+Poland,Spring,1978,March,2.815,High
+Poland,Summer,1978,July,1.336,High
+Romania,Winter,1978,February,3.065,High
+Romania,Spring,1978,March,2.027,High
+Romania,Fall,1978,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1978,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1978,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1978,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1978,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1978,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1978,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1978,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1978,December,4.189,High
+Sweden,Winter,1978,January,2.681,High
+Sweden,Winter,1978,February,3.178,High
+Sweden,Spring,1978,March,2.462,High
+Sweden,Summer,1978,June,1.359,High
+Sweden,Fall,1978,November,1.927,High
+Sweden,Winter,1978,December,2.699,High
+Switzerland,Winter,1978,February,2.724,High
+Switzerland,Spring,1978,March,1.836,High
+Uruguay,Summer,1978,June,1.463,High
+Uruguay,Summer,1978,July,1.606,High
+Yugoslav SFR,Winter,1978,February,2.753,High
+Northern Europe,Winter,1978,February,2.643,High
+Northern Europe,Spring,1978,March,1.93,High
+Afghanistan,Winter,1979,February,2.597,High
+Antarctica,Spring,1979,April,1.868,High
+Antarctica,Summer,1979,June,1.929,High
+Antarctica,Summer,1979,July,1.801,High
+Antarctica,Summer,1979,August,2.216,High
+Antarctica,Fall,1979,September,2.058,High
+Argentina,Summer,1979,July,1.424,High
+Austria,Winter,1979,February,2.924,High
+Austria,Spring,1979,March,2.054,High
+Belgium-Luxembourg,Winter,1979,February,2.905,High
+Belgium-Luxembourg,Spring,1979,March,1.844,High
+Belgium-Luxembourg,Summer,1979,July,1.397,High
+Bulgaria,Winter,1979,February,2.776,High
+Bulgaria,Summer,1979,August,1.343,High
+Canada,Spring,1979,March,1.875,High
+Czechoslovakia,Winter,1979,February,3.13,High
+Czechoslovakia,Spring,1979,March,2.322,High
+Denmark,Winter,1979,February,2.55,High
+Denmark,Spring,1979,March,2.01,High
+Finland,Winter,1979,January,3.335,High
+Finland,Winter,1979,February,3.566,High
+Finland,Spring,1979,March,2.892,High
+Finland,Summer,1979,June,1.583,High
+Finland,Summer,1979,July,1.38,High
+Finland,Fall,1979,October,1.915,High
+Finland,Fall,1979,November,2.28,High
+Finland,Winter,1979,December,3.499,High
+Germany,Winter,1979,February,2.957,High
+Germany,Spring,1979,March,2.037,High
+Greenland,Spring,1979,March,2.021,High
+Hungary,Winter,1979,February,3.171,High
+Hungary,Spring,1979,March,2.223,High
+Iceland,Spring,1979,March,2.196,High
+Liechtenstein,Winter,1979,February,2.814,High
+Liechtenstein,Spring,1979,March,1.959,High
+Mongolia,Winter,1979,February,3.021,High
+Mongolia,Spring,1979,March,1.962,High
+Mongolia,Fall,1979,November,2.235,High
+Mongolia,Winter,1979,December,2.926,High
+Netherlands,Winter,1979,February,2.75,High
+Norway,Spring,1979,March,2.1,High
+Norway,Summer,1979,June,1.468,High
+Paraguay,Summer,1979,June,1.592,High
+Paraguay,Summer,1979,July,2.058,High
+Paraguay,Summer,1979,August,1.58,High
+Poland,Winter,1979,January,2.587,High
+Poland,Winter,1979,February,3.375,High
+Poland,Spring,1979,March,2.815,High
+Poland,Summer,1979,July,1.336,High
+Romania,Winter,1979,February,3.065,High
+Romania,Spring,1979,March,2.027,High
+Romania,Fall,1979,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1979,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1979,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1979,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1979,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1979,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1979,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1979,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1979,December,4.189,High
+Sweden,Winter,1979,January,2.681,High
+Sweden,Winter,1979,February,3.178,High
+Sweden,Spring,1979,March,2.462,High
+Sweden,Summer,1979,June,1.359,High
+Sweden,Fall,1979,November,1.927,High
+Sweden,Winter,1979,December,2.699,High
+Switzerland,Winter,1979,February,2.724,High
+Switzerland,Spring,1979,March,1.836,High
+Uruguay,Summer,1979,June,1.463,High
+Uruguay,Summer,1979,July,1.606,High
+Yugoslav SFR,Winter,1979,February,2.753,High
+Northern Europe,Winter,1979,February,2.643,High
+Northern Europe,Spring,1979,March,1.93,High
+Afghanistan,Winter,1980,February,2.597,High
+Antarctica,Spring,1980,April,1.868,High
+Antarctica,Summer,1980,June,1.929,High
+Antarctica,Summer,1980,July,1.801,High
+Antarctica,Summer,1980,August,2.216,High
+Antarctica,Fall,1980,September,2.058,High
+Argentina,Summer,1980,July,1.424,High
+Austria,Winter,1980,February,2.924,High
+Austria,Spring,1980,March,2.054,High
+Belgium-Luxembourg,Winter,1980,February,2.905,High
+Belgium-Luxembourg,Spring,1980,March,1.844,High
+Belgium-Luxembourg,Summer,1980,July,1.397,High
+Bulgaria,Winter,1980,February,2.776,High
+Bulgaria,Summer,1980,August,1.343,High
+Canada,Spring,1980,March,1.875,High
+Czechoslovakia,Winter,1980,February,3.13,High
+Czechoslovakia,Spring,1980,March,2.322,High
+Denmark,Winter,1980,February,2.55,High
+Denmark,Spring,1980,March,2.01,High
+Finland,Winter,1980,January,3.335,High
+Finland,Winter,1980,February,3.566,High
+Finland,Spring,1980,March,2.892,High
+Finland,Summer,1980,June,1.583,High
+Finland,Summer,1980,July,1.38,High
+Finland,Fall,1980,October,1.915,High
+Finland,Fall,1980,November,2.28,High
+Finland,Winter,1980,December,3.499,High
+Germany,Winter,1980,February,2.957,High
+Germany,Spring,1980,March,2.037,High
+Greenland,Spring,1980,March,2.021,High
+Hungary,Winter,1980,February,3.171,High
+Hungary,Spring,1980,March,2.223,High
+Iceland,Spring,1980,March,2.196,High
+Liechtenstein,Winter,1980,February,2.814,High
+Liechtenstein,Spring,1980,March,1.959,High
+Mongolia,Winter,1980,February,3.021,High
+Mongolia,Spring,1980,March,1.962,High
+Mongolia,Fall,1980,November,2.235,High
+Mongolia,Winter,1980,December,2.926,High
+Netherlands,Winter,1980,February,2.75,High
+Norway,Spring,1980,March,2.1,High
+Norway,Summer,1980,June,1.468,High
+Paraguay,Summer,1980,June,1.592,High
+Paraguay,Summer,1980,July,2.058,High
+Paraguay,Summer,1980,August,1.58,High
+Poland,Winter,1980,January,2.587,High
+Poland,Winter,1980,February,3.375,High
+Poland,Spring,1980,March,2.815,High
+Poland,Summer,1980,July,1.336,High
+Romania,Winter,1980,February,3.065,High
+Romania,Spring,1980,March,2.027,High
+Romania,Fall,1980,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1980,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1980,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1980,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1980,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1980,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1980,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1980,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1980,December,4.189,High
+Sweden,Winter,1980,January,2.681,High
+Sweden,Winter,1980,February,3.178,High
+Sweden,Spring,1980,March,2.462,High
+Sweden,Summer,1980,June,1.359,High
+Sweden,Fall,1980,November,1.927,High
+Sweden,Winter,1980,December,2.699,High
+Switzerland,Winter,1980,February,2.724,High
+Switzerland,Spring,1980,March,1.836,High
+Uruguay,Summer,1980,June,1.463,High
+Uruguay,Summer,1980,July,1.606,High
+Yugoslav SFR,Winter,1980,February,2.753,High
+Northern Europe,Winter,1980,February,2.643,High
+Northern Europe,Spring,1980,March,1.93,High
+Afghanistan,Winter,1981,February,2.597,High
+Antarctica,Spring,1981,April,1.868,High
+Antarctica,Summer,1981,June,1.929,High
+Antarctica,Summer,1981,July,1.801,High
+Antarctica,Summer,1981,August,2.216,High
+Antarctica,Fall,1981,September,2.058,High
+Argentina,Summer,1981,July,1.424,High
+Austria,Winter,1981,February,2.924,High
+Austria,Spring,1981,March,2.054,High
+Belgium-Luxembourg,Winter,1981,February,2.905,High
+Belgium-Luxembourg,Spring,1981,March,1.844,High
+Belgium-Luxembourg,Summer,1981,July,1.397,High
+Bulgaria,Winter,1981,February,2.776,High
+Bulgaria,Summer,1981,August,1.343,High
+Canada,Spring,1981,March,1.875,High
+Czechoslovakia,Winter,1981,February,3.13,High
+Czechoslovakia,Spring,1981,March,2.322,High
+Denmark,Winter,1981,February,2.55,High
+Denmark,Spring,1981,March,2.01,High
+Finland,Winter,1981,January,3.335,High
+Finland,Winter,1981,February,3.566,High
+Finland,Spring,1981,March,2.892,High
+Finland,Summer,1981,June,1.583,High
+Finland,Summer,1981,July,1.38,High
+Finland,Fall,1981,October,1.915,High
+Finland,Fall,1981,November,2.28,High
+Finland,Winter,1981,December,3.499,High
+Germany,Winter,1981,February,2.957,High
+Germany,Spring,1981,March,2.037,High
+Greenland,Spring,1981,March,2.021,High
+Hungary,Winter,1981,February,3.171,High
+Hungary,Spring,1981,March,2.223,High
+Iceland,Spring,1981,March,2.196,High
+Liechtenstein,Winter,1981,February,2.814,High
+Liechtenstein,Spring,1981,March,1.959,High
+Mongolia,Winter,1981,February,3.021,High
+Mongolia,Spring,1981,March,1.962,High
+Mongolia,Fall,1981,November,2.235,High
+Mongolia,Winter,1981,December,2.926,High
+Netherlands,Winter,1981,February,2.75,High
+Norway,Spring,1981,March,2.1,High
+Norway,Summer,1981,June,1.468,High
+Paraguay,Summer,1981,June,1.592,High
+Paraguay,Summer,1981,July,2.058,High
+Paraguay,Summer,1981,August,1.58,High
+Poland,Winter,1981,January,2.587,High
+Poland,Winter,1981,February,3.375,High
+Poland,Spring,1981,March,2.815,High
+Poland,Summer,1981,July,1.336,High
+Romania,Winter,1981,February,3.065,High
+Romania,Spring,1981,March,2.027,High
+Romania,Fall,1981,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1981,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1981,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1981,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1981,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1981,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1981,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1981,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1981,December,4.189,High
+Sweden,Winter,1981,January,2.681,High
+Sweden,Winter,1981,February,3.178,High
+Sweden,Spring,1981,March,2.462,High
+Sweden,Summer,1981,June,1.359,High
+Sweden,Fall,1981,November,1.927,High
+Sweden,Winter,1981,December,2.699,High
+Switzerland,Winter,1981,February,2.724,High
+Switzerland,Spring,1981,March,1.836,High
+Uruguay,Summer,1981,June,1.463,High
+Uruguay,Summer,1981,July,1.606,High
+Yugoslav SFR,Winter,1981,February,2.753,High
+Northern Europe,Winter,1981,February,2.643,High
+Northern Europe,Spring,1981,March,1.93,High
+Afghanistan,Winter,1982,February,2.597,High
+Antarctica,Spring,1982,April,1.868,High
+Antarctica,Summer,1982,June,1.929,High
+Antarctica,Summer,1982,July,1.801,High
+Antarctica,Summer,1982,August,2.216,High
+Antarctica,Fall,1982,September,2.058,High
+Argentina,Summer,1982,July,1.424,High
+Austria,Winter,1982,February,2.924,High
+Austria,Spring,1982,March,2.054,High
+Belgium-Luxembourg,Winter,1982,February,2.905,High
+Belgium-Luxembourg,Spring,1982,March,1.844,High
+Belgium-Luxembourg,Summer,1982,July,1.397,High
+Bulgaria,Winter,1982,February,2.776,High
+Bulgaria,Summer,1982,August,1.343,High
+Canada,Spring,1982,March,1.875,High
+Czechoslovakia,Winter,1982,February,3.13,High
+Czechoslovakia,Spring,1982,March,2.322,High
+Denmark,Winter,1982,February,2.55,High
+Denmark,Spring,1982,March,2.01,High
+Finland,Winter,1982,January,3.335,High
+Finland,Winter,1982,February,3.566,High
+Finland,Spring,1982,March,2.892,High
+Finland,Summer,1982,June,1.583,High
+Finland,Summer,1982,July,1.38,High
+Finland,Fall,1982,October,1.915,High
+Finland,Fall,1982,November,2.28,High
+Finland,Winter,1982,December,3.499,High
+Germany,Winter,1982,February,2.957,High
+Germany,Spring,1982,March,2.037,High
+Greenland,Spring,1982,March,2.021,High
+Hungary,Winter,1982,February,3.171,High
+Hungary,Spring,1982,March,2.223,High
+Iceland,Spring,1982,March,2.196,High
+Liechtenstein,Winter,1982,February,2.814,High
+Liechtenstein,Spring,1982,March,1.959,High
+Mongolia,Winter,1982,February,3.021,High
+Mongolia,Spring,1982,March,1.962,High
+Mongolia,Fall,1982,November,2.235,High
+Mongolia,Winter,1982,December,2.926,High
+Netherlands,Winter,1982,February,2.75,High
+Norway,Spring,1982,March,2.1,High
+Norway,Summer,1982,June,1.468,High
+Paraguay,Summer,1982,June,1.592,High
+Paraguay,Summer,1982,July,2.058,High
+Paraguay,Summer,1982,August,1.58,High
+Poland,Winter,1982,January,2.587,High
+Poland,Winter,1982,February,3.375,High
+Poland,Spring,1982,March,2.815,High
+Poland,Summer,1982,July,1.336,High
+Romania,Winter,1982,February,3.065,High
+Romania,Spring,1982,March,2.027,High
+Romania,Fall,1982,November,1.88,High
+Svalbard and Jan Mayen Islands,Winter,1982,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1982,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1982,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1982,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1982,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1982,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1982,December,4.189,High
+Sweden,Winter,1982,January,2.681,High
+Sweden,Winter,1982,February,3.178,High
+Sweden,Spring,1982,March,2.462,High
+Sweden,Summer,1982,June,1.359,High
+Sweden,Fall,1982,November,1.927,High
+Sweden,Winter,1982,December,2.699,High
+Switzerland,Winter,1982,February,2.724,High
+Switzerland,Spring,1982,March,1.836,High
+Uruguay,Summer,1982,June,1.463,High
+Uruguay,Summer,1982,July,1.606,High
+Yugoslav SFR,Winter,1982,February,2.753,High
+Northern Europe,Winter,1982,February,2.643,High
+Northern Europe,Spring,1982,March,1.93,High
+Afghanistan,Winter,1983,February,2.597,High
+Antarctica,Spring,1983,April,1.868,High
+Antarctica,Summer,1983,June,1.929,High
+Antarctica,Summer,1983,July,1.801,High
+Antarctica,Summer,1983,August,2.216,High
+Antarctica,Fall,1983,September,2.058,High
+Argentina,Summer,1983,July,1.424,High
+Austria,Winter,1983,February,2.924,High
+Austria,Spring,1983,March,2.054,High
+Belgium-Luxembourg,Winter,1983,February,2.905,High
+Belgium-Luxembourg,Spring,1983,March,1.844,High
+Belgium-Luxembourg,Summer,1983,July,1.397,High
+Bulgaria,Winter,1983,February,2.776,High
+Bulgaria,Summer,1983,August,1.343,High
+Canada,Spring,1983,March,1.875,High
+Czechoslovakia,Winter,1983,February,3.13,High
+Czechoslovakia,Spring,1983,March,2.322,High
+Denmark,Winter,1983,February,2.55,High
+Denmark,Spring,1983,March,2.01,High
+Finland,Winter,1983,January,3.335,High
+Finland,Winter,1983,February,3.566,High
+Finland,Spring,1983,March,2.892,High
+Finland,Summer,1983,June,1.583,High
+Finland,Summer,1983,July,1.38,High
+Finland,Fall,1983,October,1.915,High
+Finland,Fall,1983,November,2.28,High
+Finland,Winter,1983,December,3.499,High
+Germany,Winter,1983,February,2.957,High
+Germany,Spring,1983,March,2.037,High
+Greenland,Spring,1983,March,2.021,High
+Hungary,Winter,1983,February,3.171,High
+Hungary,Spring,1983,March,2.223,High
+Iceland,Spring,1983,March,2.196,High
+Liechtenstein,Winter,1983,February,2.814,High
+Liechtenstein,Spring,1983,March,1.959,High
+Mongolia,Winter,1983,February,3.021,High
+Mongolia,Spring,1983,March,1.962,High
+Mongolia,Fall,1983,November,2.235,High
+Mongolia,Winter,1983,December,2.926,High
+Netherlands,Winter,1983,February,2.75,High
+Norway,Spring,1983,March,2.1,High
+Norway,Summer,1983,June,1.468,High
+Paraguay,Summer,1983,June,1.592,High
+Paraguay,Summer,1983,July,2.058,High
+Paraguay,Summer,1983,August,1.58,High
+Poland,Winter,1983,January,2.587,High
+Poland,Winter,1983,February,3.375,High
+Poland,Spring,1983,March,2.815,High
+Poland,Summer,1983,July,1.336,High
+Romania,Winter,1983,February,3.065,High
+Romania,Spring,1983,March,2.027,High
+Romania,Fall,1983,November,1.88,High
+Svalbard and Jan Mayen Islands,Winter,1983,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1983,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1983,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1983,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1983,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1983,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1983,December,4.189,High
+Sweden,Winter,1983,January,2.681,High
+Sweden,Winter,1983,February,3.178,High
+Sweden,Spring,1983,March,2.462,High
+Sweden,Summer,1983,June,1.359,High
+Sweden,Fall,1983,November,1.927,High
+Sweden,Winter,1983,December,2.699,High
+Switzerland,Winter,1983,February,2.724,High
+Switzerland,Spring,1983,March,1.836,High
+Uruguay,Summer,1983,June,1.463,High
+Uruguay,Summer,1983,July,1.606,High
+Yugoslav SFR,Winter,1983,February,2.753,High
+Northern Europe,Winter,1983,February,2.643,High
+Northern Europe,Spring,1983,March,1.93,High
+Afghanistan,Winter,1984,February,2.597,High
+Antarctica,Spring,1984,April,1.868,High
+Antarctica,Summer,1984,June,1.929,High
+Antarctica,Summer,1984,July,1.801,High
+Antarctica,Summer,1984,August,2.216,High
+Antarctica,Fall,1984,September,2.058,High
+Argentina,Summer,1984,July,1.424,High
+Austria,Winter,1984,February,2.924,High
+Austria,Spring,1984,March,2.054,High
+Belgium-Luxembourg,Winter,1984,February,2.905,High
+Belgium-Luxembourg,Spring,1984,March,1.844,High
+Belgium-Luxembourg,Summer,1984,July,1.397,High
+Bulgaria,Winter,1984,February,2.776,High
+Bulgaria,Summer,1984,August,1.343,High
+Canada,Spring,1984,March,1.875,High
+Czechoslovakia,Winter,1984,February,3.13,High
+Czechoslovakia,Spring,1984,March,2.322,High
+Denmark,Winter,1984,February,2.55,High
+Denmark,Spring,1984,March,2.01,High
+Finland,Winter,1984,January,3.335,High
+Finland,Winter,1984,February,3.566,High
+Finland,Spring,1984,March,2.892,High
+Finland,Summer,1984,June,1.583,High
+Finland,Summer,1984,July,1.38,High
+Finland,Fall,1984,October,1.915,High
+Finland,Fall,1984,November,2.28,High
+Finland,Winter,1984,December,3.499,High
+Germany,Winter,1984,February,2.957,High
+Germany,Spring,1984,March,2.037,High
+Greenland,Spring,1984,March,2.021,High
+Hungary,Winter,1984,February,3.171,High
+Hungary,Spring,1984,March,2.223,High
+Iceland,Spring,1984,March,2.196,High
+Liechtenstein,Winter,1984,February,2.814,High
+Liechtenstein,Spring,1984,March,1.959,High
+Mongolia,Winter,1984,February,3.021,High
+Mongolia,Spring,1984,March,1.962,High
+Mongolia,Fall,1984,November,2.235,High
+Mongolia,Winter,1984,December,2.926,High
+Netherlands,Winter,1984,February,2.75,High
+Norway,Spring,1984,March,2.1,High
+Norway,Summer,1984,June,1.468,High
+Paraguay,Summer,1984,June,1.592,High
+Paraguay,Summer,1984,July,2.058,High
+Paraguay,Summer,1984,August,1.58,High
+Poland,Winter,1984,January,2.587,High
+Poland,Winter,1984,February,3.375,High
+Poland,Spring,1984,March,2.815,High
+Poland,Summer,1984,July,1.336,High
+Romania,Winter,1984,February,3.065,High
+Romania,Spring,1984,March,2.027,High
+Romania,Fall,1984,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1984,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1984,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1984,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1984,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1984,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1984,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1984,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1984,December,4.189,High
+Sweden,Winter,1984,January,2.681,High
+Sweden,Winter,1984,February,3.178,High
+Sweden,Spring,1984,March,2.462,High
+Sweden,Summer,1984,June,1.359,High
+Sweden,Fall,1984,November,1.927,High
+Sweden,Winter,1984,December,2.699,High
+Switzerland,Winter,1984,February,2.724,High
+Switzerland,Spring,1984,March,1.836,High
+Uruguay,Summer,1984,June,1.463,High
+Uruguay,Summer,1984,July,1.606,High
+Yugoslav SFR,Winter,1984,February,2.753,High
+Northern Europe,Winter,1984,February,2.643,High
+Northern Europe,Spring,1984,March,1.93,High
+Afghanistan,Winter,1985,February,2.597,High
+Antarctica,Spring,1985,April,1.868,High
+Antarctica,Summer,1985,June,1.929,High
+Antarctica,Summer,1985,July,1.801,High
+Antarctica,Summer,1985,August,2.216,High
+Antarctica,Fall,1985,September,2.058,High
+Argentina,Summer,1985,July,1.424,High
+Austria,Winter,1985,February,2.924,High
+Austria,Spring,1985,March,2.054,High
+Belgium-Luxembourg,Winter,1985,February,2.905,High
+Belgium-Luxembourg,Spring,1985,March,1.844,High
+Belgium-Luxembourg,Summer,1985,July,1.397,High
+Bulgaria,Winter,1985,February,2.776,High
+Bulgaria,Summer,1985,August,1.343,High
+Canada,Spring,1985,March,1.875,High
+Czechoslovakia,Winter,1985,February,3.13,High
+Czechoslovakia,Spring,1985,March,2.322,High
+Denmark,Winter,1985,February,2.55,High
+Denmark,Spring,1985,March,2.01,High
+Finland,Winter,1985,January,3.335,High
+Finland,Winter,1985,February,3.566,High
+Finland,Spring,1985,March,2.892,High
+Finland,Summer,1985,June,1.583,High
+Finland,Summer,1985,July,1.38,High
+Finland,Fall,1985,October,1.915,High
+Finland,Fall,1985,November,2.28,High
+Finland,Winter,1985,December,3.499,High
+Germany,Winter,1985,February,2.957,High
+Germany,Spring,1985,March,2.037,High
+Greenland,Spring,1985,March,2.021,High
+Hungary,Winter,1985,February,3.171,High
+Hungary,Spring,1985,March,2.223,High
+Iceland,Spring,1985,March,2.196,High
+Liechtenstein,Winter,1985,February,2.814,High
+Liechtenstein,Spring,1985,March,1.959,High
+Mongolia,Winter,1985,February,3.021,High
+Mongolia,Spring,1985,March,1.962,High
+Mongolia,Fall,1985,November,2.235,High
+Mongolia,Winter,1985,December,2.926,High
+Netherlands,Winter,1985,February,2.75,High
+Norway,Spring,1985,March,2.1,High
+Norway,Summer,1985,June,1.468,High
+Paraguay,Summer,1985,June,1.592,High
+Paraguay,Summer,1985,July,2.058,High
+Paraguay,Summer,1985,August,1.58,High
+Poland,Winter,1985,January,2.587,High
+Poland,Winter,1985,February,3.375,High
+Poland,Spring,1985,March,2.815,High
+Poland,Summer,1985,July,1.336,High
+Romania,Winter,1985,February,3.065,High
+Romania,Spring,1985,March,2.027,High
+Romania,Fall,1985,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1985,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1985,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1985,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1985,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1985,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1985,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1985,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1985,December,4.189,High
+Sweden,Winter,1985,January,2.681,High
+Sweden,Winter,1985,February,3.178,High
+Sweden,Spring,1985,March,2.462,High
+Sweden,Summer,1985,June,1.359,High
+Sweden,Fall,1985,November,1.927,High
+Sweden,Winter,1985,December,2.699,High
+Switzerland,Winter,1985,February,2.724,High
+Switzerland,Spring,1985,March,1.836,High
+Uruguay,Summer,1985,June,1.463,High
+Uruguay,Summer,1985,July,1.606,High
+Yugoslav SFR,Winter,1985,February,2.753,High
+Northern Europe,Winter,1985,February,2.643,High
+Northern Europe,Spring,1985,March,1.93,High
+Afghanistan,Winter,1986,February,2.597,High
+Antarctica,Spring,1986,April,1.868,High
+Antarctica,Summer,1986,June,1.929,High
+Antarctica,Summer,1986,July,1.801,High
+Antarctica,Summer,1986,August,2.216,High
+Antarctica,Fall,1986,September,2.058,High
+Argentina,Summer,1986,July,1.424,High
+Austria,Winter,1986,February,2.924,High
+Austria,Spring,1986,March,2.054,High
+Belgium-Luxembourg,Winter,1986,February,2.905,High
+Belgium-Luxembourg,Spring,1986,March,1.844,High
+Belgium-Luxembourg,Summer,1986,July,1.397,High
+Bulgaria,Winter,1986,February,2.776,High
+Bulgaria,Summer,1986,August,1.343,High
+Canada,Spring,1986,March,1.875,High
+Czechoslovakia,Winter,1986,February,3.13,High
+Czechoslovakia,Spring,1986,March,2.322,High
+Denmark,Winter,1986,February,2.55,High
+Denmark,Spring,1986,March,2.01,High
+Finland,Winter,1986,January,3.335,High
+Finland,Winter,1986,February,3.566,High
+Finland,Spring,1986,March,2.892,High
+Finland,Summer,1986,June,1.583,High
+Finland,Summer,1986,July,1.38,High
+Finland,Fall,1986,October,1.915,High
+Finland,Fall,1986,November,2.28,High
+Finland,Winter,1986,December,3.499,High
+Germany,Winter,1986,February,2.957,High
+Germany,Spring,1986,March,2.037,High
+Greenland,Spring,1986,March,2.021,High
+Hungary,Winter,1986,February,3.171,High
+Hungary,Spring,1986,March,2.223,High
+Iceland,Spring,1986,March,2.196,High
+Liechtenstein,Winter,1986,February,2.814,High
+Liechtenstein,Spring,1986,March,1.959,High
+Mongolia,Winter,1986,February,3.021,High
+Mongolia,Spring,1986,March,1.962,High
+Mongolia,Fall,1986,November,2.235,High
+Mongolia,Winter,1986,December,2.926,High
+Netherlands,Winter,1986,February,2.75,High
+Norway,Spring,1986,March,2.1,High
+Norway,Summer,1986,June,1.468,High
+Paraguay,Summer,1986,June,1.592,High
+Paraguay,Summer,1986,July,2.058,High
+Paraguay,Summer,1986,August,1.58,High
+Poland,Winter,1986,January,2.587,High
+Poland,Winter,1986,February,3.375,High
+Poland,Spring,1986,March,2.815,High
+Poland,Summer,1986,July,1.336,High
+Romania,Winter,1986,February,3.065,High
+Romania,Spring,1986,March,2.027,High
+Romania,Fall,1986,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1986,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1986,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1986,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1986,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1986,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1986,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1986,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1986,December,4.189,High
+Sweden,Winter,1986,January,2.681,High
+Sweden,Winter,1986,February,3.178,High
+Sweden,Spring,1986,March,2.462,High
+Sweden,Summer,1986,June,1.359,High
+Sweden,Fall,1986,November,1.927,High
+Sweden,Winter,1986,December,2.699,High
+Switzerland,Winter,1986,February,2.724,High
+Switzerland,Spring,1986,March,1.836,High
+Uruguay,Summer,1986,June,1.463,High
+Uruguay,Summer,1986,July,1.606,High
+Yugoslav SFR,Winter,1986,February,2.753,High
+Northern Europe,Winter,1986,February,2.643,High
+Northern Europe,Spring,1986,March,1.93,High
+Afghanistan,Winter,1987,February,2.597,High
+Antarctica,Spring,1987,April,1.868,High
+Antarctica,Summer,1987,June,1.929,High
+Antarctica,Summer,1987,July,1.801,High
+Antarctica,Summer,1987,August,2.216,High
+Antarctica,Fall,1987,September,2.058,High
+Argentina,Summer,1987,July,1.424,High
+Austria,Winter,1987,February,2.924,High
+Austria,Spring,1987,March,2.054,High
+Belgium-Luxembourg,Winter,1987,February,2.905,High
+Belgium-Luxembourg,Spring,1987,March,1.844,High
+Belgium-Luxembourg,Summer,1987,July,1.397,High
+Bulgaria,Winter,1987,February,2.776,High
+Bulgaria,Summer,1987,August,1.343,High
+Canada,Spring,1987,March,1.875,High
+Czechoslovakia,Winter,1987,February,3.13,High
+Czechoslovakia,Spring,1987,March,2.322,High
+Denmark,Winter,1987,February,2.55,High
+Denmark,Spring,1987,March,2.01,High
+Finland,Winter,1987,January,3.335,High
+Finland,Winter,1987,February,3.566,High
+Finland,Spring,1987,March,2.892,High
+Finland,Summer,1987,June,1.583,High
+Finland,Summer,1987,July,1.38,High
+Finland,Fall,1987,October,1.915,High
+Finland,Fall,1987,November,2.28,High
+Finland,Winter,1987,December,3.499,High
+Germany,Winter,1987,February,2.957,High
+Germany,Spring,1987,March,2.037,High
+Greenland,Spring,1987,March,2.021,High
+Hungary,Winter,1987,February,3.171,High
+Hungary,Spring,1987,March,2.223,High
+Iceland,Spring,1987,March,2.196,High
+Liechtenstein,Winter,1987,February,2.814,High
+Liechtenstein,Spring,1987,March,1.959,High
+Mongolia,Winter,1987,February,3.021,High
+Mongolia,Spring,1987,March,1.962,High
+Mongolia,Fall,1987,November,2.235,High
+Mongolia,Winter,1987,December,2.926,High
+Netherlands,Winter,1987,February,2.75,High
+Norway,Spring,1987,March,2.1,High
+Norway,Summer,1987,June,1.468,High
+Paraguay,Summer,1987,June,1.592,High
+Paraguay,Summer,1987,July,2.058,High
+Paraguay,Summer,1987,August,1.58,High
+Poland,Winter,1987,January,2.587,High
+Poland,Winter,1987,February,3.375,High
+Poland,Spring,1987,March,2.815,High
+Poland,Summer,1987,July,1.336,High
+Romania,Winter,1987,February,3.065,High
+Romania,Spring,1987,March,2.027,High
+Romania,Fall,1987,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1987,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1987,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1987,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1987,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1987,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1987,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1987,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1987,December,4.189,High
+Sweden,Winter,1987,January,2.681,High
+Sweden,Winter,1987,February,3.178,High
+Sweden,Spring,1987,March,2.462,High
+Sweden,Summer,1987,June,1.359,High
+Sweden,Fall,1987,November,1.927,High
+Sweden,Winter,1987,December,2.699,High
+Switzerland,Winter,1987,February,2.724,High
+Switzerland,Spring,1987,March,1.836,High
+Uruguay,Summer,1987,June,1.463,High
+Uruguay,Summer,1987,July,1.606,High
+Yugoslav SFR,Winter,1987,February,2.753,High
+Northern Europe,Winter,1987,February,2.643,High
+Northern Europe,Spring,1987,March,1.93,High
+Afghanistan,Winter,1988,February,2.597,High
+Antarctica,Spring,1988,April,1.868,High
+Antarctica,Summer,1988,June,1.929,High
+Antarctica,Summer,1988,July,1.801,High
+Antarctica,Summer,1988,August,2.216,High
+Antarctica,Fall,1988,September,2.058,High
+Argentina,Summer,1988,July,1.424,High
+Austria,Winter,1988,February,2.924,High
+Austria,Spring,1988,March,2.054,High
+Belgium-Luxembourg,Winter,1988,February,2.905,High
+Belgium-Luxembourg,Spring,1988,March,1.844,High
+Belgium-Luxembourg,Summer,1988,July,1.397,High
+Bulgaria,Winter,1988,February,2.776,High
+Bulgaria,Summer,1988,August,1.343,High
+Canada,Spring,1988,March,1.875,High
+Czechoslovakia,Winter,1988,February,3.13,High
+Czechoslovakia,Spring,1988,March,2.322,High
+Denmark,Winter,1988,February,2.55,High
+Denmark,Spring,1988,March,2.01,High
+Finland,Winter,1988,January,3.335,High
+Finland,Winter,1988,February,3.566,High
+Finland,Spring,1988,March,2.892,High
+Finland,Summer,1988,June,1.583,High
+Finland,Summer,1988,July,1.38,High
+Finland,Fall,1988,October,1.915,High
+Finland,Fall,1988,November,2.28,High
+Finland,Winter,1988,December,3.499,High
+Germany,Winter,1988,February,2.957,High
+Germany,Spring,1988,March,2.037,High
+Greenland,Spring,1988,March,2.021,High
+Hungary,Winter,1988,February,3.171,High
+Hungary,Spring,1988,March,2.223,High
+Iceland,Spring,1988,March,2.196,High
+Liechtenstein,Winter,1988,February,2.814,High
+Liechtenstein,Spring,1988,March,1.959,High
+Mongolia,Winter,1988,February,3.021,High
+Mongolia,Spring,1988,March,1.962,High
+Mongolia,Fall,1988,November,2.235,High
+Mongolia,Winter,1988,December,2.926,High
+Netherlands,Winter,1988,February,2.75,High
+Norway,Spring,1988,March,2.1,High
+Norway,Summer,1988,June,1.468,High
+Paraguay,Summer,1988,June,1.592,High
+Paraguay,Summer,1988,July,2.058,High
+Paraguay,Summer,1988,August,1.58,High
+Poland,Winter,1988,January,2.587,High
+Poland,Winter,1988,February,3.375,High
+Poland,Spring,1988,March,2.815,High
+Poland,Summer,1988,July,1.336,High
+Romania,Winter,1988,February,3.065,High
+Romania,Spring,1988,March,2.027,High
+Romania,Fall,1988,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1988,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1988,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1988,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1988,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1988,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1988,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1988,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1988,December,4.189,High
+Sweden,Winter,1988,January,2.681,High
+Sweden,Winter,1988,February,3.178,High
+Sweden,Spring,1988,March,2.462,High
+Sweden,Summer,1988,June,1.359,High
+Sweden,Fall,1988,November,1.927,High
+Sweden,Winter,1988,December,2.699,High
+Switzerland,Winter,1988,February,2.724,High
+Switzerland,Spring,1988,March,1.836,High
+Uruguay,Summer,1988,June,1.463,High
+Uruguay,Summer,1988,July,1.606,High
+Yugoslav SFR,Winter,1988,February,2.753,High
+Northern Europe,Winter,1988,February,2.643,High
+Northern Europe,Spring,1988,March,1.93,High
+Afghanistan,Winter,1989,February,2.597,High
+Antarctica,Spring,1989,April,1.868,High
+Antarctica,Summer,1989,June,1.929,High
+Antarctica,Summer,1989,July,1.801,High
+Antarctica,Summer,1989,August,2.216,High
+Antarctica,Fall,1989,September,2.058,High
+Argentina,Summer,1989,July,1.424,High
+Austria,Winter,1989,February,2.924,High
+Austria,Spring,1989,March,2.054,High
+Belgium-Luxembourg,Winter,1989,February,2.905,High
+Belgium-Luxembourg,Spring,1989,March,1.844,High
+Belgium-Luxembourg,Summer,1989,July,1.397,High
+Bulgaria,Winter,1989,February,2.776,High
+Bulgaria,Summer,1989,August,1.343,High
+Canada,Spring,1989,March,1.875,High
+Czechoslovakia,Winter,1989,February,3.13,High
+Czechoslovakia,Spring,1989,March,2.322,High
+Denmark,Winter,1989,February,2.55,High
+Denmark,Spring,1989,March,2.01,High
+Finland,Winter,1989,January,3.335,High
+Finland,Winter,1989,February,3.566,High
+Finland,Spring,1989,March,2.892,High
+Finland,Summer,1989,June,1.583,High
+Finland,Summer,1989,July,1.38,High
+Finland,Fall,1989,October,1.915,High
+Finland,Fall,1989,November,2.28,High
+Finland,Winter,1989,December,3.499,High
+Germany,Winter,1989,February,2.957,High
+Germany,Spring,1989,March,2.037,High
+Greenland,Spring,1989,March,2.021,High
+Hungary,Winter,1989,February,3.171,High
+Hungary,Spring,1989,March,2.223,High
+Iceland,Spring,1989,March,2.196,High
+Liechtenstein,Winter,1989,February,2.814,High
+Liechtenstein,Spring,1989,March,1.959,High
+Mongolia,Winter,1989,February,3.021,High
+Mongolia,Spring,1989,March,1.962,High
+Mongolia,Fall,1989,November,2.235,High
+Mongolia,Winter,1989,December,2.926,High
+Netherlands,Winter,1989,February,2.75,High
+Norway,Spring,1989,March,2.1,High
+Norway,Summer,1989,June,1.468,High
+Paraguay,Summer,1989,June,1.592,High
+Paraguay,Summer,1989,July,2.058,High
+Paraguay,Summer,1989,August,1.58,High
+Poland,Winter,1989,January,2.587,High
+Poland,Winter,1989,February,3.375,High
+Poland,Spring,1989,March,2.815,High
+Poland,Summer,1989,July,1.336,High
+Romania,Winter,1989,February,3.065,High
+Romania,Spring,1989,March,2.027,High
+Romania,Fall,1989,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1989,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1989,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1989,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1989,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1989,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1989,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1989,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1989,December,4.189,High
+Sweden,Winter,1989,January,2.681,High
+Sweden,Winter,1989,February,3.178,High
+Sweden,Spring,1989,March,2.462,High
+Sweden,Summer,1989,June,1.359,High
+Sweden,Fall,1989,November,1.927,High
+Sweden,Winter,1989,December,2.699,High
+Switzerland,Winter,1989,February,2.724,High
+Switzerland,Spring,1989,March,1.836,High
+Uruguay,Summer,1989,June,1.463,High
+Uruguay,Summer,1989,July,1.606,High
+Yugoslav SFR,Winter,1989,February,2.753,High
+Northern Europe,Winter,1989,February,2.643,High
+Northern Europe,Spring,1989,March,1.93,High
+Afghanistan,Winter,1990,February,2.597,High
+Antarctica,Spring,1990,April,1.868,High
+Antarctica,Summer,1990,June,1.929,High
+Antarctica,Summer,1990,July,1.801,High
+Antarctica,Summer,1990,August,2.216,High
+Antarctica,Fall,1990,September,2.058,High
+Argentina,Summer,1990,July,1.424,High
+Austria,Winter,1990,February,2.924,High
+Austria,Spring,1990,March,2.054,High
+Belgium-Luxembourg,Winter,1990,February,2.905,High
+Belgium-Luxembourg,Spring,1990,March,1.844,High
+Belgium-Luxembourg,Summer,1990,July,1.397,High
+Bulgaria,Winter,1990,February,2.776,High
+Bulgaria,Summer,1990,August,1.343,High
+Canada,Spring,1990,March,1.875,High
+Czechoslovakia,Winter,1990,February,3.13,High
+Czechoslovakia,Spring,1990,March,2.322,High
+Denmark,Winter,1990,February,2.55,High
+Denmark,Spring,1990,March,2.01,High
+Finland,Winter,1990,January,3.335,High
+Finland,Winter,1990,February,3.566,High
+Finland,Spring,1990,March,2.892,High
+Finland,Summer,1990,June,1.583,High
+Finland,Summer,1990,July,1.38,High
+Finland,Fall,1990,October,1.915,High
+Finland,Fall,1990,November,2.28,High
+Finland,Winter,1990,December,3.499,High
+Germany,Winter,1990,February,2.957,High
+Germany,Spring,1990,March,2.037,High
+Greenland,Spring,1990,March,2.021,High
+Hungary,Winter,1990,February,3.171,High
+Hungary,Spring,1990,March,2.223,High
+Iceland,Spring,1990,March,2.196,High
+Liechtenstein,Winter,1990,February,2.814,High
+Liechtenstein,Spring,1990,March,1.959,High
+Mongolia,Winter,1990,February,3.021,High
+Mongolia,Spring,1990,March,1.962,High
+Mongolia,Fall,1990,November,2.235,High
+Mongolia,Winter,1990,December,2.926,High
+Netherlands,Winter,1990,February,2.75,High
+Norway,Spring,1990,March,2.1,High
+Norway,Summer,1990,June,1.468,High
+Paraguay,Summer,1990,June,1.592,High
+Paraguay,Summer,1990,July,2.058,High
+Paraguay,Summer,1990,August,1.58,High
+Poland,Winter,1990,January,2.587,High
+Poland,Winter,1990,February,3.375,High
+Poland,Spring,1990,March,2.815,High
+Poland,Summer,1990,July,1.336,High
+Romania,Winter,1990,February,3.065,High
+Romania,Spring,1990,March,2.027,High
+Romania,Fall,1990,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1990,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1990,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1990,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1990,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1990,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1990,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1990,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1990,December,4.189,High
+Sweden,Winter,1990,January,2.681,High
+Sweden,Winter,1990,February,3.178,High
+Sweden,Spring,1990,March,2.462,High
+Sweden,Summer,1990,June,1.359,High
+Sweden,Fall,1990,November,1.927,High
+Sweden,Winter,1990,December,2.699,High
+Switzerland,Winter,1990,February,2.724,High
+Switzerland,Spring,1990,March,1.836,High
+Uruguay,Summer,1990,June,1.463,High
+Uruguay,Summer,1990,July,1.606,High
+Yugoslav SFR,Winter,1990,February,2.753,High
+Northern Europe,Winter,1990,February,2.643,High
+Northern Europe,Spring,1990,March,1.93,High
+Afghanistan,Winter,1991,February,2.597,High
+Antarctica,Spring,1991,April,1.868,High
+Antarctica,Summer,1991,June,1.929,High
+Antarctica,Summer,1991,July,1.801,High
+Antarctica,Summer,1991,August,2.216,High
+Antarctica,Fall,1991,September,2.058,High
+Argentina,Summer,1991,July,1.424,High
+Austria,Winter,1991,February,2.924,High
+Austria,Spring,1991,March,2.054,High
+Belgium-Luxembourg,Winter,1991,February,2.905,High
+Belgium-Luxembourg,Spring,1991,March,1.844,High
+Belgium-Luxembourg,Summer,1991,July,1.397,High
+Bulgaria,Winter,1991,February,2.776,High
+Bulgaria,Summer,1991,August,1.343,High
+Canada,Spring,1991,March,1.875,High
+Czechoslovakia,Winter,1991,February,3.13,High
+Czechoslovakia,Spring,1991,March,2.322,High
+Denmark,Winter,1991,February,2.55,High
+Denmark,Spring,1991,March,2.01,High
+Finland,Winter,1991,January,3.335,High
+Finland,Winter,1991,February,3.566,High
+Finland,Spring,1991,March,2.892,High
+Finland,Summer,1991,June,1.583,High
+Finland,Summer,1991,July,1.38,High
+Finland,Fall,1991,October,1.915,High
+Finland,Fall,1991,November,2.28,High
+Finland,Winter,1991,December,3.499,High
+Germany,Winter,1991,February,2.957,High
+Germany,Spring,1991,March,2.037,High
+Greenland,Spring,1991,March,2.021,High
+Hungary,Winter,1991,February,3.171,High
+Hungary,Spring,1991,March,2.223,High
+Iceland,Spring,1991,March,2.196,High
+Liechtenstein,Winter,1991,February,2.814,High
+Liechtenstein,Spring,1991,March,1.959,High
+Mongolia,Winter,1991,February,3.021,High
+Mongolia,Spring,1991,March,1.962,High
+Mongolia,Fall,1991,November,2.235,High
+Mongolia,Winter,1991,December,2.926,High
+Netherlands,Winter,1991,February,2.75,High
+Norway,Spring,1991,March,2.1,High
+Norway,Summer,1991,June,1.468,High
+Paraguay,Summer,1991,June,1.592,High
+Paraguay,Summer,1991,July,2.058,High
+Paraguay,Summer,1991,August,1.58,High
+Poland,Winter,1991,January,2.587,High
+Poland,Winter,1991,February,3.375,High
+Poland,Spring,1991,March,2.815,High
+Poland,Summer,1991,July,1.336,High
+Romania,Winter,1991,February,3.065,High
+Romania,Spring,1991,March,2.027,High
+Romania,Fall,1991,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1991,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1991,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1991,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1991,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1991,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1991,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1991,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1991,December,4.189,High
+Sweden,Winter,1991,January,2.681,High
+Sweden,Winter,1991,February,3.178,High
+Sweden,Spring,1991,March,2.462,High
+Sweden,Summer,1991,June,1.359,High
+Sweden,Fall,1991,November,1.927,High
+Sweden,Winter,1991,December,2.699,High
+Switzerland,Winter,1991,February,2.724,High
+Switzerland,Spring,1991,March,1.836,High
+Uruguay,Summer,1991,June,1.463,High
+Uruguay,Summer,1991,July,1.606,High
+Yugoslav SFR,Winter,1991,February,2.753,High
+Northern Europe,Winter,1991,February,2.643,High
+Northern Europe,Spring,1991,March,1.93,High
+Afghanistan,Winter,1992,February,2.597,High
+Antarctica,Spring,1992,April,1.868,High
+Antarctica,Summer,1992,June,1.929,High
+Antarctica,Summer,1992,July,1.801,High
+Antarctica,Summer,1992,August,2.216,High
+Antarctica,Fall,1992,September,2.058,High
+Argentina,Summer,1992,July,1.424,High
+Austria,Winter,1992,February,2.924,High
+Austria,Spring,1992,March,2.054,High
+Belgium-Luxembourg,Winter,1992,February,2.905,High
+Belgium-Luxembourg,Spring,1992,March,1.844,High
+Belgium-Luxembourg,Summer,1992,July,1.397,High
+Bulgaria,Winter,1992,February,2.776,High
+Bulgaria,Summer,1992,August,1.343,High
+Canada,Spring,1992,March,1.875,High
+Czechoslovakia,Winter,1992,February,3.13,High
+Czechoslovakia,Spring,1992,March,2.322,High
+Denmark,Winter,1992,February,2.55,High
+Denmark,Spring,1992,March,2.01,High
+Finland,Winter,1992,January,3.335,High
+Finland,Winter,1992,February,3.566,High
+Finland,Spring,1992,March,2.892,High
+Finland,Summer,1992,June,1.583,High
+Finland,Summer,1992,July,1.38,High
+Finland,Fall,1992,October,1.915,High
+Finland,Fall,1992,November,2.28,High
+Finland,Winter,1992,December,3.499,High
+Germany,Winter,1992,February,2.957,High
+Germany,Spring,1992,March,2.037,High
+Greenland,Spring,1992,March,2.021,High
+Hungary,Winter,1992,February,3.171,High
+Hungary,Spring,1992,March,2.223,High
+Iceland,Spring,1992,March,2.196,High
+Liechtenstein,Winter,1992,February,2.814,High
+Liechtenstein,Spring,1992,March,1.959,High
+Mongolia,Winter,1992,February,3.021,High
+Mongolia,Spring,1992,March,1.962,High
+Mongolia,Fall,1992,November,2.235,High
+Mongolia,Winter,1992,December,2.926,High
+Netherlands,Winter,1992,February,2.75,High
+Norway,Spring,1992,March,2.1,High
+Norway,Summer,1992,June,1.468,High
+Paraguay,Summer,1992,June,1.592,High
+Paraguay,Summer,1992,July,2.058,High
+Paraguay,Summer,1992,August,1.58,High
+Poland,Winter,1992,January,2.587,High
+Poland,Winter,1992,February,3.375,High
+Poland,Spring,1992,March,2.815,High
+Poland,Summer,1992,July,1.336,High
+Romania,Winter,1992,February,3.065,High
+Romania,Spring,1992,March,2.027,High
+Romania,Fall,1992,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1992,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1992,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1992,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1992,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1992,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1992,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1992,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1992,December,4.189,High
+Sweden,Winter,1992,January,2.681,High
+Sweden,Winter,1992,February,3.178,High
+Sweden,Spring,1992,March,2.462,High
+Sweden,Summer,1992,June,1.359,High
+Sweden,Fall,1992,November,1.927,High
+Sweden,Winter,1992,December,2.699,High
+Switzerland,Winter,1992,February,2.724,High
+Switzerland,Spring,1992,March,1.836,High
+Uruguay,Summer,1992,June,1.463,High
+Uruguay,Summer,1992,July,1.606,High
+Northern Europe,Winter,1992,February,2.643,High
+Northern Europe,Spring,1992,March,1.93,High
+Afghanistan,Winter,1993,February,2.597,High
+Antarctica,Spring,1993,April,1.868,High
+Antarctica,Summer,1993,June,1.929,High
+Antarctica,Summer,1993,July,1.801,High
+Antarctica,Summer,1993,August,2.216,High
+Antarctica,Fall,1993,September,2.058,High
+Argentina,Summer,1993,July,1.424,High
+Austria,Winter,1993,February,2.924,High
+Austria,Spring,1993,March,2.054,High
+Belgium-Luxembourg,Winter,1993,February,2.905,High
+Belgium-Luxembourg,Spring,1993,March,1.844,High
+Belgium-Luxembourg,Summer,1993,July,1.397,High
+Bulgaria,Winter,1993,February,2.776,High
+Bulgaria,Summer,1993,August,1.343,High
+Canada,Spring,1993,March,1.875,High
+Denmark,Winter,1993,February,2.55,High
+Denmark,Spring,1993,March,2.01,High
+Finland,Winter,1993,January,3.335,High
+Finland,Winter,1993,February,3.566,High
+Finland,Spring,1993,March,2.892,High
+Finland,Summer,1993,June,1.583,High
+Finland,Summer,1993,July,1.38,High
+Finland,Fall,1993,October,1.915,High
+Finland,Fall,1993,November,2.28,High
+Finland,Winter,1993,December,3.499,High
+Germany,Winter,1993,February,2.957,High
+Germany,Spring,1993,March,2.037,High
+Greenland,Spring,1993,March,2.021,High
+Hungary,Winter,1993,February,3.171,High
+Hungary,Spring,1993,March,2.223,High
+Iceland,Spring,1993,March,2.196,High
+Liechtenstein,Winter,1993,February,2.814,High
+Liechtenstein,Spring,1993,March,1.959,High
+Mongolia,Winter,1993,February,3.021,High
+Mongolia,Spring,1993,March,1.962,High
+Mongolia,Fall,1993,November,2.235,High
+Mongolia,Winter,1993,December,2.926,High
+Netherlands,Winter,1993,February,2.75,High
+Norway,Spring,1993,March,2.1,High
+Norway,Summer,1993,June,1.468,High
+Paraguay,Summer,1993,June,1.592,High
+Paraguay,Summer,1993,July,2.058,High
+Paraguay,Summer,1993,August,1.58,High
+Poland,Winter,1993,January,2.587,High
+Poland,Winter,1993,February,3.375,High
+Poland,Spring,1993,March,2.815,High
+Poland,Summer,1993,July,1.336,High
+Romania,Winter,1993,February,3.065,High
+Romania,Spring,1993,March,2.027,High
+Romania,Fall,1993,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1993,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1993,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1993,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1993,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1993,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1993,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1993,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1993,December,4.189,High
+Sweden,Winter,1993,January,2.681,High
+Sweden,Winter,1993,February,3.178,High
+Sweden,Spring,1993,March,2.462,High
+Sweden,Summer,1993,June,1.359,High
+Sweden,Fall,1993,November,1.927,High
+Sweden,Winter,1993,December,2.699,High
+Switzerland,Winter,1993,February,2.724,High
+Switzerland,Spring,1993,March,1.836,High
+Uruguay,Summer,1993,June,1.463,High
+Uruguay,Summer,1993,July,1.606,High
+Northern Europe,Winter,1993,February,2.643,High
+Northern Europe,Spring,1993,March,1.93,High
+Afghanistan,Winter,1994,February,2.597,High
+Antarctica,Spring,1994,April,1.868,High
+Antarctica,Summer,1994,June,1.929,High
+Antarctica,Summer,1994,July,1.801,High
+Antarctica,Summer,1994,August,2.216,High
+Antarctica,Fall,1994,September,2.058,High
+Argentina,Summer,1994,July,1.424,High
+Austria,Winter,1994,February,2.924,High
+Austria,Spring,1994,March,2.054,High
+Belgium-Luxembourg,Winter,1994,February,2.905,High
+Belgium-Luxembourg,Spring,1994,March,1.844,High
+Belgium-Luxembourg,Summer,1994,July,1.397,High
+Bulgaria,Winter,1994,February,2.776,High
+Bulgaria,Summer,1994,August,1.343,High
+Canada,Spring,1994,March,1.875,High
+Denmark,Winter,1994,February,2.55,High
+Denmark,Spring,1994,March,2.01,High
+Finland,Winter,1994,January,3.335,High
+Finland,Winter,1994,February,3.566,High
+Finland,Spring,1994,March,2.892,High
+Finland,Summer,1994,June,1.583,High
+Finland,Summer,1994,July,1.38,High
+Finland,Fall,1994,October,1.915,High
+Finland,Fall,1994,November,2.28,High
+Finland,Winter,1994,December,3.499,High
+Germany,Winter,1994,February,2.957,High
+Germany,Spring,1994,March,2.037,High
+Greenland,Spring,1994,March,2.021,High
+Hungary,Winter,1994,February,3.171,High
+Hungary,Spring,1994,March,2.223,High
+Iceland,Spring,1994,March,2.196,High
+Liechtenstein,Winter,1994,February,2.814,High
+Liechtenstein,Spring,1994,March,1.959,High
+Mongolia,Winter,1994,February,3.021,High
+Mongolia,Spring,1994,March,1.962,High
+Mongolia,Fall,1994,November,2.235,High
+Mongolia,Winter,1994,December,2.926,High
+Netherlands,Winter,1994,February,2.75,High
+Norway,Spring,1994,March,2.1,High
+Norway,Summer,1994,June,1.468,High
+Paraguay,Summer,1994,June,1.592,High
+Paraguay,Summer,1994,July,2.058,High
+Paraguay,Summer,1994,August,1.58,High
+Poland,Winter,1994,January,2.587,High
+Poland,Winter,1994,February,3.375,High
+Poland,Spring,1994,March,2.815,High
+Poland,Summer,1994,July,1.336,High
+Romania,Winter,1994,February,3.065,High
+Romania,Spring,1994,March,2.027,High
+Romania,Fall,1994,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1994,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1994,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1994,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1994,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1994,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1994,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1994,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1994,December,4.189,High
+Sweden,Winter,1994,January,2.681,High
+Sweden,Winter,1994,February,3.178,High
+Sweden,Spring,1994,March,2.462,High
+Sweden,Summer,1994,June,1.359,High
+Sweden,Fall,1994,November,1.927,High
+Sweden,Winter,1994,December,2.699,High
+Switzerland,Winter,1994,February,2.724,High
+Switzerland,Spring,1994,March,1.836,High
+Uruguay,Summer,1994,June,1.463,High
+Uruguay,Summer,1994,July,1.606,High
+Northern Europe,Winter,1994,February,2.643,High
+Northern Europe,Spring,1994,March,1.93,High
+Afghanistan,Winter,1995,February,2.597,High
+Antarctica,Spring,1995,April,1.868,High
+Antarctica,Summer,1995,June,1.929,High
+Antarctica,Summer,1995,July,1.801,High
+Antarctica,Summer,1995,August,2.216,High
+Antarctica,Fall,1995,September,2.058,High
+Argentina,Summer,1995,July,1.424,High
+Austria,Winter,1995,February,2.924,High
+Austria,Spring,1995,March,2.054,High
+Belgium-Luxembourg,Winter,1995,February,2.905,High
+Belgium-Luxembourg,Spring,1995,March,1.844,High
+Belgium-Luxembourg,Summer,1995,July,1.397,High
+Bulgaria,Winter,1995,February,2.776,High
+Bulgaria,Summer,1995,August,1.343,High
+Canada,Spring,1995,March,1.875,High
+Denmark,Winter,1995,February,2.55,High
+Denmark,Spring,1995,March,2.01,High
+Finland,Winter,1995,January,3.335,High
+Finland,Winter,1995,February,3.566,High
+Finland,Spring,1995,March,2.892,High
+Finland,Summer,1995,June,1.583,High
+Finland,Summer,1995,July,1.38,High
+Finland,Fall,1995,October,1.915,High
+Finland,Fall,1995,November,2.28,High
+Finland,Winter,1995,December,3.499,High
+Germany,Winter,1995,February,2.957,High
+Germany,Spring,1995,March,2.037,High
+Greenland,Spring,1995,March,2.021,High
+Hungary,Winter,1995,February,3.171,High
+Hungary,Spring,1995,March,2.223,High
+Iceland,Spring,1995,March,2.196,High
+Liechtenstein,Winter,1995,February,2.814,High
+Liechtenstein,Spring,1995,March,1.959,High
+Mongolia,Winter,1995,February,3.021,High
+Mongolia,Spring,1995,March,1.962,High
+Mongolia,Fall,1995,November,2.235,High
+Mongolia,Winter,1995,December,2.926,High
+Netherlands,Winter,1995,February,2.75,High
+Norway,Spring,1995,March,2.1,High
+Norway,Summer,1995,June,1.468,High
+Paraguay,Summer,1995,June,1.592,High
+Paraguay,Summer,1995,July,2.058,High
+Paraguay,Summer,1995,August,1.58,High
+Poland,Winter,1995,January,2.587,High
+Poland,Winter,1995,February,3.375,High
+Poland,Spring,1995,March,2.815,High
+Poland,Summer,1995,July,1.336,High
+Romania,Winter,1995,February,3.065,High
+Romania,Spring,1995,March,2.027,High
+Romania,Fall,1995,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1995,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1995,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1995,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1995,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1995,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1995,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1995,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1995,December,4.189,High
+Sweden,Winter,1995,January,2.681,High
+Sweden,Winter,1995,February,3.178,High
+Sweden,Spring,1995,March,2.462,High
+Sweden,Summer,1995,June,1.359,High
+Sweden,Fall,1995,November,1.927,High
+Sweden,Winter,1995,December,2.699,High
+Switzerland,Winter,1995,February,2.724,High
+Switzerland,Spring,1995,March,1.836,High
+Uruguay,Summer,1995,June,1.463,High
+Uruguay,Summer,1995,July,1.606,High
+Northern Europe,Winter,1995,February,2.643,High
+Northern Europe,Spring,1995,March,1.93,High
+Afghanistan,Winter,1996,February,2.597,High
+Antarctica,Spring,1996,April,1.868,High
+Antarctica,Summer,1996,June,1.929,High
+Antarctica,Summer,1996,July,1.801,High
+Antarctica,Summer,1996,August,2.216,High
+Antarctica,Fall,1996,September,2.058,High
+Argentina,Summer,1996,July,1.424,High
+Austria,Winter,1996,February,2.924,High
+Austria,Spring,1996,March,2.054,High
+Belgium-Luxembourg,Winter,1996,February,2.905,High
+Belgium-Luxembourg,Spring,1996,March,1.844,High
+Belgium-Luxembourg,Summer,1996,July,1.397,High
+Bulgaria,Winter,1996,February,2.776,High
+Bulgaria,Summer,1996,August,1.343,High
+Canada,Spring,1996,March,1.875,High
+Denmark,Winter,1996,February,2.55,High
+Denmark,Spring,1996,March,2.01,High
+Finland,Winter,1996,January,3.335,High
+Finland,Winter,1996,February,3.566,High
+Finland,Spring,1996,March,2.892,High
+Finland,Summer,1996,June,1.583,High
+Finland,Summer,1996,July,1.38,High
+Finland,Fall,1996,October,1.915,High
+Finland,Fall,1996,November,2.28,High
+Finland,Winter,1996,December,3.499,High
+Germany,Winter,1996,February,2.957,High
+Germany,Spring,1996,March,2.037,High
+Greenland,Spring,1996,March,2.021,High
+Hungary,Winter,1996,February,3.171,High
+Hungary,Spring,1996,March,2.223,High
+Iceland,Spring,1996,March,2.196,High
+Liechtenstein,Winter,1996,February,2.814,High
+Liechtenstein,Spring,1996,March,1.959,High
+Mongolia,Winter,1996,February,3.021,High
+Mongolia,Spring,1996,March,1.962,High
+Mongolia,Fall,1996,November,2.235,High
+Mongolia,Winter,1996,December,2.926,High
+Netherlands,Winter,1996,February,2.75,High
+Norway,Spring,1996,March,2.1,High
+Norway,Summer,1996,June,1.468,High
+Paraguay,Summer,1996,June,1.592,High
+Paraguay,Summer,1996,July,2.058,High
+Paraguay,Summer,1996,August,1.58,High
+Poland,Winter,1996,January,2.587,High
+Poland,Winter,1996,February,3.375,High
+Poland,Spring,1996,March,2.815,High
+Poland,Summer,1996,July,1.336,High
+Romania,Winter,1996,February,3.065,High
+Romania,Spring,1996,March,2.027,High
+Romania,Fall,1996,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1996,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1996,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1996,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1996,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1996,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1996,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1996,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1996,December,4.189,High
+Sweden,Winter,1996,January,2.681,High
+Sweden,Winter,1996,February,3.178,High
+Sweden,Spring,1996,March,2.462,High
+Sweden,Summer,1996,June,1.359,High
+Sweden,Fall,1996,November,1.927,High
+Sweden,Winter,1996,December,2.699,High
+Switzerland,Winter,1996,February,2.724,High
+Switzerland,Spring,1996,March,1.836,High
+Uruguay,Summer,1996,June,1.463,High
+Uruguay,Summer,1996,July,1.606,High
+Northern Europe,Winter,1996,February,2.643,High
+Northern Europe,Spring,1996,March,1.93,High
+Afghanistan,Winter,1997,February,2.597,High
+Antarctica,Spring,1997,April,1.868,High
+Antarctica,Summer,1997,June,1.929,High
+Antarctica,Summer,1997,July,1.801,High
+Antarctica,Summer,1997,August,2.216,High
+Antarctica,Fall,1997,September,2.058,High
+Argentina,Summer,1997,July,1.424,High
+Austria,Winter,1997,February,2.924,High
+Austria,Spring,1997,March,2.054,High
+Belgium-Luxembourg,Winter,1997,February,2.905,High
+Belgium-Luxembourg,Spring,1997,March,1.844,High
+Belgium-Luxembourg,Summer,1997,July,1.397,High
+Bulgaria,Winter,1997,February,2.776,High
+Bulgaria,Summer,1997,August,1.343,High
+Canada,Spring,1997,March,1.875,High
+Denmark,Winter,1997,February,2.55,High
+Denmark,Spring,1997,March,2.01,High
+Finland,Winter,1997,January,3.335,High
+Finland,Winter,1997,February,3.566,High
+Finland,Spring,1997,March,2.892,High
+Finland,Summer,1997,June,1.583,High
+Finland,Summer,1997,July,1.38,High
+Finland,Fall,1997,October,1.915,High
+Finland,Fall,1997,November,2.28,High
+Finland,Winter,1997,December,3.499,High
+Germany,Winter,1997,February,2.957,High
+Germany,Spring,1997,March,2.037,High
+Greenland,Spring,1997,March,2.021,High
+Hungary,Winter,1997,February,3.171,High
+Hungary,Spring,1997,March,2.223,High
+Iceland,Spring,1997,March,2.196,High
+Liechtenstein,Winter,1997,February,2.814,High
+Liechtenstein,Spring,1997,March,1.959,High
+Mongolia,Winter,1997,February,3.021,High
+Mongolia,Spring,1997,March,1.962,High
+Mongolia,Fall,1997,November,2.235,High
+Mongolia,Winter,1997,December,2.926,High
+Netherlands,Winter,1997,February,2.75,High
+Norway,Spring,1997,March,2.1,High
+Norway,Summer,1997,June,1.468,High
+Paraguay,Summer,1997,June,1.592,High
+Paraguay,Summer,1997,July,2.058,High
+Paraguay,Summer,1997,August,1.58,High
+Poland,Winter,1997,January,2.587,High
+Poland,Winter,1997,February,3.375,High
+Poland,Spring,1997,March,2.815,High
+Poland,Summer,1997,July,1.336,High
+Romania,Winter,1997,February,3.065,High
+Romania,Spring,1997,March,2.027,High
+Romania,Fall,1997,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1997,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1997,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1997,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1997,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1997,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1997,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1997,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1997,December,4.189,High
+Sweden,Winter,1997,January,2.681,High
+Sweden,Winter,1997,February,3.178,High
+Sweden,Spring,1997,March,2.462,High
+Sweden,Summer,1997,June,1.359,High
+Sweden,Fall,1997,November,1.927,High
+Sweden,Winter,1997,December,2.699,High
+Switzerland,Winter,1997,February,2.724,High
+Switzerland,Spring,1997,March,1.836,High
+Uruguay,Summer,1997,June,1.463,High
+Uruguay,Summer,1997,July,1.606,High
+Northern Europe,Winter,1997,February,2.643,High
+Northern Europe,Spring,1997,March,1.93,High
+Afghanistan,Winter,1998,February,2.597,High
+Antarctica,Spring,1998,April,1.868,High
+Antarctica,Summer,1998,June,1.929,High
+Antarctica,Summer,1998,July,1.801,High
+Antarctica,Summer,1998,August,2.216,High
+Antarctica,Fall,1998,September,2.058,High
+Argentina,Summer,1998,July,1.424,High
+Austria,Winter,1998,February,2.924,High
+Austria,Spring,1998,March,2.054,High
+Belgium-Luxembourg,Winter,1998,February,2.905,High
+Belgium-Luxembourg,Spring,1998,March,1.844,High
+Belgium-Luxembourg,Summer,1998,July,1.397,High
+Bulgaria,Winter,1998,February,2.776,High
+Bulgaria,Summer,1998,August,1.343,High
+Canada,Spring,1998,March,1.875,High
+Denmark,Winter,1998,February,2.55,High
+Denmark,Spring,1998,March,2.01,High
+Finland,Winter,1998,January,3.335,High
+Finland,Winter,1998,February,3.566,High
+Finland,Spring,1998,March,2.892,High
+Finland,Summer,1998,June,1.583,High
+Finland,Summer,1998,July,1.38,High
+Finland,Fall,1998,October,1.915,High
+Finland,Fall,1998,November,2.28,High
+Finland,Winter,1998,December,3.499,High
+Germany,Winter,1998,February,2.957,High
+Germany,Spring,1998,March,2.037,High
+Greenland,Spring,1998,March,2.021,High
+Hungary,Winter,1998,February,3.171,High
+Hungary,Spring,1998,March,2.223,High
+Iceland,Spring,1998,March,2.196,High
+Liechtenstein,Winter,1998,February,2.814,High
+Liechtenstein,Spring,1998,March,1.959,High
+Mongolia,Winter,1998,February,3.021,High
+Mongolia,Spring,1998,March,1.962,High
+Mongolia,Fall,1998,November,2.235,High
+Mongolia,Winter,1998,December,2.926,High
+Netherlands,Winter,1998,February,2.75,High
+Norway,Spring,1998,March,2.1,High
+Norway,Summer,1998,June,1.468,High
+Paraguay,Summer,1998,June,1.592,High
+Paraguay,Summer,1998,July,2.058,High
+Paraguay,Summer,1998,August,1.58,High
+Poland,Winter,1998,January,2.587,High
+Poland,Winter,1998,February,3.375,High
+Poland,Spring,1998,March,2.815,High
+Poland,Summer,1998,July,1.336,High
+Romania,Winter,1998,February,3.065,High
+Romania,Spring,1998,March,2.027,High
+Romania,Fall,1998,November,1.88,High
+Svalbard and Jan Mayen Islands,Winter,1998,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1998,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1998,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1998,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1998,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1998,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1998,December,4.189,High
+Sweden,Winter,1998,January,2.681,High
+Sweden,Winter,1998,February,3.178,High
+Sweden,Spring,1998,March,2.462,High
+Sweden,Summer,1998,June,1.359,High
+Sweden,Fall,1998,November,1.927,High
+Sweden,Winter,1998,December,2.699,High
+Switzerland,Winter,1998,February,2.724,High
+Switzerland,Spring,1998,March,1.836,High
+Uruguay,Summer,1998,June,1.463,High
+Uruguay,Summer,1998,July,1.606,High
+Northern Europe,Winter,1998,February,2.643,High
+Northern Europe,Spring,1998,March,1.93,High
+Afghanistan,Winter,1999,February,2.597,High
+Antarctica,Spring,1999,April,1.868,High
+Antarctica,Summer,1999,June,1.929,High
+Antarctica,Summer,1999,July,1.801,High
+Antarctica,Summer,1999,August,2.216,High
+Antarctica,Fall,1999,September,2.058,High
+Argentina,Summer,1999,July,1.424,High
+Austria,Winter,1999,February,2.924,High
+Austria,Spring,1999,March,2.054,High
+Belgium-Luxembourg,Winter,1999,February,2.905,High
+Belgium-Luxembourg,Spring,1999,March,1.844,High
+Belgium-Luxembourg,Summer,1999,July,1.397,High
+Bulgaria,Winter,1999,February,2.776,High
+Bulgaria,Summer,1999,August,1.343,High
+Canada,Spring,1999,March,1.875,High
+Denmark,Winter,1999,February,2.55,High
+Denmark,Spring,1999,March,2.01,High
+Finland,Winter,1999,January,3.335,High
+Finland,Winter,1999,February,3.566,High
+Finland,Spring,1999,March,2.892,High
+Finland,Summer,1999,June,1.583,High
+Finland,Summer,1999,July,1.38,High
+Finland,Fall,1999,October,1.915,High
+Finland,Fall,1999,November,2.28,High
+Finland,Winter,1999,December,3.499,High
+Germany,Winter,1999,February,2.957,High
+Germany,Spring,1999,March,2.037,High
+Greenland,Spring,1999,March,2.021,High
+Hungary,Winter,1999,February,3.171,High
+Hungary,Spring,1999,March,2.223,High
+Iceland,Spring,1999,March,2.196,High
+Liechtenstein,Winter,1999,February,2.814,High
+Liechtenstein,Spring,1999,March,1.959,High
+Mongolia,Winter,1999,February,3.021,High
+Mongolia,Spring,1999,March,1.962,High
+Mongolia,Fall,1999,November,2.235,High
+Mongolia,Winter,1999,December,2.926,High
+Netherlands,Winter,1999,February,2.75,High
+Norway,Spring,1999,March,2.1,High
+Norway,Summer,1999,June,1.468,High
+Paraguay,Summer,1999,June,1.592,High
+Paraguay,Summer,1999,July,2.058,High
+Paraguay,Summer,1999,August,1.58,High
+Poland,Winter,1999,January,2.587,High
+Poland,Winter,1999,February,3.375,High
+Poland,Spring,1999,March,2.815,High
+Poland,Summer,1999,July,1.336,High
+Romania,Winter,1999,February,3.065,High
+Romania,Spring,1999,March,2.027,High
+Romania,Fall,1999,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,1999,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,1999,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,1999,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,1999,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,1999,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,1999,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,1999,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,1999,December,4.189,High
+Sweden,Winter,1999,January,2.681,High
+Sweden,Winter,1999,February,3.178,High
+Sweden,Spring,1999,March,2.462,High
+Sweden,Summer,1999,June,1.359,High
+Sweden,Fall,1999,November,1.927,High
+Sweden,Winter,1999,December,2.699,High
+Switzerland,Winter,1999,February,2.724,High
+Switzerland,Spring,1999,March,1.836,High
+Uruguay,Summer,1999,June,1.463,High
+Uruguay,Summer,1999,July,1.606,High
+Northern Europe,Winter,1999,February,2.643,High
+Northern Europe,Spring,1999,March,1.93,High
+Afghanistan,Winter,2000,February,2.597,High
+Antarctica,Spring,2000,April,1.868,High
+Antarctica,Summer,2000,June,1.929,High
+Antarctica,Summer,2000,July,1.801,High
+Antarctica,Summer,2000,August,2.216,High
+Antarctica,Fall,2000,September,2.058,High
+Argentina,Summer,2000,July,1.424,High
+Austria,Winter,2000,February,2.924,High
+Austria,Spring,2000,March,2.054,High
+Bulgaria,Winter,2000,February,2.776,High
+Bulgaria,Summer,2000,August,1.343,High
+Canada,Spring,2000,March,1.875,High
+Denmark,Winter,2000,February,2.55,High
+Denmark,Spring,2000,March,2.01,High
+Finland,Winter,2000,January,3.335,High
+Finland,Winter,2000,February,3.566,High
+Finland,Spring,2000,March,2.892,High
+Finland,Summer,2000,June,1.583,High
+Finland,Summer,2000,July,1.38,High
+Finland,Fall,2000,October,1.915,High
+Finland,Fall,2000,November,2.28,High
+Finland,Winter,2000,December,3.499,High
+Germany,Winter,2000,February,2.957,High
+Germany,Spring,2000,March,2.037,High
+Greenland,Spring,2000,March,2.021,High
+Hungary,Winter,2000,February,3.171,High
+Hungary,Spring,2000,March,2.223,High
+Iceland,Spring,2000,March,2.196,High
+Liechtenstein,Winter,2000,February,2.814,High
+Liechtenstein,Spring,2000,March,1.959,High
+Mongolia,Winter,2000,February,3.021,High
+Mongolia,Spring,2000,March,1.962,High
+Mongolia,Fall,2000,November,2.235,High
+Mongolia,Winter,2000,December,2.926,High
+Netherlands,Winter,2000,February,2.75,High
+Norway,Spring,2000,March,2.1,High
+Norway,Summer,2000,June,1.468,High
+Paraguay,Summer,2000,June,1.592,High
+Paraguay,Summer,2000,July,2.058,High
+Paraguay,Summer,2000,August,1.58,High
+Poland,Winter,2000,January,2.587,High
+Poland,Winter,2000,February,3.375,High
+Poland,Spring,2000,March,2.815,High
+Poland,Summer,2000,July,1.336,High
+Romania,Winter,2000,February,3.065,High
+Romania,Spring,2000,March,2.027,High
+Romania,Fall,2000,November,1.88,High
+Svalbard and Jan Mayen Islands,Winter,2000,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2000,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2000,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2000,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2000,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2000,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2000,December,4.189,High
+Sweden,Winter,2000,January,2.681,High
+Sweden,Winter,2000,February,3.178,High
+Sweden,Spring,2000,March,2.462,High
+Sweden,Summer,2000,June,1.359,High
+Sweden,Fall,2000,November,1.927,High
+Sweden,Winter,2000,December,2.699,High
+Switzerland,Winter,2000,February,2.724,High
+Switzerland,Spring,2000,March,1.836,High
+Uruguay,Summer,2000,June,1.463,High
+Uruguay,Summer,2000,July,1.606,High
+Northern Europe,Winter,2000,February,2.643,High
+Northern Europe,Spring,2000,March,1.93,High
+Afghanistan,Winter,2001,February,2.597,High
+Antarctica,Spring,2001,April,1.868,High
+Antarctica,Summer,2001,June,1.929,High
+Antarctica,Summer,2001,July,1.801,High
+Antarctica,Summer,2001,August,2.216,High
+Antarctica,Fall,2001,September,2.058,High
+Argentina,Summer,2001,July,1.424,High
+Austria,Winter,2001,February,2.924,High
+Austria,Spring,2001,March,2.054,High
+Bulgaria,Winter,2001,February,2.776,High
+Bulgaria,Summer,2001,August,1.343,High
+Canada,Spring,2001,March,1.875,High
+Denmark,Winter,2001,February,2.55,High
+Denmark,Spring,2001,March,2.01,High
+Finland,Winter,2001,January,3.335,High
+Finland,Winter,2001,February,3.566,High
+Finland,Spring,2001,March,2.892,High
+Finland,Summer,2001,June,1.583,High
+Finland,Summer,2001,July,1.38,High
+Finland,Fall,2001,October,1.915,High
+Finland,Fall,2001,November,2.28,High
+Finland,Winter,2001,December,3.499,High
+Germany,Winter,2001,February,2.957,High
+Germany,Spring,2001,March,2.037,High
+Greenland,Spring,2001,March,2.021,High
+Hungary,Winter,2001,February,3.171,High
+Hungary,Spring,2001,March,2.223,High
+Iceland,Spring,2001,March,2.196,High
+Liechtenstein,Winter,2001,February,2.814,High
+Liechtenstein,Spring,2001,March,1.959,High
+Mongolia,Winter,2001,February,3.021,High
+Mongolia,Spring,2001,March,1.962,High
+Mongolia,Fall,2001,November,2.235,High
+Mongolia,Winter,2001,December,2.926,High
+Netherlands,Winter,2001,February,2.75,High
+Norway,Spring,2001,March,2.1,High
+Norway,Summer,2001,June,1.468,High
+Paraguay,Summer,2001,June,1.592,High
+Paraguay,Summer,2001,July,2.058,High
+Paraguay,Summer,2001,August,1.58,High
+Poland,Winter,2001,January,2.587,High
+Poland,Winter,2001,February,3.375,High
+Poland,Spring,2001,March,2.815,High
+Poland,Summer,2001,July,1.336,High
+Romania,Winter,2001,February,3.065,High
+Romania,Spring,2001,March,2.027,High
+Romania,Fall,2001,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2001,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2001,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2001,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2001,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2001,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2001,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2001,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2001,December,4.189,High
+Sweden,Winter,2001,January,2.681,High
+Sweden,Winter,2001,February,3.178,High
+Sweden,Spring,2001,March,2.462,High
+Sweden,Summer,2001,June,1.359,High
+Sweden,Fall,2001,November,1.927,High
+Sweden,Winter,2001,December,2.699,High
+Switzerland,Winter,2001,February,2.724,High
+Switzerland,Spring,2001,March,1.836,High
+Uruguay,Summer,2001,June,1.463,High
+Uruguay,Summer,2001,July,1.606,High
+Northern Europe,Winter,2001,February,2.643,High
+Northern Europe,Spring,2001,March,1.93,High
+Afghanistan,Winter,2002,February,2.597,High
+Antarctica,Spring,2002,April,1.868,High
+Antarctica,Summer,2002,June,1.929,High
+Antarctica,Summer,2002,July,1.801,High
+Antarctica,Summer,2002,August,2.216,High
+Antarctica,Fall,2002,September,2.058,High
+Argentina,Summer,2002,July,1.424,High
+Austria,Winter,2002,February,2.924,High
+Austria,Spring,2002,March,2.054,High
+Bulgaria,Winter,2002,February,2.776,High
+Bulgaria,Summer,2002,August,1.343,High
+Canada,Spring,2002,March,1.875,High
+Denmark,Winter,2002,February,2.55,High
+Denmark,Spring,2002,March,2.01,High
+Finland,Winter,2002,January,3.335,High
+Finland,Winter,2002,February,3.566,High
+Finland,Spring,2002,March,2.892,High
+Finland,Summer,2002,June,1.583,High
+Finland,Summer,2002,July,1.38,High
+Finland,Fall,2002,October,1.915,High
+Finland,Fall,2002,November,2.28,High
+Finland,Winter,2002,December,3.499,High
+Germany,Winter,2002,February,2.957,High
+Germany,Spring,2002,March,2.037,High
+Greenland,Spring,2002,March,2.021,High
+Hungary,Winter,2002,February,3.171,High
+Hungary,Spring,2002,March,2.223,High
+Iceland,Spring,2002,March,2.196,High
+Liechtenstein,Winter,2002,February,2.814,High
+Liechtenstein,Spring,2002,March,1.959,High
+Mongolia,Winter,2002,February,3.021,High
+Mongolia,Spring,2002,March,1.962,High
+Mongolia,Fall,2002,November,2.235,High
+Mongolia,Winter,2002,December,2.926,High
+Netherlands,Winter,2002,February,2.75,High
+Norway,Spring,2002,March,2.1,High
+Norway,Summer,2002,June,1.468,High
+Paraguay,Summer,2002,June,1.592,High
+Paraguay,Summer,2002,July,2.058,High
+Paraguay,Summer,2002,August,1.58,High
+Poland,Winter,2002,January,2.587,High
+Poland,Winter,2002,February,3.375,High
+Poland,Spring,2002,March,2.815,High
+Poland,Summer,2002,July,1.336,High
+Romania,Winter,2002,February,3.065,High
+Romania,Spring,2002,March,2.027,High
+Romania,Fall,2002,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2002,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2002,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2002,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2002,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2002,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2002,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2002,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2002,December,4.189,High
+Sweden,Winter,2002,January,2.681,High
+Sweden,Winter,2002,February,3.178,High
+Sweden,Spring,2002,March,2.462,High
+Sweden,Summer,2002,June,1.359,High
+Sweden,Fall,2002,November,1.927,High
+Sweden,Winter,2002,December,2.699,High
+Switzerland,Winter,2002,February,2.724,High
+Switzerland,Spring,2002,March,1.836,High
+Uruguay,Summer,2002,June,1.463,High
+Uruguay,Summer,2002,July,1.606,High
+Northern Europe,Winter,2002,February,2.643,High
+Northern Europe,Spring,2002,March,1.93,High
+Afghanistan,Winter,2003,February,2.597,High
+Antarctica,Spring,2003,April,1.868,High
+Antarctica,Summer,2003,June,1.929,High
+Antarctica,Summer,2003,July,1.801,High
+Antarctica,Summer,2003,August,2.216,High
+Antarctica,Fall,2003,September,2.058,High
+Argentina,Summer,2003,July,1.424,High
+Austria,Winter,2003,February,2.924,High
+Austria,Spring,2003,March,2.054,High
+Bulgaria,Winter,2003,February,2.776,High
+Bulgaria,Summer,2003,August,1.343,High
+Canada,Spring,2003,March,1.875,High
+Denmark,Winter,2003,February,2.55,High
+Denmark,Spring,2003,March,2.01,High
+Finland,Winter,2003,January,3.335,High
+Finland,Winter,2003,February,3.566,High
+Finland,Spring,2003,March,2.892,High
+Finland,Summer,2003,June,1.583,High
+Finland,Summer,2003,July,1.38,High
+Finland,Fall,2003,October,1.915,High
+Finland,Fall,2003,November,2.28,High
+Finland,Winter,2003,December,3.499,High
+Germany,Winter,2003,February,2.957,High
+Germany,Spring,2003,March,2.037,High
+Greenland,Spring,2003,March,2.021,High
+Hungary,Winter,2003,February,3.171,High
+Hungary,Spring,2003,March,2.223,High
+Iceland,Spring,2003,March,2.196,High
+Liechtenstein,Winter,2003,February,2.814,High
+Liechtenstein,Spring,2003,March,1.959,High
+Mongolia,Winter,2003,February,3.021,High
+Mongolia,Spring,2003,March,1.962,High
+Mongolia,Fall,2003,November,2.235,High
+Mongolia,Winter,2003,December,2.926,High
+Netherlands,Winter,2003,February,2.75,High
+Norway,Spring,2003,March,2.1,High
+Norway,Summer,2003,June,1.468,High
+Paraguay,Summer,2003,June,1.592,High
+Paraguay,Summer,2003,July,2.058,High
+Paraguay,Summer,2003,August,1.58,High
+Poland,Winter,2003,January,2.587,High
+Poland,Winter,2003,February,3.375,High
+Poland,Spring,2003,March,2.815,High
+Poland,Summer,2003,July,1.336,High
+Romania,Winter,2003,February,3.065,High
+Romania,Spring,2003,March,2.027,High
+Romania,Fall,2003,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2003,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2003,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2003,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2003,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2003,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2003,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2003,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2003,December,4.189,High
+Sweden,Winter,2003,January,2.681,High
+Sweden,Winter,2003,February,3.178,High
+Sweden,Spring,2003,March,2.462,High
+Sweden,Summer,2003,June,1.359,High
+Sweden,Fall,2003,November,1.927,High
+Sweden,Winter,2003,December,2.699,High
+Switzerland,Winter,2003,February,2.724,High
+Switzerland,Spring,2003,March,1.836,High
+Uruguay,Summer,2003,June,1.463,High
+Uruguay,Summer,2003,July,1.606,High
+Northern Europe,Winter,2003,February,2.643,High
+Northern Europe,Spring,2003,March,1.93,High
+Afghanistan,Winter,2004,February,2.597,High
+Antarctica,Spring,2004,April,1.868,High
+Antarctica,Summer,2004,June,1.929,High
+Antarctica,Summer,2004,July,1.801,High
+Antarctica,Summer,2004,August,2.216,High
+Antarctica,Fall,2004,September,2.058,High
+Argentina,Summer,2004,July,1.424,High
+Austria,Winter,2004,February,2.924,High
+Austria,Spring,2004,March,2.054,High
+Bulgaria,Winter,2004,February,2.776,High
+Bulgaria,Summer,2004,August,1.343,High
+Canada,Spring,2004,March,1.875,High
+Denmark,Winter,2004,February,2.55,High
+Denmark,Spring,2004,March,2.01,High
+Finland,Winter,2004,January,3.335,High
+Finland,Winter,2004,February,3.566,High
+Finland,Spring,2004,March,2.892,High
+Finland,Summer,2004,June,1.583,High
+Finland,Summer,2004,July,1.38,High
+Finland,Fall,2004,October,1.915,High
+Finland,Fall,2004,November,2.28,High
+Finland,Winter,2004,December,3.499,High
+Germany,Winter,2004,February,2.957,High
+Germany,Spring,2004,March,2.037,High
+Greenland,Spring,2004,March,2.021,High
+Hungary,Winter,2004,February,3.171,High
+Hungary,Spring,2004,March,2.223,High
+Iceland,Spring,2004,March,2.196,High
+Liechtenstein,Winter,2004,February,2.814,High
+Liechtenstein,Spring,2004,March,1.959,High
+Mongolia,Winter,2004,February,3.021,High
+Mongolia,Spring,2004,March,1.962,High
+Mongolia,Fall,2004,November,2.235,High
+Mongolia,Winter,2004,December,2.926,High
+Netherlands,Winter,2004,February,2.75,High
+Norway,Spring,2004,March,2.1,High
+Norway,Summer,2004,June,1.468,High
+Paraguay,Summer,2004,June,1.592,High
+Paraguay,Summer,2004,July,2.058,High
+Paraguay,Summer,2004,August,1.58,High
+Poland,Winter,2004,January,2.587,High
+Poland,Winter,2004,February,3.375,High
+Poland,Spring,2004,March,2.815,High
+Poland,Summer,2004,July,1.336,High
+Romania,Winter,2004,February,3.065,High
+Romania,Spring,2004,March,2.027,High
+Romania,Fall,2004,November,1.88,High
+Svalbard and Jan Mayen Islands,Winter,2004,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2004,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2004,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2004,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2004,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2004,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2004,December,4.189,High
+Sweden,Winter,2004,January,2.681,High
+Sweden,Winter,2004,February,3.178,High
+Sweden,Spring,2004,March,2.462,High
+Sweden,Summer,2004,June,1.359,High
+Sweden,Fall,2004,November,1.927,High
+Sweden,Winter,2004,December,2.699,High
+Switzerland,Winter,2004,February,2.724,High
+Switzerland,Spring,2004,March,1.836,High
+Uruguay,Summer,2004,June,1.463,High
+Uruguay,Summer,2004,July,1.606,High
+Northern Europe,Winter,2004,February,2.643,High
+Northern Europe,Spring,2004,March,1.93,High
+Afghanistan,Winter,2005,February,2.597,High
+Antarctica,Spring,2005,April,1.868,High
+Antarctica,Summer,2005,June,1.929,High
+Antarctica,Summer,2005,July,1.801,High
+Antarctica,Summer,2005,August,2.216,High
+Antarctica,Fall,2005,September,2.058,High
+Argentina,Summer,2005,July,1.424,High
+Austria,Winter,2005,February,2.924,High
+Austria,Spring,2005,March,2.054,High
+Bulgaria,Winter,2005,February,2.776,High
+Bulgaria,Summer,2005,August,1.343,High
+Canada,Spring,2005,March,1.875,High
+Denmark,Winter,2005,February,2.55,High
+Denmark,Spring,2005,March,2.01,High
+Finland,Winter,2005,January,3.335,High
+Finland,Winter,2005,February,3.566,High
+Finland,Spring,2005,March,2.892,High
+Finland,Summer,2005,June,1.583,High
+Finland,Summer,2005,July,1.38,High
+Finland,Fall,2005,October,1.915,High
+Finland,Fall,2005,November,2.28,High
+Finland,Winter,2005,December,3.499,High
+Germany,Winter,2005,February,2.957,High
+Germany,Spring,2005,March,2.037,High
+Greenland,Spring,2005,March,2.021,High
+Hungary,Winter,2005,February,3.171,High
+Hungary,Spring,2005,March,2.223,High
+Iceland,Spring,2005,March,2.196,High
+Liechtenstein,Winter,2005,February,2.814,High
+Liechtenstein,Spring,2005,March,1.959,High
+Mongolia,Winter,2005,February,3.021,High
+Mongolia,Spring,2005,March,1.962,High
+Mongolia,Fall,2005,November,2.235,High
+Mongolia,Winter,2005,December,2.926,High
+Netherlands,Winter,2005,February,2.75,High
+Norway,Spring,2005,March,2.1,High
+Norway,Summer,2005,June,1.468,High
+Paraguay,Summer,2005,June,1.592,High
+Paraguay,Summer,2005,July,2.058,High
+Paraguay,Summer,2005,August,1.58,High
+Poland,Winter,2005,January,2.587,High
+Poland,Winter,2005,February,3.375,High
+Poland,Spring,2005,March,2.815,High
+Poland,Summer,2005,July,1.336,High
+Romania,Winter,2005,February,3.065,High
+Romania,Spring,2005,March,2.027,High
+Romania,Fall,2005,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2005,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2005,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2005,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2005,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2005,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2005,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2005,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2005,December,4.189,High
+Sweden,Winter,2005,January,2.681,High
+Sweden,Winter,2005,February,3.178,High
+Sweden,Spring,2005,March,2.462,High
+Sweden,Summer,2005,June,1.359,High
+Sweden,Fall,2005,November,1.927,High
+Sweden,Winter,2005,December,2.699,High
+Switzerland,Winter,2005,February,2.724,High
+Switzerland,Spring,2005,March,1.836,High
+Uruguay,Summer,2005,June,1.463,High
+Uruguay,Summer,2005,July,1.606,High
+Northern Europe,Winter,2005,February,2.643,High
+Northern Europe,Spring,2005,March,1.93,High
+Afghanistan,Winter,2006,February,2.597,High
+Antarctica,Spring,2006,April,1.868,High
+Antarctica,Summer,2006,June,1.929,High
+Antarctica,Summer,2006,July,1.801,High
+Antarctica,Summer,2006,August,2.216,High
+Antarctica,Fall,2006,September,2.058,High
+Argentina,Summer,2006,July,1.424,High
+Austria,Winter,2006,February,2.924,High
+Austria,Spring,2006,March,2.054,High
+Bulgaria,Winter,2006,February,2.776,High
+Bulgaria,Summer,2006,August,1.343,High
+Canada,Spring,2006,March,1.875,High
+Denmark,Winter,2006,February,2.55,High
+Denmark,Spring,2006,March,2.01,High
+Finland,Winter,2006,January,3.335,High
+Finland,Winter,2006,February,3.566,High
+Finland,Spring,2006,March,2.892,High
+Finland,Summer,2006,June,1.583,High
+Finland,Summer,2006,July,1.38,High
+Finland,Fall,2006,October,1.915,High
+Finland,Fall,2006,November,2.28,High
+Finland,Winter,2006,December,3.499,High
+Germany,Winter,2006,February,2.957,High
+Germany,Spring,2006,March,2.037,High
+Greenland,Spring,2006,March,2.021,High
+Hungary,Winter,2006,February,3.171,High
+Hungary,Spring,2006,March,2.223,High
+Iceland,Spring,2006,March,2.196,High
+Liechtenstein,Winter,2006,February,2.814,High
+Liechtenstein,Spring,2006,March,1.959,High
+Mongolia,Winter,2006,February,3.021,High
+Mongolia,Spring,2006,March,1.962,High
+Mongolia,Fall,2006,November,2.235,High
+Mongolia,Winter,2006,December,2.926,High
+Netherlands,Winter,2006,February,2.75,High
+Norway,Spring,2006,March,2.1,High
+Norway,Summer,2006,June,1.468,High
+Paraguay,Summer,2006,June,1.592,High
+Paraguay,Summer,2006,July,2.058,High
+Paraguay,Summer,2006,August,1.58,High
+Poland,Winter,2006,January,2.587,High
+Poland,Winter,2006,February,3.375,High
+Poland,Spring,2006,March,2.815,High
+Poland,Summer,2006,July,1.336,High
+Romania,Winter,2006,February,3.065,High
+Romania,Spring,2006,March,2.027,High
+Romania,Fall,2006,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2006,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2006,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2006,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2006,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2006,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2006,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2006,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2006,December,4.189,High
+Sweden,Winter,2006,January,2.681,High
+Sweden,Winter,2006,February,3.178,High
+Sweden,Spring,2006,March,2.462,High
+Sweden,Summer,2006,June,1.359,High
+Sweden,Fall,2006,November,1.927,High
+Sweden,Winter,2006,December,2.699,High
+Switzerland,Winter,2006,February,2.724,High
+Switzerland,Spring,2006,March,1.836,High
+Uruguay,Summer,2006,June,1.463,High
+Uruguay,Summer,2006,July,1.606,High
+Northern Europe,Winter,2006,February,2.643,High
+Northern Europe,Spring,2006,March,1.93,High
+Afghanistan,Winter,2007,February,2.597,High
+Antarctica,Spring,2007,April,1.868,High
+Antarctica,Summer,2007,June,1.929,High
+Antarctica,Summer,2007,July,1.801,High
+Antarctica,Summer,2007,August,2.216,High
+Antarctica,Fall,2007,September,2.058,High
+Argentina,Summer,2007,July,1.424,High
+Austria,Winter,2007,February,2.924,High
+Austria,Spring,2007,March,2.054,High
+Bulgaria,Winter,2007,February,2.776,High
+Bulgaria,Summer,2007,August,1.343,High
+Canada,Spring,2007,March,1.875,High
+Denmark,Winter,2007,February,2.55,High
+Denmark,Spring,2007,March,2.01,High
+Finland,Winter,2007,January,3.335,High
+Finland,Winter,2007,February,3.566,High
+Finland,Spring,2007,March,2.892,High
+Finland,Summer,2007,June,1.583,High
+Finland,Summer,2007,July,1.38,High
+Finland,Fall,2007,October,1.915,High
+Finland,Fall,2007,November,2.28,High
+Finland,Winter,2007,December,3.499,High
+Germany,Winter,2007,February,2.957,High
+Germany,Spring,2007,March,2.037,High
+Greenland,Spring,2007,March,2.021,High
+Hungary,Winter,2007,February,3.171,High
+Hungary,Spring,2007,March,2.223,High
+Iceland,Spring,2007,March,2.196,High
+Liechtenstein,Winter,2007,February,2.814,High
+Liechtenstein,Spring,2007,March,1.959,High
+Mongolia,Winter,2007,February,3.021,High
+Mongolia,Spring,2007,March,1.962,High
+Mongolia,Fall,2007,November,2.235,High
+Mongolia,Winter,2007,December,2.926,High
+Netherlands,Winter,2007,February,2.75,High
+Norway,Spring,2007,March,2.1,High
+Norway,Summer,2007,June,1.468,High
+Paraguay,Summer,2007,June,1.592,High
+Paraguay,Summer,2007,July,2.058,High
+Paraguay,Summer,2007,August,1.58,High
+Poland,Winter,2007,January,2.587,High
+Poland,Winter,2007,February,3.375,High
+Poland,Spring,2007,March,2.815,High
+Poland,Summer,2007,July,1.336,High
+Romania,Winter,2007,February,3.065,High
+Romania,Spring,2007,March,2.027,High
+Romania,Fall,2007,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2007,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2007,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2007,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2007,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2007,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2007,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2007,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2007,December,4.189,High
+Sweden,Winter,2007,January,2.681,High
+Sweden,Winter,2007,February,3.178,High
+Sweden,Spring,2007,March,2.462,High
+Sweden,Summer,2007,June,1.359,High
+Sweden,Fall,2007,November,1.927,High
+Sweden,Winter,2007,December,2.699,High
+Switzerland,Winter,2007,February,2.724,High
+Switzerland,Spring,2007,March,1.836,High
+Uruguay,Summer,2007,June,1.463,High
+Uruguay,Summer,2007,July,1.606,High
+Northern Europe,Winter,2007,February,2.643,High
+Northern Europe,Spring,2007,March,1.93,High
+Afghanistan,Winter,2008,February,2.597,High
+Antarctica,Spring,2008,April,1.868,High
+Antarctica,Summer,2008,June,1.929,High
+Antarctica,Summer,2008,July,1.801,High
+Antarctica,Summer,2008,August,2.216,High
+Antarctica,Fall,2008,September,2.058,High
+Argentina,Summer,2008,July,1.424,High
+Austria,Winter,2008,February,2.924,High
+Austria,Spring,2008,March,2.054,High
+Bulgaria,Winter,2008,February,2.776,High
+Bulgaria,Summer,2008,August,1.343,High
+Canada,Spring,2008,March,1.875,High
+Denmark,Winter,2008,February,2.55,High
+Denmark,Spring,2008,March,2.01,High
+Finland,Winter,2008,January,3.335,High
+Finland,Winter,2008,February,3.566,High
+Finland,Spring,2008,March,2.892,High
+Finland,Summer,2008,June,1.583,High
+Finland,Summer,2008,July,1.38,High
+Finland,Fall,2008,October,1.915,High
+Finland,Fall,2008,November,2.28,High
+Finland,Winter,2008,December,3.499,High
+Germany,Winter,2008,February,2.957,High
+Germany,Spring,2008,March,2.037,High
+Greenland,Spring,2008,March,2.021,High
+Hungary,Winter,2008,February,3.171,High
+Hungary,Spring,2008,March,2.223,High
+Iceland,Spring,2008,March,2.196,High
+Liechtenstein,Winter,2008,February,2.814,High
+Liechtenstein,Spring,2008,March,1.959,High
+Mongolia,Winter,2008,February,3.021,High
+Mongolia,Spring,2008,March,1.962,High
+Mongolia,Fall,2008,November,2.235,High
+Mongolia,Winter,2008,December,2.926,High
+Netherlands,Winter,2008,February,2.75,High
+Norway,Spring,2008,March,2.1,High
+Norway,Summer,2008,June,1.468,High
+Paraguay,Summer,2008,June,1.592,High
+Paraguay,Summer,2008,July,2.058,High
+Paraguay,Summer,2008,August,1.58,High
+Poland,Winter,2008,January,2.587,High
+Poland,Winter,2008,February,3.375,High
+Poland,Spring,2008,March,2.815,High
+Poland,Summer,2008,July,1.336,High
+Romania,Winter,2008,February,3.065,High
+Romania,Spring,2008,March,2.027,High
+Romania,Fall,2008,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2008,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2008,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2008,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2008,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2008,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2008,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2008,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2008,December,4.189,High
+Sweden,Winter,2008,January,2.681,High
+Sweden,Winter,2008,February,3.178,High
+Sweden,Spring,2008,March,2.462,High
+Sweden,Summer,2008,June,1.359,High
+Sweden,Fall,2008,November,1.927,High
+Sweden,Winter,2008,December,2.699,High
+Switzerland,Winter,2008,February,2.724,High
+Switzerland,Spring,2008,March,1.836,High
+Uruguay,Summer,2008,June,1.463,High
+Uruguay,Summer,2008,July,1.606,High
+Northern Europe,Winter,2008,February,2.643,High
+Northern Europe,Spring,2008,March,1.93,High
+Afghanistan,Winter,2009,February,2.597,High
+Antarctica,Spring,2009,April,1.868,High
+Antarctica,Summer,2009,June,1.929,High
+Antarctica,Summer,2009,July,1.801,High
+Antarctica,Summer,2009,August,2.216,High
+Antarctica,Fall,2009,September,2.058,High
+Argentina,Summer,2009,July,1.424,High
+Austria,Winter,2009,February,2.924,High
+Austria,Spring,2009,March,2.054,High
+Bulgaria,Winter,2009,February,2.776,High
+Bulgaria,Summer,2009,August,1.343,High
+Canada,Spring,2009,March,1.875,High
+Denmark,Winter,2009,February,2.55,High
+Denmark,Spring,2009,March,2.01,High
+Finland,Winter,2009,January,3.335,High
+Finland,Winter,2009,February,3.566,High
+Finland,Spring,2009,March,2.892,High
+Finland,Summer,2009,June,1.583,High
+Finland,Summer,2009,July,1.38,High
+Finland,Fall,2009,October,1.915,High
+Finland,Fall,2009,November,2.28,High
+Finland,Winter,2009,December,3.499,High
+Germany,Winter,2009,February,2.957,High
+Germany,Spring,2009,March,2.037,High
+Greenland,Spring,2009,March,2.021,High
+Hungary,Winter,2009,February,3.171,High
+Hungary,Spring,2009,March,2.223,High
+Iceland,Spring,2009,March,2.196,High
+Liechtenstein,Winter,2009,February,2.814,High
+Liechtenstein,Spring,2009,March,1.959,High
+Mongolia,Winter,2009,February,3.021,High
+Mongolia,Spring,2009,March,1.962,High
+Mongolia,Fall,2009,November,2.235,High
+Mongolia,Winter,2009,December,2.926,High
+Netherlands,Winter,2009,February,2.75,High
+Norway,Spring,2009,March,2.1,High
+Norway,Summer,2009,June,1.468,High
+Paraguay,Summer,2009,June,1.592,High
+Paraguay,Summer,2009,July,2.058,High
+Paraguay,Summer,2009,August,1.58,High
+Poland,Winter,2009,January,2.587,High
+Poland,Winter,2009,February,3.375,High
+Poland,Spring,2009,March,2.815,High
+Poland,Summer,2009,July,1.336,High
+Romania,Winter,2009,February,3.065,High
+Romania,Spring,2009,March,2.027,High
+Romania,Fall,2009,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2009,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2009,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2009,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2009,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2009,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2009,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2009,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2009,December,4.189,High
+Sweden,Winter,2009,January,2.681,High
+Sweden,Winter,2009,February,3.178,High
+Sweden,Spring,2009,March,2.462,High
+Sweden,Summer,2009,June,1.359,High
+Sweden,Fall,2009,November,1.927,High
+Sweden,Winter,2009,December,2.699,High
+Switzerland,Winter,2009,February,2.724,High
+Switzerland,Spring,2009,March,1.836,High
+Uruguay,Summer,2009,June,1.463,High
+Uruguay,Summer,2009,July,1.606,High
+Northern Europe,Winter,2009,February,2.643,High
+Northern Europe,Spring,2009,March,1.93,High
+Afghanistan,Winter,2010,February,2.597,High
+Antarctica,Spring,2010,April,1.868,High
+Antarctica,Summer,2010,June,1.929,High
+Antarctica,Summer,2010,July,1.801,High
+Antarctica,Summer,2010,August,2.216,High
+Antarctica,Fall,2010,September,2.058,High
+Argentina,Summer,2010,July,1.424,High
+Austria,Winter,2010,February,2.924,High
+Austria,Spring,2010,March,2.054,High
+Bulgaria,Winter,2010,February,2.776,High
+Bulgaria,Summer,2010,August,1.343,High
+Canada,Spring,2010,March,1.875,High
+Denmark,Winter,2010,February,2.55,High
+Denmark,Spring,2010,March,2.01,High
+Finland,Winter,2010,January,3.335,High
+Finland,Winter,2010,February,3.566,High
+Finland,Spring,2010,March,2.892,High
+Finland,Summer,2010,June,1.583,High
+Finland,Summer,2010,July,1.38,High
+Finland,Fall,2010,October,1.915,High
+Finland,Fall,2010,November,2.28,High
+Finland,Winter,2010,December,3.499,High
+Germany,Winter,2010,February,2.957,High
+Germany,Spring,2010,March,2.037,High
+Greenland,Spring,2010,March,2.021,High
+Hungary,Winter,2010,February,3.171,High
+Hungary,Spring,2010,March,2.223,High
+Iceland,Spring,2010,March,2.196,High
+Liechtenstein,Winter,2010,February,2.814,High
+Liechtenstein,Spring,2010,March,1.959,High
+Mongolia,Winter,2010,February,3.021,High
+Mongolia,Spring,2010,March,1.962,High
+Mongolia,Fall,2010,November,2.235,High
+Mongolia,Winter,2010,December,2.926,High
+Netherlands,Winter,2010,February,2.75,High
+Norway,Spring,2010,March,2.1,High
+Norway,Summer,2010,June,1.468,High
+Paraguay,Summer,2010,June,1.592,High
+Paraguay,Summer,2010,July,2.058,High
+Paraguay,Summer,2010,August,1.58,High
+Poland,Winter,2010,January,2.587,High
+Poland,Winter,2010,February,3.375,High
+Poland,Spring,2010,March,2.815,High
+Poland,Summer,2010,July,1.336,High
+Romania,Winter,2010,February,3.065,High
+Romania,Spring,2010,March,2.027,High
+Romania,Fall,2010,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2010,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2010,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2010,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2010,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2010,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2010,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2010,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2010,December,4.189,High
+Sweden,Winter,2010,January,2.681,High
+Sweden,Winter,2010,February,3.178,High
+Sweden,Spring,2010,March,2.462,High
+Sweden,Summer,2010,June,1.359,High
+Sweden,Fall,2010,November,1.927,High
+Sweden,Winter,2010,December,2.699,High
+Switzerland,Winter,2010,February,2.724,High
+Switzerland,Spring,2010,March,1.836,High
+Uruguay,Summer,2010,June,1.463,High
+Uruguay,Summer,2010,July,1.606,High
+Northern Europe,Winter,2010,February,2.643,High
+Northern Europe,Spring,2010,March,1.93,High
+Afghanistan,Winter,2011,February,2.597,High
+Antarctica,Spring,2011,April,1.868,High
+Antarctica,Summer,2011,June,1.929,High
+Antarctica,Summer,2011,July,1.801,High
+Antarctica,Summer,2011,August,2.216,High
+Antarctica,Fall,2011,September,2.058,High
+Argentina,Summer,2011,July,1.424,High
+Austria,Winter,2011,February,2.924,High
+Austria,Spring,2011,March,2.054,High
+Bulgaria,Winter,2011,February,2.776,High
+Bulgaria,Summer,2011,August,1.343,High
+Canada,Spring,2011,March,1.875,High
+Denmark,Winter,2011,February,2.55,High
+Denmark,Spring,2011,March,2.01,High
+Finland,Winter,2011,January,3.335,High
+Finland,Winter,2011,February,3.566,High
+Finland,Spring,2011,March,2.892,High
+Finland,Summer,2011,June,1.583,High
+Finland,Summer,2011,July,1.38,High
+Finland,Fall,2011,October,1.915,High
+Finland,Fall,2011,November,2.28,High
+Finland,Winter,2011,December,3.499,High
+Germany,Winter,2011,February,2.957,High
+Germany,Spring,2011,March,2.037,High
+Greenland,Spring,2011,March,2.021,High
+Hungary,Winter,2011,February,3.171,High
+Hungary,Spring,2011,March,2.223,High
+Iceland,Spring,2011,March,2.196,High
+Liechtenstein,Winter,2011,February,2.814,High
+Liechtenstein,Spring,2011,March,1.959,High
+Mongolia,Winter,2011,February,3.021,High
+Mongolia,Spring,2011,March,1.962,High
+Mongolia,Fall,2011,November,2.235,High
+Mongolia,Winter,2011,December,2.926,High
+Netherlands,Winter,2011,February,2.75,High
+Norway,Spring,2011,March,2.1,High
+Norway,Summer,2011,June,1.468,High
+Paraguay,Summer,2011,June,1.592,High
+Paraguay,Summer,2011,July,2.058,High
+Paraguay,Summer,2011,August,1.58,High
+Poland,Winter,2011,January,2.587,High
+Poland,Winter,2011,February,3.375,High
+Poland,Spring,2011,March,2.815,High
+Poland,Summer,2011,July,1.336,High
+Romania,Winter,2011,February,3.065,High
+Romania,Spring,2011,March,2.027,High
+Romania,Fall,2011,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2011,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2011,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2011,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2011,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2011,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2011,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2011,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2011,December,4.189,High
+Sweden,Winter,2011,January,2.681,High
+Sweden,Winter,2011,February,3.178,High
+Sweden,Spring,2011,March,2.462,High
+Sweden,Summer,2011,June,1.359,High
+Sweden,Fall,2011,November,1.927,High
+Sweden,Winter,2011,December,2.699,High
+Switzerland,Winter,2011,February,2.724,High
+Switzerland,Spring,2011,March,1.836,High
+Uruguay,Summer,2011,June,1.463,High
+Uruguay,Summer,2011,July,1.606,High
+Northern Europe,Winter,2011,February,2.643,High
+Northern Europe,Spring,2011,March,1.93,High
+Afghanistan,Winter,2012,February,2.597,High
+Antarctica,Spring,2012,April,1.868,High
+Antarctica,Summer,2012,June,1.929,High
+Antarctica,Summer,2012,July,1.801,High
+Antarctica,Summer,2012,August,2.216,High
+Antarctica,Fall,2012,September,2.058,High
+Argentina,Summer,2012,July,1.424,High
+Austria,Winter,2012,February,2.924,High
+Austria,Spring,2012,March,2.054,High
+Bulgaria,Winter,2012,February,2.776,High
+Bulgaria,Summer,2012,August,1.343,High
+Canada,Spring,2012,March,1.875,High
+Denmark,Winter,2012,February,2.55,High
+Denmark,Spring,2012,March,2.01,High
+Finland,Winter,2012,January,3.335,High
+Finland,Winter,2012,February,3.566,High
+Finland,Spring,2012,March,2.892,High
+Finland,Summer,2012,June,1.583,High
+Finland,Summer,2012,July,1.38,High
+Finland,Fall,2012,October,1.915,High
+Finland,Fall,2012,November,2.28,High
+Finland,Winter,2012,December,3.499,High
+Germany,Winter,2012,February,2.957,High
+Germany,Spring,2012,March,2.037,High
+Greenland,Spring,2012,March,2.021,High
+Hungary,Winter,2012,February,3.171,High
+Hungary,Spring,2012,March,2.223,High
+Iceland,Spring,2012,March,2.196,High
+Liechtenstein,Winter,2012,February,2.814,High
+Liechtenstein,Spring,2012,March,1.959,High
+Mongolia,Winter,2012,February,3.021,High
+Mongolia,Spring,2012,March,1.962,High
+Mongolia,Fall,2012,November,2.235,High
+Mongolia,Winter,2012,December,2.926,High
+Netherlands,Winter,2012,February,2.75,High
+Norway,Spring,2012,March,2.1,High
+Norway,Summer,2012,June,1.468,High
+Paraguay,Summer,2012,June,1.592,High
+Paraguay,Summer,2012,July,2.058,High
+Paraguay,Summer,2012,August,1.58,High
+Poland,Winter,2012,January,2.587,High
+Poland,Winter,2012,February,3.375,High
+Poland,Spring,2012,March,2.815,High
+Poland,Summer,2012,July,1.336,High
+Romania,Winter,2012,February,3.065,High
+Romania,Spring,2012,March,2.027,High
+Romania,Fall,2012,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2012,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2012,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2012,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2012,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2012,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2012,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2012,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2012,December,4.189,High
+Sweden,Winter,2012,January,2.681,High
+Sweden,Winter,2012,February,3.178,High
+Sweden,Spring,2012,March,2.462,High
+Sweden,Summer,2012,June,1.359,High
+Sweden,Fall,2012,November,1.927,High
+Sweden,Winter,2012,December,2.699,High
+Switzerland,Winter,2012,February,2.724,High
+Switzerland,Spring,2012,March,1.836,High
+Uruguay,Summer,2012,June,1.463,High
+Uruguay,Summer,2012,July,1.606,High
+Northern Europe,Winter,2012,February,2.643,High
+Northern Europe,Spring,2012,March,1.93,High
+Afghanistan,Winter,2013,February,2.597,High
+Antarctica,Spring,2013,April,1.868,High
+Antarctica,Summer,2013,June,1.929,High
+Antarctica,Summer,2013,July,1.801,High
+Antarctica,Summer,2013,August,2.216,High
+Antarctica,Fall,2013,September,2.058,High
+Argentina,Summer,2013,July,1.424,High
+Austria,Winter,2013,February,2.924,High
+Austria,Spring,2013,March,2.054,High
+Bulgaria,Winter,2013,February,2.776,High
+Bulgaria,Summer,2013,August,1.343,High
+Canada,Spring,2013,March,1.875,High
+Denmark,Winter,2013,February,2.55,High
+Denmark,Spring,2013,March,2.01,High
+Finland,Winter,2013,January,3.335,High
+Finland,Winter,2013,February,3.566,High
+Finland,Spring,2013,March,2.892,High
+Finland,Summer,2013,June,1.583,High
+Finland,Summer,2013,July,1.38,High
+Finland,Fall,2013,October,1.915,High
+Finland,Fall,2013,November,2.28,High
+Finland,Winter,2013,December,3.499,High
+Germany,Winter,2013,February,2.957,High
+Germany,Spring,2013,March,2.037,High
+Greenland,Spring,2013,March,2.021,High
+Hungary,Winter,2013,February,3.171,High
+Hungary,Spring,2013,March,2.223,High
+Iceland,Spring,2013,March,2.196,High
+Liechtenstein,Winter,2013,February,2.814,High
+Liechtenstein,Spring,2013,March,1.959,High
+Mongolia,Winter,2013,February,3.021,High
+Mongolia,Spring,2013,March,1.962,High
+Mongolia,Fall,2013,November,2.235,High
+Mongolia,Winter,2013,December,2.926,High
+Netherlands,Winter,2013,February,2.75,High
+Norway,Spring,2013,March,2.1,High
+Norway,Summer,2013,June,1.468,High
+Paraguay,Summer,2013,June,1.592,High
+Paraguay,Summer,2013,July,2.058,High
+Paraguay,Summer,2013,August,1.58,High
+Poland,Winter,2013,January,2.587,High
+Poland,Winter,2013,February,3.375,High
+Poland,Spring,2013,March,2.815,High
+Poland,Summer,2013,July,1.336,High
+Romania,Winter,2013,February,3.065,High
+Romania,Spring,2013,March,2.027,High
+Romania,Fall,2013,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2013,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2013,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2013,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2013,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2013,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2013,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2013,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2013,December,4.189,High
+Sweden,Winter,2013,January,2.681,High
+Sweden,Winter,2013,February,3.178,High
+Sweden,Spring,2013,March,2.462,High
+Sweden,Summer,2013,June,1.359,High
+Sweden,Fall,2013,November,1.927,High
+Sweden,Winter,2013,December,2.699,High
+Switzerland,Winter,2013,February,2.724,High
+Switzerland,Spring,2013,March,1.836,High
+Uruguay,Summer,2013,June,1.463,High
+Uruguay,Summer,2013,July,1.606,High
+Northern Europe,Winter,2013,February,2.643,High
+Northern Europe,Spring,2013,March,1.93,High
+Afghanistan,Winter,2014,February,2.597,High
+Antarctica,Spring,2014,April,1.868,High
+Antarctica,Summer,2014,June,1.929,High
+Antarctica,Summer,2014,July,1.801,High
+Antarctica,Summer,2014,August,2.216,High
+Antarctica,Fall,2014,September,2.058,High
+Argentina,Summer,2014,July,1.424,High
+Austria,Winter,2014,February,2.924,High
+Austria,Spring,2014,March,2.054,High
+Bulgaria,Winter,2014,February,2.776,High
+Bulgaria,Summer,2014,August,1.343,High
+Canada,Spring,2014,March,1.875,High
+Denmark,Winter,2014,February,2.55,High
+Denmark,Spring,2014,March,2.01,High
+Finland,Winter,2014,January,3.335,High
+Finland,Winter,2014,February,3.566,High
+Finland,Spring,2014,March,2.892,High
+Finland,Summer,2014,June,1.583,High
+Finland,Summer,2014,July,1.38,High
+Finland,Fall,2014,October,1.915,High
+Finland,Fall,2014,November,2.28,High
+Finland,Winter,2014,December,3.499,High
+Germany,Winter,2014,February,2.957,High
+Germany,Spring,2014,March,2.037,High
+Greenland,Spring,2014,March,2.021,High
+Hungary,Winter,2014,February,3.171,High
+Hungary,Spring,2014,March,2.223,High
+Iceland,Spring,2014,March,2.196,High
+Liechtenstein,Winter,2014,February,2.814,High
+Liechtenstein,Spring,2014,March,1.959,High
+Mongolia,Winter,2014,February,3.021,High
+Mongolia,Spring,2014,March,1.962,High
+Mongolia,Fall,2014,November,2.235,High
+Mongolia,Winter,2014,December,2.926,High
+Netherlands,Winter,2014,February,2.75,High
+Norway,Spring,2014,March,2.1,High
+Norway,Summer,2014,June,1.468,High
+Paraguay,Summer,2014,June,1.592,High
+Paraguay,Summer,2014,July,2.058,High
+Paraguay,Summer,2014,August,1.58,High
+Poland,Winter,2014,January,2.587,High
+Poland,Winter,2014,February,3.375,High
+Poland,Spring,2014,March,2.815,High
+Poland,Summer,2014,July,1.336,High
+Romania,Winter,2014,February,3.065,High
+Romania,Spring,2014,March,2.027,High
+Romania,Fall,2014,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2014,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2014,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2014,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2014,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2014,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2014,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2014,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2014,December,4.189,High
+Sweden,Winter,2014,January,2.681,High
+Sweden,Winter,2014,February,3.178,High
+Sweden,Spring,2014,March,2.462,High
+Sweden,Summer,2014,June,1.359,High
+Sweden,Fall,2014,November,1.927,High
+Sweden,Winter,2014,December,2.699,High
+Switzerland,Winter,2014,February,2.724,High
+Switzerland,Spring,2014,March,1.836,High
+Uruguay,Summer,2014,June,1.463,High
+Uruguay,Summer,2014,July,1.606,High
+Northern Europe,Winter,2014,February,2.643,High
+Northern Europe,Spring,2014,March,1.93,High
+Afghanistan,Winter,2015,February,2.597,High
+Antarctica,Spring,2015,April,1.868,High
+Antarctica,Summer,2015,June,1.929,High
+Antarctica,Summer,2015,July,1.801,High
+Antarctica,Summer,2015,August,2.216,High
+Antarctica,Fall,2015,September,2.058,High
+Argentina,Summer,2015,July,1.424,High
+Austria,Winter,2015,February,2.924,High
+Austria,Spring,2015,March,2.054,High
+Bulgaria,Winter,2015,February,2.776,High
+Bulgaria,Summer,2015,August,1.343,High
+Canada,Spring,2015,March,1.875,High
+Denmark,Winter,2015,February,2.55,High
+Denmark,Spring,2015,March,2.01,High
+Finland,Winter,2015,January,3.335,High
+Finland,Winter,2015,February,3.566,High
+Finland,Spring,2015,March,2.892,High
+Finland,Summer,2015,June,1.583,High
+Finland,Summer,2015,July,1.38,High
+Finland,Fall,2015,October,1.915,High
+Finland,Fall,2015,November,2.28,High
+Finland,Winter,2015,December,3.499,High
+Germany,Winter,2015,February,2.957,High
+Germany,Spring,2015,March,2.037,High
+Greenland,Spring,2015,March,2.021,High
+Hungary,Winter,2015,February,3.171,High
+Hungary,Spring,2015,March,2.223,High
+Iceland,Spring,2015,March,2.196,High
+Liechtenstein,Winter,2015,February,2.814,High
+Liechtenstein,Spring,2015,March,1.959,High
+Mongolia,Winter,2015,February,3.021,High
+Mongolia,Spring,2015,March,1.962,High
+Mongolia,Fall,2015,November,2.235,High
+Mongolia,Winter,2015,December,2.926,High
+Netherlands,Winter,2015,February,2.75,High
+Norway,Spring,2015,March,2.1,High
+Norway,Summer,2015,June,1.468,High
+Paraguay,Summer,2015,June,1.592,High
+Paraguay,Summer,2015,July,2.058,High
+Paraguay,Summer,2015,August,1.58,High
+Poland,Winter,2015,January,2.587,High
+Poland,Winter,2015,February,3.375,High
+Poland,Spring,2015,March,2.815,High
+Poland,Summer,2015,July,1.336,High
+Romania,Winter,2015,February,3.065,High
+Romania,Spring,2015,March,2.027,High
+Romania,Fall,2015,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2015,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2015,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2015,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2015,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2015,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2015,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2015,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2015,December,4.189,High
+Sweden,Winter,2015,January,2.681,High
+Sweden,Winter,2015,February,3.178,High
+Sweden,Spring,2015,March,2.462,High
+Sweden,Summer,2015,June,1.359,High
+Sweden,Fall,2015,November,1.927,High
+Sweden,Winter,2015,December,2.699,High
+Switzerland,Winter,2015,February,2.724,High
+Switzerland,Spring,2015,March,1.836,High
+Uruguay,Summer,2015,June,1.463,High
+Uruguay,Summer,2015,July,1.606,High
+Northern Europe,Winter,2015,February,2.643,High
+Northern Europe,Spring,2015,March,1.93,High
+Afghanistan,Winter,2016,February,2.597,High
+Antarctica,Spring,2016,April,1.868,High
+Antarctica,Summer,2016,June,1.929,High
+Antarctica,Summer,2016,July,1.801,High
+Antarctica,Summer,2016,August,2.216,High
+Antarctica,Fall,2016,September,2.058,High
+Argentina,Summer,2016,July,1.424,High
+Austria,Winter,2016,February,2.924,High
+Austria,Spring,2016,March,2.054,High
+Bulgaria,Winter,2016,February,2.776,High
+Bulgaria,Summer,2016,August,1.343,High
+Canada,Spring,2016,March,1.875,High
+Denmark,Winter,2016,February,2.55,High
+Denmark,Spring,2016,March,2.01,High
+Finland,Winter,2016,January,3.335,High
+Finland,Winter,2016,February,3.566,High
+Finland,Spring,2016,March,2.892,High
+Finland,Summer,2016,June,1.583,High
+Finland,Summer,2016,July,1.38,High
+Finland,Fall,2016,October,1.915,High
+Finland,Fall,2016,November,2.28,High
+Finland,Winter,2016,December,3.499,High
+Germany,Winter,2016,February,2.957,High
+Germany,Spring,2016,March,2.037,High
+Greenland,Spring,2016,March,2.021,High
+Hungary,Winter,2016,February,3.171,High
+Hungary,Spring,2016,March,2.223,High
+Iceland,Spring,2016,March,2.196,High
+Liechtenstein,Winter,2016,February,2.814,High
+Liechtenstein,Spring,2016,March,1.959,High
+Mongolia,Winter,2016,February,3.021,High
+Mongolia,Spring,2016,March,1.962,High
+Mongolia,Fall,2016,November,2.235,High
+Mongolia,Winter,2016,December,2.926,High
+Netherlands,Winter,2016,February,2.75,High
+Norway,Spring,2016,March,2.1,High
+Norway,Summer,2016,June,1.468,High
+Paraguay,Summer,2016,June,1.592,High
+Paraguay,Summer,2016,July,2.058,High
+Paraguay,Summer,2016,August,1.58,High
+Poland,Winter,2016,January,2.587,High
+Poland,Winter,2016,February,3.375,High
+Poland,Spring,2016,March,2.815,High
+Poland,Summer,2016,July,1.336,High
+Romania,Winter,2016,February,3.065,High
+Romania,Spring,2016,March,2.027,High
+Romania,Fall,2016,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2016,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2016,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2016,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2016,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2016,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2016,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2016,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2016,December,4.189,High
+Sweden,Winter,2016,January,2.681,High
+Sweden,Winter,2016,February,3.178,High
+Sweden,Spring,2016,March,2.462,High
+Sweden,Summer,2016,June,1.359,High
+Sweden,Fall,2016,November,1.927,High
+Sweden,Winter,2016,December,2.699,High
+Switzerland,Winter,2016,February,2.724,High
+Switzerland,Spring,2016,March,1.836,High
+Uruguay,Summer,2016,June,1.463,High
+Uruguay,Summer,2016,July,1.606,High
+Northern Europe,Winter,2016,February,2.643,High
+Northern Europe,Spring,2016,March,1.93,High
+Afghanistan,Winter,2017,February,2.597,High
+Antarctica,Spring,2017,April,1.868,High
+Antarctica,Summer,2017,June,1.929,High
+Antarctica,Summer,2017,July,1.801,High
+Antarctica,Summer,2017,August,2.216,High
+Antarctica,Fall,2017,September,2.058,High
+Argentina,Summer,2017,July,1.424,High
+Austria,Winter,2017,February,2.924,High
+Austria,Spring,2017,March,2.054,High
+Bulgaria,Winter,2017,February,2.776,High
+Bulgaria,Summer,2017,August,1.343,High
+Canada,Spring,2017,March,1.875,High
+Denmark,Winter,2017,February,2.55,High
+Denmark,Spring,2017,March,2.01,High
+Finland,Winter,2017,January,3.335,High
+Finland,Winter,2017,February,3.566,High
+Finland,Spring,2017,March,2.892,High
+Finland,Summer,2017,June,1.583,High
+Finland,Summer,2017,July,1.38,High
+Finland,Fall,2017,October,1.915,High
+Finland,Fall,2017,November,2.28,High
+Finland,Winter,2017,December,3.499,High
+Germany,Winter,2017,February,2.957,High
+Germany,Spring,2017,March,2.037,High
+Greenland,Spring,2017,March,2.021,High
+Hungary,Winter,2017,February,3.171,High
+Hungary,Spring,2017,March,2.223,High
+Iceland,Spring,2017,March,2.196,High
+Liechtenstein,Winter,2017,February,2.814,High
+Liechtenstein,Spring,2017,March,1.959,High
+Mongolia,Winter,2017,February,3.021,High
+Mongolia,Spring,2017,March,1.962,High
+Mongolia,Fall,2017,November,2.235,High
+Mongolia,Winter,2017,December,2.926,High
+Netherlands,Winter,2017,February,2.75,High
+Norway,Spring,2017,March,2.1,High
+Norway,Summer,2017,June,1.468,High
+Paraguay,Summer,2017,June,1.592,High
+Paraguay,Summer,2017,July,2.058,High
+Paraguay,Summer,2017,August,1.58,High
+Poland,Winter,2017,January,2.587,High
+Poland,Winter,2017,February,3.375,High
+Poland,Spring,2017,March,2.815,High
+Poland,Summer,2017,July,1.336,High
+Romania,Winter,2017,February,3.065,High
+Romania,Spring,2017,March,2.027,High
+Romania,Fall,2017,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2017,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2017,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2017,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2017,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2017,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2017,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2017,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2017,December,4.189,High
+Sweden,Winter,2017,January,2.681,High
+Sweden,Winter,2017,February,3.178,High
+Sweden,Spring,2017,March,2.462,High
+Sweden,Summer,2017,June,1.359,High
+Sweden,Fall,2017,November,1.927,High
+Sweden,Winter,2017,December,2.699,High
+Switzerland,Winter,2017,February,2.724,High
+Switzerland,Spring,2017,March,1.836,High
+Uruguay,Summer,2017,June,1.463,High
+Uruguay,Summer,2017,July,1.606,High
+Northern Europe,Winter,2017,February,2.643,High
+Northern Europe,Spring,2017,March,1.93,High
+Afghanistan,Winter,2018,February,2.597,High
+Antarctica,Spring,2018,April,1.868,High
+Antarctica,Summer,2018,June,1.929,High
+Antarctica,Summer,2018,July,1.801,High
+Antarctica,Summer,2018,August,2.216,High
+Antarctica,Fall,2018,September,2.058,High
+Argentina,Summer,2018,July,1.424,High
+Austria,Winter,2018,February,2.924,High
+Austria,Spring,2018,March,2.054,High
+Bulgaria,Winter,2018,February,2.776,High
+Bulgaria,Summer,2018,August,1.343,High
+Canada,Spring,2018,March,1.875,High
+Denmark,Winter,2018,February,2.55,High
+Denmark,Spring,2018,March,2.01,High
+Finland,Winter,2018,January,3.335,High
+Finland,Winter,2018,February,3.566,High
+Finland,Spring,2018,March,2.892,High
+Finland,Summer,2018,June,1.583,High
+Finland,Summer,2018,July,1.38,High
+Finland,Fall,2018,October,1.915,High
+Finland,Fall,2018,November,2.28,High
+Finland,Winter,2018,December,3.499,High
+Germany,Winter,2018,February,2.957,High
+Germany,Spring,2018,March,2.037,High
+Greenland,Spring,2018,March,2.021,High
+Hungary,Winter,2018,February,3.171,High
+Hungary,Spring,2018,March,2.223,High
+Iceland,Spring,2018,March,2.196,High
+Liechtenstein,Winter,2018,February,2.814,High
+Liechtenstein,Spring,2018,March,1.959,High
+Mongolia,Winter,2018,February,3.021,High
+Mongolia,Spring,2018,March,1.962,High
+Mongolia,Fall,2018,November,2.235,High
+Mongolia,Winter,2018,December,2.926,High
+Netherlands,Winter,2018,February,2.75,High
+Norway,Spring,2018,March,2.1,High
+Norway,Summer,2018,June,1.468,High
+Paraguay,Summer,2018,June,1.592,High
+Paraguay,Summer,2018,July,2.058,High
+Paraguay,Summer,2018,August,1.58,High
+Poland,Winter,2018,January,2.587,High
+Poland,Winter,2018,February,3.375,High
+Poland,Spring,2018,March,2.815,High
+Poland,Summer,2018,July,1.336,High
+Romania,Winter,2018,February,3.065,High
+Romania,Spring,2018,March,2.027,High
+Romania,Fall,2018,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2018,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2018,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2018,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2018,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2018,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2018,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2018,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2018,December,4.189,High
+Sweden,Winter,2018,January,2.681,High
+Sweden,Winter,2018,February,3.178,High
+Sweden,Spring,2018,March,2.462,High
+Sweden,Summer,2018,June,1.359,High
+Sweden,Fall,2018,November,1.927,High
+Sweden,Winter,2018,December,2.699,High
+Switzerland,Winter,2018,February,2.724,High
+Switzerland,Spring,2018,March,1.836,High
+Uruguay,Summer,2018,June,1.463,High
+Uruguay,Summer,2018,July,1.606,High
+Northern Europe,Winter,2018,February,2.643,High
+Northern Europe,Spring,2018,March,1.93,High
+Afghanistan,Winter,2019,February,2.597,High
+Antarctica,Spring,2019,April,1.868,High
+Antarctica,Summer,2019,June,1.929,High
+Antarctica,Summer,2019,July,1.801,High
+Antarctica,Summer,2019,August,2.216,High
+Antarctica,Fall,2019,September,2.058,High
+Argentina,Summer,2019,July,1.424,High
+Austria,Winter,2019,February,2.924,High
+Austria,Spring,2019,March,2.054,High
+Bulgaria,Winter,2019,February,2.776,High
+Bulgaria,Summer,2019,August,1.343,High
+Canada,Spring,2019,March,1.875,High
+Denmark,Winter,2019,February,2.55,High
+Denmark,Spring,2019,March,2.01,High
+Finland,Winter,2019,January,3.335,High
+Finland,Winter,2019,February,3.566,High
+Finland,Spring,2019,March,2.892,High
+Finland,Summer,2019,June,1.583,High
+Finland,Summer,2019,July,1.38,High
+Finland,Fall,2019,October,1.915,High
+Finland,Fall,2019,November,2.28,High
+Finland,Winter,2019,December,3.499,High
+Germany,Winter,2019,February,2.957,High
+Germany,Spring,2019,March,2.037,High
+Greenland,Spring,2019,March,2.021,High
+Hungary,Winter,2019,February,3.171,High
+Hungary,Spring,2019,March,2.223,High
+Iceland,Spring,2019,March,2.196,High
+Liechtenstein,Winter,2019,February,2.814,High
+Liechtenstein,Spring,2019,March,1.959,High
+Mongolia,Winter,2019,February,3.021,High
+Mongolia,Spring,2019,March,1.962,High
+Mongolia,Fall,2019,November,2.235,High
+Mongolia,Winter,2019,December,2.926,High
+Netherlands,Winter,2019,February,2.75,High
+Norway,Spring,2019,March,2.1,High
+Norway,Summer,2019,June,1.468,High
+Paraguay,Summer,2019,June,1.592,High
+Paraguay,Summer,2019,July,2.058,High
+Paraguay,Summer,2019,August,1.58,High
+Poland,Winter,2019,January,2.587,High
+Poland,Winter,2019,February,3.375,High
+Poland,Spring,2019,March,2.815,High
+Poland,Summer,2019,July,1.336,High
+Romania,Winter,2019,February,3.065,High
+Romania,Spring,2019,March,2.027,High
+Romania,Fall,2019,November,1.88,High
+South Georgia and the South Sandwich Islands,Summer,2019,August,1.56,High
+Svalbard and Jan Mayen Islands,Winter,2019,January,4.373,High
+Svalbard and Jan Mayen Islands,Winter,2019,February,3.639,High
+Svalbard and Jan Mayen Islands,Spring,2019,March,3.906,High
+Svalbard and Jan Mayen Islands,Spring,2019,April,2.492,High
+Svalbard and Jan Mayen Islands,Fall,2019,October,2.636,High
+Svalbard and Jan Mayen Islands,Fall,2019,November,3.946,High
+Svalbard and Jan Mayen Islands,Winter,2019,December,4.189,High
+Sweden,Winter,2019,January,2.681,High
+Sweden,Winter,2019,February,3.178,High
+Sweden,Spring,2019,March,2.462,High
+Sweden,Summer,2019,June,1.359,High
+Sweden,Fall,2019,November,1.927,High
+Sweden,Winter,2019,December,2.699,High
+Switzerland,Winter,2019,February,2.724,High
+Switzerland,Spring,2019,March,1.836,High
+Uruguay,Summer,2019,June,1.463,High
+Uruguay,Summer,2019,July,1.606,High
+Northern Europe,Winter,2019,February,2.643,High
+Northern Europe,Spring,2019,March,1.93,High

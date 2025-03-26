@@ -1199,195 +1199,559 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 	function drawGraph8() {
 		const container = d3.select("#graph8");
-		container.html(""); 
+		container.html("");
 		container.style("height", "auto").style("overflow", "visible");
-	  
-		container.attr("class", "chart-container graph"); 
-	  
+
+		container.attr("class", "chart-container graph");
+
 		const controls = container.append("div").attr("id", "controls8");
-	  
+
 		controls.append("label")
-		  .attr("for", "country-select8")
-		  .style("margin-right", "6px")
-		  .text("Country:");
-	  
+			.attr("for", "country-select8")
+			.style("margin-right", "6px")
+			.text("Country:");
+
 		const select = controls.append("select")
-		  .attr("id", "country-select8")
-		  .style("font-size", "14px")
-		  .style("padding", "4px 6px");
-	  
+			.attr("id", "country-select8")
+			.style("font-size", "14px")
+			.style("padding", "4px 6px");
+
 		const tooltip = container.append("div")
-		  .attr("class", "tooltip")
-		  .style("opacity", 0)
-		  .style("position", "absolute")
-		  .style("background", "rgba(0,0,0,0.7)")
-		  .style("color", "white")
-		  .style("padding", "6px 10px")
-		  .style("border-radius", "5px")
-		  .style("pointer-events", "none")
-		  .style("font-size", "12px");
-	  
+			.attr("class", "tooltip")
+			.style("opacity", 0)
+			.style("position", "absolute")
+			.style("background", "rgba(0,0,0,0.7)")
+			.style("color", "white")
+			.style("padding", "6px 10px")
+			.style("border-radius", "5px")
+			.style("pointer-events", "none")
+			.style("font-size", "12px");
+
 		const width = 1600;
 		const height = 520;
 		const margin = { top: 30, right: 100, bottom: 40, left: 60 };
-	  
+
 		const svg = container.append("svg")
-		  .attr("width", width)
-		  .attr("height", height);
-	  
+			.attr("width", width)
+			.attr("height", height);
+
 		const bubbleGroup = svg.append("g").attr("class", "bubbles");
-	  
+
 		d3.csv("tables/globalStdToTem.csv").then(raw => {
-		  const data = raw.map(d => ({
-			tempChange: +d["Temperature Change"],
-			stdDev: +d["Standard Deviation"],
-			Area: d.Area,
-			Year: d.Year,
-			Months: d.Months
-		  })).filter(d => !isNaN(d.tempChange) && !isNaN(d.stdDev));
-	  
-		  const maxStdDev = d3.max(data, d => d.stdDev);
-		  const xScale = d3.scaleLinear().domain([-5.2, 5.2]).range([margin.left, width - margin.right]);
-		  const yScale = d3.scaleLinear().domain([0, maxStdDev + 0.5]).range([height - margin.bottom, margin.top]);
-	  
-		  const xAxis = d3.axisBottom(xScale).ticks(10);
-		  const yAxis = d3.axisLeft(yScale).ticks(10);
-	  
-		  svg.append("g")
-			.attr("transform", `translate(0, ${height - margin.bottom})`)
-			.call(xAxis)
-			.append("text")
-			.attr("x", (width - margin.left - margin.right) / 2 + margin.left)
-			.attr("y", 35)
-			.attr("fill", "#444")
-			.attr("text-anchor", "middle")
-			.style("font-size", "16px")
-			.text("Temperature change");
-	  
-		  svg.append("g")
-			.attr("transform", `translate(${margin.left}, 0)`)
-			.call(yAxis)
-			.append("text")
-			.attr("transform", "rotate(-90)")
-			.attr("x", -height / 2)
-			.attr("y", -45)
-			.attr("fill", "#444")
-			.attr("text-anchor", "middle")
-			.style("font-size", "16px")
-			.text("Standard deviation");
-	  
-		  const legend = svg.append("g")
-			.attr("transform", `translate(${width - 60},${margin.top})`);
-	  
-		  const legendScale = d3.scaleLinear().range([100, 0]);
-		  const legendAxis = d3.axisRight(legendScale).ticks(5);
-	  
-		  const defs = svg.append("defs");
-		  const linearGradient = defs.append("linearGradient")
-			.attr("id", "legend-gradient")
-			.attr("x1", "0%").attr("y1", "100%")
-			.attr("x2", "0%").attr("y2", "0%");
-	  
-		  linearGradient.selectAll("stop")
-			.data(d3.range(0, 1.1, 0.1))
-			.enter().append("stop")
-			.attr("offset", d => `${d * 100}%`)
-			.attr("stop-color", "white");
-	  
-		  legend.append("rect")
-			.attr("width", 20)
-			.attr("height", 100)
-			.style("fill", "url(#legend-gradient)");
-	  
-		  legend.append("g")
-			.attr("transform", "translate(20, 0)")
-			.attr("class", "legend-axis");
-	  
-		  svg.select(".legend-axis")
-			.call(legendAxis)
-			.selectAll("text")
-			.style("font-size", "14px")
-			.style("fill", "#444");
-	  
-		  
-		  const countries = Array.from(new Set(data.map(d => d.Area))).sort();
-		  select.append("option").attr("value", "All").text("Globally");
-		  countries.forEach(country => {
-			select.append("option").attr("value", country).text(country);
-		  });
-	  
-		  select.on("change", () => {
-			const selected = select.property("value");
-			const filtered = selected === "All" ? data : data.filter(d => d.Area === selected);
-			drawBubbles(filtered);
-		  });
-	  
-		  drawBubbles(data); 
-	  
-		  function drawBubbles(data) {
-			bubbleGroup.selectAll("*").remove();
-	  
-			const bins = {};
-			data.forEach(d => {
-			  const key = `${Math.round(d.tempChange * 10)},${Math.round(d.stdDev * 10)}`;
-			  if (!bins[key]) bins[key] = { count: 0, items: [] };
-			  bins[key].count += 1;
-			  bins[key].items.push(d);
-			});
-	  
-			const bubbles = Object.entries(bins).map(([key, value]) => {
-			  const [xBin, yBin] = key.split(",").map(Number);
-			  return {
-				x: xScale(xBin / 10),
-				y: yScale(yBin / 10),
-				count: value.count,
-				items: value.items
-			  };
-			});
-	  
-			const colorScale = d3.scaleSequential(d3.interpolateYlOrRd)
-			  .domain([1, d3.max(bubbles, d => d.count)]);
-	  
-			legendScale.domain([1, d3.max(bubbles, d => d.count)]);
-			svg.select(".legend-axis").call(legendAxis);
+			const data = raw.map(d => ({
+				tempChange: +d["Temperature Change"],
+				stdDev: +d["Standard Deviation"],
+				Area: d.Area,
+				Year: d.Year,
+				Months: d.Months
+			})).filter(d => !isNaN(d.tempChange) && !isNaN(d.stdDev));
+
+			const maxStdDev = d3.max(data, d => d.stdDev);
+			const xScale = d3.scaleLinear().domain([-5.2, 5.2]).range([margin.left, width - margin.right]);
+			const yScale = d3.scaleLinear().domain([0, maxStdDev + 0.5]).range([height - margin.bottom, margin.top]);
+
+			const xAxis = d3.axisBottom(xScale).ticks(10);
+			const yAxis = d3.axisLeft(yScale).ticks(10);
+
+			svg.append("g")
+				.attr("transform", `translate(0, ${height - margin.bottom})`)
+				.call(xAxis)
+				.append("text")
+				.attr("x", (width - margin.left - margin.right) / 2 + margin.left)
+				.attr("y", 35)
+				.attr("fill", "#444")
+				.attr("text-anchor", "middle")
+				.style("font-size", "16px")
+				.text("Temperature change");
+
+			svg.append("g")
+				.attr("transform", `translate(${margin.left}, 0)`)
+				.call(yAxis)
+				.append("text")
+				.attr("transform", "rotate(-90)")
+				.attr("x", -height / 2)
+				.attr("y", -45)
+				.attr("fill", "#444")
+				.attr("text-anchor", "middle")
+				.style("font-size", "16px")
+				.text("Standard deviation");
+
+			const legend = svg.append("g")
+				.attr("transform", `translate(${width - 60},${margin.top})`);
+
+			const legendScale = d3.scaleLinear().range([100, 0]);
+			const legendAxis = d3.axisRight(legendScale).ticks(5);
+
+			const defs = svg.append("defs");
+			const linearGradient = defs.append("linearGradient")
+				.attr("id", "legend-gradient")
+				.attr("x1", "0%").attr("y1", "100%")
+				.attr("x2", "0%").attr("y2", "0%");
+
 			linearGradient.selectAll("stop")
-			  .data(d3.range(0, 1.1, 0.1))
-			  .attr("stop-color", d => colorScale(1 + d * (d3.max(bubbles, d => d.count) - 1)));
-	  
-			bubbleGroup.selectAll("circle")
-			  .data(bubbles)
-			  .enter()
-			  .append("circle")
-			  .attr("cx", d => d.x)
-			  .attr("cy", d => d.y)
-			  .attr("r", 0)
-			  .attr("fill", d => colorScale(d.count))
-			  .attr("opacity", 0.7)
-			  .on("mouseover", (event, d) => {
-				const sample = d.items[0];
-				tooltip.style("opacity", 1)
-				  .html(
-					`<strong>${sample.Area}</strong><br>
+				.data(d3.range(0, 1.1, 0.1))
+				.enter().append("stop")
+				.attr("offset", d => `${d * 100}%`)
+				.attr("stop-color", "white");
+
+			legend.append("rect")
+				.attr("width", 20)
+				.attr("height", 100)
+				.style("fill", "url(#legend-gradient)");
+
+			legend.append("g")
+				.attr("transform", "translate(20, 0)")
+				.attr("class", "legend-axis");
+
+			svg.select(".legend-axis")
+				.call(legendAxis)
+				.selectAll("text")
+				.style("font-size", "14px")
+				.style("fill", "#444");
+
+
+			const countries = Array.from(new Set(data.map(d => d.Area))).sort();
+			select.append("option").attr("value", "All").text("Globally");
+			countries.forEach(country => {
+				select.append("option").attr("value", country).text(country);
+			});
+
+			select.on("change", () => {
+				const selected = select.property("value");
+				const filtered = selected === "All" ? data : data.filter(d => d.Area === selected);
+				drawBubbles(filtered);
+			});
+
+			drawBubbles(data);
+
+			function drawBubbles(data) {
+				bubbleGroup.selectAll("*").remove();
+
+				const bins = {};
+				data.forEach(d => {
+					const key = `${Math.round(d.tempChange * 10)},${Math.round(d.stdDev * 10)}`;
+					if (!bins[key]) bins[key] = { count: 0, items: [] };
+					bins[key].count += 1;
+					bins[key].items.push(d);
+				});
+
+				const bubbles = Object.entries(bins).map(([key, value]) => {
+					const [xBin, yBin] = key.split(",").map(Number);
+					return {
+						x: xScale(xBin / 10),
+						y: yScale(yBin / 10),
+						count: value.count,
+						items: value.items
+					};
+				});
+
+				const colorScale = d3.scaleSequential(d3.interpolateYlOrRd)
+					.domain([1, d3.max(bubbles, d => d.count)]);
+
+				legendScale.domain([1, d3.max(bubbles, d => d.count)]);
+				svg.select(".legend-axis").call(legendAxis);
+				linearGradient.selectAll("stop")
+					.data(d3.range(0, 1.1, 0.1))
+					.attr("stop-color", d => colorScale(1 + d * (d3.max(bubbles, d => d.count) - 1)));
+
+				bubbleGroup.selectAll("circle")
+					.data(bubbles)
+					.enter()
+					.append("circle")
+					.attr("cx", d => d.x)
+					.attr("cy", d => d.y)
+					.attr("r", 0)
+					.attr("fill", d => colorScale(d.count))
+					.attr("opacity", 0.7)
+					.on("mouseover", (event, d) => {
+						const sample = d.items[0];
+						tooltip.style("opacity", 1)
+							.html(
+								`<strong>${sample.Area}</strong><br>
 					Year: ${sample.Year}<br>
 					Month: ${sample.Months}<br>
 					Temp Change: ${sample.tempChange}<br>
 					Std Dev: ${sample.stdDev}`
-				  );
-			  })
-			  .on("mousemove", event => {
-				tooltip.style("left", (event.pageX + 10) + "px")
-					   .style("top", (event.pageY - 30) + "px");
-			  })
-			  .on("mouseout", () => tooltip.style("opacity", 0))
-			  .transition()
-			  .duration(1000)
-			  .attr("r", d => Math.min(20, d.count * 2 + 4));
-		  }
+							);
+					})
+					.on("mousemove", event => {
+						tooltip.style("left", (event.pageX + 10) + "px")
+							.style("top", (event.pageY - 30) + "px");
+					})
+					.on("mouseout", () => tooltip.style("opacity", 0))
+					.transition()
+					.duration(1000)
+					.attr("r", d => Math.min(20, d.count * 2 + 4));
+			}
 		});
-	  }
+	}
+	function drawGraph13() {
+		const margin = { top: 40, right: 20, bottom: 60, left: 90 },
+			boxWidth = 120,
+			width = 1950 - margin.left - margin.right,
+			height = 500;
 
-	  
-	  
+		d3.select("#graph13").html("");
+
+		const svg = d3.select("#graph13")
+			.append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom)
+			.style("background-color", "#f5f5f5")
+			.append("g")
+			.attr("transform", `translate(${margin.left},${margin.top})`);
+
+		Promise.all([
+			d3.csv("tables/globalStdToTem.csv"),
+			d3.csv("tables/tempOutliersBySeason.csv")
+		]).then(([fullData, outliers]) => {
+			fullData.forEach(d => {
+				d["Temperature Change"] = +d["Temperature Change"];
+				d["Month"] = d["Months"].trim();
+			});
+
+			outliers.forEach(d => {
+				d["Temperature Change"] = +d["Temperature Change"];
+				d["Month"] = d["Months"].trim();
+			});
+
+			const monthToSeason = {
+				"December": "Winter", "January": "Winter", "February": "Winter",
+				"March": "Spring", "April": "Spring", "May": "Spring",
+				"June": "Summer", "July": "Summer", "August": "Summer",
+				"September": "Fall", "October": "Fall", "November": "Fall"
+			};
+
+			fullData.forEach(d => {
+				d.Season = monthToSeason[d["Month"]];
+			});
+
+			const seasons = ["Winter", "Spring", "Summer", "Fall"];
+			const x = d3.scaleBand()
+				.domain(seasons)
+				.range([0, width])
+				.padding(0.3);
+
+			const allTemps = fullData.map(d => d["Temperature Change"]);
+			const y = d3.scaleLinear()
+				.domain([d3.min(allTemps), d3.max(allTemps)])
+				.nice()
+				.range([height, 0]);
+
+			svg.append("g")
+				.attr("transform", `translate(0, ${height})`)
+				.call(d3.axisBottom(x))
+				.selectAll("text")
+				.style("font-size", "16px");
+
+			svg.append("g")
+				.call(d3.axisLeft(y))
+				.selectAll("text")
+				.style("font-size", "16px");
+
+			const boxData = d3.rollups(
+				fullData,
+				group => {
+					const values = group.map(d => d["Temperature Change"]).sort(d3.ascending);
+					const q1 = d3.quantile(values, 0.25);
+					const q2 = d3.quantile(values, 0.5);
+					const q3 = d3.quantile(values, 0.75);
+					const iqr = q3 - q1;
+					const min = q1 - 1.5 * iqr;
+					const max = q3 + 1.5 * iqr;
+					return { q1, q2, q3, min, max };
+				},
+				d => d.Season
+			);
+
+			
+			svg.selectAll(".whisker-top")
+				.data(boxData)
+				.enter()
+				.append("line")
+				.attr("x1", d => x(d[0]) + x.bandwidth() / 2)
+				.attr("x2", d => x(d[0]) + x.bandwidth() / 2)
+				.attr("y1", d => y(d[1].q3))
+				.attr("y2", d => y(d[1].max))
+				.attr("stroke", "#333")
+				.attr("stroke-width", 1.5);
+
+			svg.selectAll(".whisker-bottom")
+				.data(boxData)
+				.enter()
+				.append("line")
+				.attr("x1", d => x(d[0]) + x.bandwidth() / 2)
+				.attr("x2", d => x(d[0]) + x.bandwidth() / 2)
+				.attr("y1", d => y(d[1].q1))
+				.attr("y2", d => y(d[1].min))
+				.attr("stroke", "#333")
+				.attr("stroke-width", 1.5);
+			svg.selectAll(".whisker-cap-top")
+				.data(boxData)
+				.enter()
+				.append("line")
+				.attr("x1", d => x(d[0]) + x.bandwidth() / 2 - boxWidth / 4)
+				.attr("x2", d => x(d[0]) + x.bandwidth() / 2 + boxWidth / 4)
+				.attr("y1", d => y(d[1].max))
+				.attr("y2", d => y(d[1].max))
+				.attr("stroke", "#333")
+				.attr("stroke-width", 1.5);
+
+			svg.selectAll(".whisker-cap-bottom")
+				.data(boxData)
+				.enter()
+				.append("line")
+				.attr("x1", d => x(d[0]) + x.bandwidth() / 2 - boxWidth / 4)
+				.attr("x2", d => x(d[0]) + x.bandwidth() / 2 + boxWidth / 4)
+				.attr("y1", d => y(d[1].min))
+				.attr("y2", d => y(d[1].min))
+				.attr("stroke", "#333")
+				.attr("stroke-width", 1.5);
+
+			
+			svg.selectAll(".box")
+				.data(boxData)
+				.enter()
+				.append("rect")
+				.attr("x", d => x(d[0]) + x.bandwidth() / 2 - boxWidth / 2)
+				.attr("y", d => y(d[1].q3))
+				.attr("width", boxWidth)
+				.attr("height", d => y(d[1].q1) - y(d[1].q3))
+				.attr("fill", "#4682b4")
+				.attr("opacity", 0.4)
+				.attr("rx", 6);
+
+			
+			svg.selectAll(".median")
+				.data(boxData)
+				.enter()
+				.append("line")
+				.attr("x1", d => x(d[0]) + x.bandwidth() / 2 - boxWidth / 2)
+				.attr("x2", d => x(d[0]) + x.bandwidth() / 2 + boxWidth / 2)
+				.attr("y1", d => y(d[1].q2))
+				.attr("y2", d => y(d[1].q2))
+				.attr("stroke", "#333")
+				.attr("stroke-width", 2);
+
+			
+			svg.selectAll(".outlier")
+				.data(outliers)
+				.enter()
+				.append("circle")
+				.attr("cx", d => x(d.Season) + x.bandwidth() / 2 + (Math.random() - 0.5) * (boxWidth * 0.6))
+				.attr("cy", d => y(d["Temperature Change"]))
+				.attr("r", 2.5)
+				.attr("fill", d => d["Outlier Type"] === "High" ? "crimson" : "blue")
+				.attr("opacity", 0.6);
+
+			
+			svg.append("text")
+				.attr("x", width / 2)
+				.attr("y", height + 50)
+				.attr("text-anchor", "middle")
+				.attr("font-size", 16)
+				.text("Season");
+
+			svg.append("text")
+				.attr("transform", "rotate(-90)")
+				.attr("x", -height / 2)
+				.attr("y", -50)
+				.attr("text-anchor", "middle")
+				.attr("font-size", 16)
+				.text("Temperature Change (°C)");
+		});
+	}
+
+	function drawGraph14() {
+		const margin = { top: 40, right: 20, bottom: 60, left: 90 },
+			boxWidth = 120,
+			width = 1950 - margin.left - margin.right,
+			height = 500;
+
+		d3.select("#graph14").html("");
+
+		const svg = d3.select("#graph14")
+			.append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom)
+			.style("background-color", "#f5f5f5")
+			.append("g")
+			.attr("transform", `translate(${margin.left},${margin.top})`);
+
+		Promise.all([
+			d3.csv("tables/globalStdToTem.csv"),
+			d3.csv("tables/tempStdOutliersBySeason.csv")
+		]).then(([fullData, outliers]) => {
+			fullData.forEach(d => {
+				d["Standard Deviation"] = +d["Standard Deviation"];
+				d["Month"] = d["Months"].trim();
+			});
+
+			outliers.forEach(d => {
+				d["Standard Deviation"] = +d["Standard Deviation"];
+				d["Month"] = d["Months"].trim();
+			});
+
+			const monthToSeason = {
+				"December": "Winter", "January": "Winter", "February": "Winter",
+				"March": "Spring", "April": "Spring", "May": "Spring",
+				"June": "Summer", "July": "Summer", "August": "Summer",
+				"September": "Fall", "October": "Fall", "November": "Fall"
+			};
+
+			fullData.forEach(d => {
+				d.Season = monthToSeason[d["Month"]];
+			});
+			outliers.forEach(d => {
+				d.Season = monthToSeason[d["Month"]];
+			});
+
+			const seasons = ["Winter", "Spring", "Summer", "Fall"];
+			const x = d3.scaleBand()
+				.domain(seasons)
+				.range([0, width])
+				.padding(0.3);
+
+			const boxData = d3.rollups(
+				fullData,
+				group => {
+					const values = group.map(d => d["Standard Deviation"]).sort(d3.ascending);
+					const q1 = d3.quantile(values, 0.25);
+					const q2 = d3.quantile(values, 0.5);
+					const q3 = d3.quantile(values, 0.75);
+					const iqr = q3 - q1;
+					const min = q1 - 1.5 * iqr;
+					const max = q3 + 1.5 * iqr;
+					return { q1, q2, q3, min, max };
+				},
+				d => d.Season
+			);
+
+
+
+			const allTemps = fullData.map(d => d["Standard Deviation"]).concat(outliers.map(d => d["Standard Deviation"]));
+			const yMin = d3.min(allTemps);
+			const yMax = d3.max(allTemps);
+
+			const y = d3.scaleLinear()
+				.domain([yMin - 1, yMax + 0.5])
+				.nice()
+				.range([height, 0]);
+
+			svg.append("g")
+				.attr("transform", `translate(0, ${height})`)
+				.call(d3.axisBottom(x))
+				.selectAll("text")
+				.style("font-size", "16px");
+
+			svg.append("g")
+				.call(d3.axisLeft(y))
+				.selectAll("text")
+				.style("font-size", "16px");
+
+
+			svg.selectAll(".whisker-top")
+				.data(boxData)
+				.enter()
+				.append("line")
+				.attr("x1", d => x(d[0]) + x.bandwidth() / 2)
+				.attr("x2", d => x(d[0]) + x.bandwidth() / 2)
+				.attr("y1", d => y(d[1].q3))
+				.attr("y2", d => y(d[1].max))
+				.attr("stroke", "#333")
+				.attr("stroke-width", 1.5)
+				.attr("stroke-dasharray", "2,2");
+
+			svg.selectAll(".whisker-bottom")
+				.data(boxData)
+				.enter()
+				.append("line")
+				.attr("x1", d => x(d[0]) + x.bandwidth() / 2)
+				.attr("x2", d => x(d[0]) + x.bandwidth() / 2)
+				.attr("y1", d => y(d[1].q1))
+				.attr("y2", d => y(d[1].min))
+				.attr("stroke", "#333")
+				.attr("stroke-width", 1.5)
+				.attr("stroke-dasharray", "2,2");
+
+			
+			svg.selectAll(".whisker-cap-top")
+				.data(boxData)
+				.enter()
+				.append("line")
+				.attr("x1", d => x(d[0]) + x.bandwidth() / 2 - boxWidth / 4)
+				.attr("x2", d => x(d[0]) + x.bandwidth() / 2 + boxWidth / 4)
+				.attr("y1", d => y(d[1].max))
+				.attr("y2", d => y(d[1].max))
+				.attr("stroke", "#333")
+				.attr("stroke-width", 1.5);
+
+			svg.selectAll(".whisker-cap-bottom")
+				.data(boxData)
+				.enter()
+				.append("line")
+				.attr("x1", d => x(d[0]) + x.bandwidth() / 2 - boxWidth / 4)
+				.attr("x2", d => x(d[0]) + x.bandwidth() / 2 + boxWidth / 4)
+				.attr("y1", d => y(d[1].min))
+				.attr("y2", d => y(d[1].min))
+				.attr("stroke", "#333")
+				.attr("stroke-width", 1.5);
+
+			
+			svg.selectAll(".box")
+				.data(boxData)
+				.enter()
+				.append("rect")
+				.attr("x", d => x(d[0]) + x.bandwidth() / 2 - boxWidth / 2)
+				.attr("y", d => y(d[1].q3))
+				.attr("width", boxWidth)
+				.attr("height", d => y(d[1].q1) - y(d[1].q3))
+				.attr("fill", "#4682b4")
+				.attr("opacity", 0.4)
+				.attr("rx", 6);
+
+		
+			svg.selectAll(".median")
+				.data(boxData)
+				.enter()
+				.append("line")
+				.attr("x1", d => x(d[0]) + x.bandwidth() / 2 - boxWidth / 2)
+				.attr("x2", d => x(d[0]) + x.bandwidth() / 2 + boxWidth / 2)
+				.attr("y1", d => y(d[1].q2))
+				.attr("y2", d => y(d[1].q2))
+				.attr("stroke", "#333")
+				.attr("stroke-width", 2);
+
+	
+			svg.selectAll(".outlier")
+				.data(outliers)
+				.enter()
+				.append("circle")
+				.attr("cx", d => x(d.Season) + x.bandwidth() / 2 + (Math.random() - 0.5) * (boxWidth * 0.6))
+				.attr("cy", d => y(d["Standard Deviation"]))
+				.attr("r", 2.5)
+				.attr("fill", d => d["Outlier Type"] === "High" ? "crimson" : "blue")
+				.attr("opacity", 0.6);
+
+			svg.append("text")
+				.attr("x", width / 2)
+				.attr("y", height + 50)
+				.attr("text-anchor", "middle")
+				.attr("font-size", 14)
+				.attr("font-weight", "bold")
+				.text("Season");
+
+			svg.append("text")
+				.attr("transform", "rotate(-90)")
+				.attr("x", -height / 2)
+				.attr("y", -60)
+				.attr("text-anchor", "middle")
+				.attr("font-size", 16)
+				.text("Standard Deviation (°C)");
+		});
+	}
+
+
 
 	// Draw the first graph by default
 	drawGraph5()
@@ -1395,7 +1759,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	thumbnails.forEach(thumbnail => {
 		thumbnail.addEventListener('click', function () {
 			const graphId = this.getAttribute('onclick').match(/'([^']+)'/)[1]
-			const allGraphs = ['graph5', 'graph6', 'graph7','graph8']
+			const allGraphs = ['graph5', 'graph6', 'graph7', 'graph8', 'graph13', 'graph14']
 			allGraphs.forEach(id => {
 				const el = document.getElementById(id)
 				if (id === graphId) {
@@ -1411,7 +1775,8 @@ document.addEventListener('DOMContentLoaded', function () {
 			if (graphId === 'graph6') drawGraph6()
 			if (graphId === 'graph7') drawGraph7()
 			if (graphId === 'graph8') drawGraph8()
-			if (graphId === 'graph9') drawGraph9()
+			if (graphId === 'graph13') drawGraph13()
+			if (graphId === 'graph14') drawGraph14()
 		})
 	})
 })
