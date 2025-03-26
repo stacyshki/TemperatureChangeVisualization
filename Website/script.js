@@ -1779,4 +1779,129 @@ document.addEventListener('DOMContentLoaded', function () {
 			if (graphId === 'graph14') drawGraph14()
 		})
 	})
+	d3.csv("tables/Global_Temp_Change_By_Month_Every_Year_1.csv").then(data => {
+		const months = data.map(d => d.Months);
+		const years = Object.keys(data[0]).filter(key => key.startsWith("Y"));
+			const slider = d3
+			.select("#graph10")
+			.append("input")
+			.attr("type", "range")
+			.attr("min", 1961)
+			.attr("max", 2019)
+			.attr("value", 1961)
+			.attr("id", "radarSlider");
+	
+		const sliderLabel = d3
+			.select("#graph10")
+			.append("label")
+			.attr("for", "radarSlider")
+			.style("margin-left", "10px")
+			.text("Year: 1961");
+	
+		// Draw chart for selected year
+		slider.on("input", function () {
+			const year = +this.value;
+			sliderLabel.text("Year: " + year);
+			drawRadarChart(data, "Y" + year);
+		});
+	
+		drawRadarChart(data, "Y1961"); 
+	});
+	function drawRadarChart(data, selectedYear) {
+		d3.select("#graph10 svg").remove(); 
+	
+		const months = data.map(d => d.Months);
+		const values = data.map(d => +d[selectedYear]);
+		const numAxes = months.length;
+	
+		const width = 500;
+		const height = 500;
+		const radius = Math.min(width, height) / 2 - 40;
+	
+		const angleSlice = (Math.PI * 2) / numAxes;
+	
+		const svg = d3
+			.select("#graph10")
+			.append("svg")
+			.attr("width", width)
+			.attr("height", height)
+			.append("g")
+			.attr("transform", `translate(${width / 2}, ${height / 2})`);
+	
+		const rScale = d3
+			.scaleLinear()
+			.domain([d3.min(values), d3.max(values)])
+			.range([0, radius]);
+	
+		const levels = 5;
+		for (let level = 0; level < levels; level++) {
+			const r = ((level + 1) / levels) * radius;
+	
+			svg
+				.append("circle")
+				.attr("r", r)
+				.attr("fill", "none")
+				.attr("stroke", "#ccc");
+	
+			svg
+				.append("text")
+				.attr("x", 5)
+				.attr("y", -r)
+				.attr("fill", "#666")
+				.style("font-size", "11px")
+				.text(d3.format(".2f")(rScale.invert(r)));
+		}
+	
+		for (let i = 0; i < numAxes; i++) {
+			const angle = angleSlice * i - Math.PI / 2;
+			const x = radius * Math.cos(angle);
+			const y = radius * Math.sin(angle);
+	
+			svg.append("line")
+				.attr("x1", 0)
+				.attr("y1", 0)
+				.attr("x2", x)
+				.attr("y2", y)
+				.attr("stroke", "#aaa");
+	
+			svg.append("text")
+				.attr("x", (radius + 10) * Math.cos(angle))
+				.attr("y", (radius + 10) * Math.sin(angle))
+				.attr("text-anchor", "middle")
+				.attr("alignment-baseline", "middle")
+				.style("font-size", "12px")
+				.text(months[i]);
+		}
+	
+		const line = d3.lineRadial()
+			.radius((d, i) => rScale(values[i]))
+			.angle((d, i) => angleSlice * i);
+	
+		svg.append("path")
+			.datum(values)
+			.attr("fill", "steelblue")
+			.attr("stroke", "black")
+			.attr("stroke-width", 1.5)
+			.attr("fill-opacity", 0.6)
+			.attr("d", line);
+	
+		values.forEach((v, i) => {
+			const angle = angleSlice * i - Math.PI / 2;
+			const x = rScale(v) * Math.cos(angle);
+			const y = rScale(v) * Math.sin(angle);
+	
+			svg.append("circle")
+				.attr("cx", x)
+				.attr("cy", y)
+				.attr("r", 3)
+				.attr("fill", "darkred");
+	
+			svg.append("text")
+				.attr("x", x + 5)
+				.attr("y", y)
+				.text(v.toFixed(2) + "°C")
+				.style("font-size", "10px")
+				.attr("fill", "#222");
+		});
+	}
 })
