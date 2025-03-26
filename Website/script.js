@@ -1197,6 +1197,170 @@ document.addEventListener('DOMContentLoaded', function () {
 				.text('Global average temperature change (bar chart)')
 		})
 	}
+	function drawGraph8() {
+		const container = d3.select("#graph8");
+		container.html(""); 
+		container.style("height", "auto").style("overflow", "visible");
+
+
+	  
+		const controls = container.append("div").attr("id", "controls7");
+	  
+		controls.append("label")
+		  .attr("for", "country-select7")
+		  .style("margin-right", "6px")
+		  .text("Country:");
+	  
+		const select = controls.append("select")
+		  .attr("id", "country-select7")
+		  .style("font-size", "14px")
+		  .style("padding", "4px 6px");
+	  
+		const tooltip = container.append("div")
+		  .attr("class", "tooltip")
+		  .style("opacity", 0)
+		  .style("position", "absolute")
+		  .style("background", "rgba(0,0,0,0.7)")
+		  .style("color", "white")
+		  .style("padding", "6px 10px")
+		  .style("border-radius", "5px")
+		  .style("pointer-events", "none")
+		  .style("font-size", "12px");
+	  
+		const width = 1600;
+		const height = 520;
+		const margin = { top: 30, right: 100, bottom: 40, left: 60 };
+	  
+		const svg = container.append("svg")
+		  .attr("width", width)
+		  .attr("height", height);
+	  
+		const bubbleGroup = svg.append("g").attr("class", "bubbles");
+	  
+		d3.csv("tables/globalStdToTem.csv").then(raw => {
+		  const data = raw.map(d => ({
+			tempChange: +d["Temperature Change"],
+			stdDev: +d["Standard Deviation"],
+			Area: d.Area,
+			Year: d.Year,
+			Months: d.Months
+		  })).filter(d => !isNaN(d.tempChange) && !isNaN(d.stdDev));
+	  
+		  const maxStdDev = d3.max(data, d => d.stdDev);
+		  const xScale = d3.scaleLinear().domain([-5.2, 5.2]).range([margin.left, width - margin.right]);
+		  const yScale = d3.scaleLinear().domain([0, maxStdDev + 0.5]).range([height - margin.bottom, margin.top]);
+	  
+		  
+		  const xAxis = d3.axisBottom(xScale).ticks(10);
+		  const yAxis = d3.axisLeft(yScale).ticks(10);
+	  
+		  svg.append("g")
+			.attr("transform", `translate(0, ${height - margin.bottom})`)
+			.call(xAxis)
+			.append("text")
+			.attr("x", (width - margin.left - margin.right) / 2 + margin.left)
+			.attr("y", 35)
+			.attr("fill", "#444")
+			.attr("text-anchor", "middle")
+			.style("font-size", "16px")
+			.text("Temperature change");
+	  
+		  svg.append("g")
+			.attr("transform", `translate(${margin.left}, 0)`)
+			.call(yAxis)
+			.append("text")
+			.attr("transform", "rotate(-90)")
+			.attr("x", -height / 2)
+			.attr("y", -45)
+			.attr("fill", "#444")
+			.attr("text-anchor", "middle")
+			.style("font-size", "16px")
+			.text("Standard deviation");
+	  
+		  
+		  const legend = svg.append("g")
+			.attr("transform", `translate(${width - 60},${margin.top})`);
+	  
+		  const legendScale = d3.scaleLinear().range([100, 0]);
+		  const legendAxis = d3.axisRight(legendScale).ticks(5);
+	  
+		  const defs = svg.append("defs");
+		  const linearGradient = defs.append("linearGradient")
+			.attr("id", "legend-gradient")
+			.attr("x1", "0%").attr("y1", "100%")
+			.attr("x2", "0%").attr("y2", "0%");
+	  
+		  linearGradient.selectAll("stop")
+			.data(d3.range(0, 1.1, 0.1))
+			.enter().append("stop")
+			.attr("offset", d => `${d * 100}%`)
+			.attr("stop-color", "white");
+	  
+		  legend.append("rect")
+			.attr("width", 20)
+			.attr("height", 100)
+			.style("fill", "url(#legend-gradient)");
+	  
+		  legend.append("g")
+			.attr("transform", "translate(20, 0)")
+			.attr("class", "legend-axis");
+	  
+		  svg.select(".legend-axis")
+			.call(legendAxis)
+			.selectAll("text")
+			.style("font-size", "14px")
+			.style("fill", "#444");
+	  
+		  
+		  const countries = Array.from(new Set(data.map(d => d.Area))).sort();
+		  select.append("option").attr("value", "All").text("Globally");
+		  countries.forEach(country => {
+			select.append("option").attr("value", country).text(country);
+		  });
+	  
+		  select.on("change", () => {
+			const selected = select.property("value");
+			const filtered = selected === "All" ? data : data.filter(d => d.Area === selected);
+			drawBubbles(filtered);
+		  });
+	  
+		  drawBubbles(data);
+	  
+		  function drawBubbles(data) {
+			bubbleGroup.selectAll("*").remove();
+	  
+			const bins = {};
+			data.forEach(d => {
+			  const key = `${Math.round(d.tempChange * 10)},${Math.round(d.stdDev * 10)}`;
+			  if (!bins[key]) bins[key] = { count: 0, items: [] };
+			  bins[key].count += 1;
+			  bins[key].items.push(d);
+			});
+	  
+			const bubbles = Object.entries(bins).map(([key, value]) => {
+			  const [xBin, yBin] = key.split(",").map(Number);
+			  return {
+				x: xScale(xBin / 10),
+				y: yScale(yBin / 10),
+				count: value.count,
+				items: value.items
+			  };
+			});
+	  
+			const colorScale = d3.scaleSequential(d3.interpolateYlOrRd)
+			  .domain([1, d3.max(bubbles, d => d.count)]);
+	  
+			legendScale.domain([1, d3.max(bubbles, d => d.count)]);
+			svg.select(".legend-axis").call(legendAxis);
+			linearGradient.selectAll("stop")
+			  .data(d3.range(0, 1.1, 0.1))
+			  .attr("stop-color", d => colorScale(1 + d * (d3.max(bubbles, d => d.count) - 1)));
+	  
+			
+		  }
+		});
+	  }
+	  
 
 	// Draw the first graph by default
 	drawGraph5()
@@ -1204,7 +1368,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	thumbnails.forEach(thumbnail => {
 		thumbnail.addEventListener('click', function () {
 			const graphId = this.getAttribute('onclick').match(/'([^']+)'/)[1]
-			const allGraphs = ['graph5', 'graph6', 'graph7']
+			const allGraphs = ['graph5', 'graph6', 'graph7','graph8']
 			allGraphs.forEach(id => {
 				const el = document.getElementById(id)
 				if (id === graphId) {
@@ -1219,6 +1383,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			if (graphId === 'graph5') drawGraph5()
 			if (graphId === 'graph6') drawGraph6()
 			if (graphId === 'graph7') drawGraph7()
+			if (graphId === 'graph8') drawGraph8()
 		})
 	})
 })
