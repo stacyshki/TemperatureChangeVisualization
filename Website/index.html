@@ -11,7 +11,6 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/simple-statistics/7.8.3/simple-statistics.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jstat/1.9.6/jstat.min.js"></script
 	</head>
-
 	<body>
 		<header>
 			<h1>
@@ -31,18 +30,15 @@
 				</ul>
 			</nav>
 		</header>
-
 		<section id="interactive-section">
 			<div class="geo-map"></div>
 		</section>
-
 		<section id="problem-outline">
 			<h2>Problem outline</h2>
 			<p>The Earth is sending us signals, and these signals are hidden within the changes in global temperatures. Since the Industrial Revolution, the massive release of greenhouse gases from human activities has gradually altered the Earth's climate system, leading to a continuous rise in global temperatures and an increase in extreme weather events. These changes are not just fluctuations in numbers; they are profoundly impacting our lives, environment, and future.</p>
 			<p><b>Causes:</b> According to NASA, Water Vapour, Carbon dioxide(CO₂), Methane, Nitrous oxide, and Sulfur hexafluoride contribute to the greenhouse effect. Over the last century, human activities have increased concentrations of this natural greenhouse.</p>
 			<b>Effects:</b> Global climate change has already had observable effects on the environment. Glaciers have shrunk, ice on rivers and lakes is breaking up earlier, plant and animal ranges have shifted, and trees are flowering sooner. Effects that scientists had predicted in the past would result from global climate change: loss of sea ice accelerated sea-level rise and longer, more intense heat waves. Source: <cite><a href="https://science.nasa.gov/climate-change/effects/">NASA</a></cite>
 		</section>
-
 		<section id="comments">
 			<section id="simple-text"><h2>Diving deeper into the data</h2></section>
 			<div class="graph" id="graph1"></div>
@@ -60,7 +56,6 @@
 			<p>This chart shows the changes in temperature over time for countries around the world, like a "storybook" documenting the Earth's climate evolution. Each country's temperature curve tells a unique story—some show a steady rise, while others experience dramatic fluctuations. These changes are not just a collection of numbers; they reflect the profound impact of global warming on different regions.</p></section>
 			<div class="graph" id="final-graph"></div>
 		</section>
-
 		<section id="conclusion">
 			<h2>Conclusion</h2>
 			<p>Through these charts, we see a vivid story about the Earth's changing temperatures. From 1961 to 2019, global temperatures have continued to rise, and seasonal temperature fluctuations have also quietly shifted. Temperature changes in certain months are particularly noticeable, and the frequency of extreme weather events seems to be increasing as well. These changes are not just numbers; they are part of our lives, affecting our environment, agriculture, and daily routines.
@@ -68,28 +63,24 @@
 				Let us draw strength from this data and work together to create a more sustainable and livable world for the next generation. The story of global warming continues, and each of us can play a positive role in it.
 				</p>
 		</section>
-
 		<section id="other-graphs">
 			<section id="simple-text"><h2>Other useful graphs</h2></section>
 			
 			<div class="container-other-graphs">
         <!-- Sidebar: List of Charts -->
         <div class="sidebar">
+						<div class="chart-thumbnail" onclick="updateChart('graph10')">Trend of temperature change (radar)</div>
             <div class="chart-thumbnail" onclick="updateChart('graph5')">Seasonal temperature change</div>
 						<div class="chart-thumbnail" onclick="updateChart('graph13')">Seasonal temperature boxplots</div>
             <div class="chart-thumbnail" onclick="updateChart('graph6')">Seasonal deviation change</div>
 						<div class="chart-thumbnail" onclick="updateChart('graph14')">Seasonal deviation boxplots</div>
-						<div class="chart-thumbnail" onclick="updateChart('graph7')">Average temperature bar</div>
-						<div class="chart-thumbnail" onclick="updateChart('graph8')">Deviation with respect to temperature</div>
-						<div class="chart-thumbnail" onclick="updateChart('graph12')">3d visualization of temperature with respect to deviation</div>
+						<div class="chart-thumbnail" onclick="updateChart('graph7')">Average temperature bar chart</div>
+						<div class="chart-thumbnail" onclick="updateChart('graph15')">Hottest areas</div>
 						<div class="chart-thumbnail" onclick="updateChart('graph9')">Temperature change among areas</div>
+						<div class="chart-thumbnail" onclick="updateChart('graph8')">Deviation with respect to temperature</div>
 						<div class="chart-thumbnail" onclick="updateChart('graph11')">Deviation change among areas</div>
-						<div class="chart-thumbnail" onclick="updateChart('graph10')">Trend of temperature change (radar)</div>
-						<div class="chart-thumbnail" onclick="updateChart('graph15')">Hottest countries</div>
-						<div class="chart-thumbnail" onclick="updateChart('graph16')">Coldest countries</div>
-						
+						<div class="chart-thumbnail" onclick="updateChart('graph12')">3D visualization of temperature with respect to deviation</div>
         </div>
-
         <!-- Main area: Where the selected graph is displayed -->
         <div class="chart-display">
             <div id="graph5" class="chart-container"></div>
@@ -103,12 +94,10 @@
 						<div id="graph13" class="chart-container"></div>
 						<div id="graph14" class="chart-container"></div>
             <div id="graph15" class="chart-container"></div>
-						<div id="graph16" class="chart-container"></div>
         </div>
     </div>
 		</div>
 		</section>
-
 		<script src="script.js" defer></script>
 	</body>
 </html>
