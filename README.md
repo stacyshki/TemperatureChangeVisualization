@@ -9,7 +9,7 @@ globe. Our project is aiming to visualize and emphasize the problems of mankind 
 2. <strong>Viktor Korotkov</strong>: <cite>Solutions designer</cite><br />
 3. <strong>Shitao Zhao</strong>: <cite>Data analyst</cite></p>
 <h3>Visualization and documentation</h3>
-<p><a href = "https://stacyshki.github.io/">Our website</a>
+<p><a href = "https://stacyshki.github.io/">Our website</a><br />
 <a href = "https://github.com/stacyshki/TemperatureChangeVisualization/blob/main/Metadata/Progress%20log.docx">Progress log
 </a><br />
 <a href = "https://github.com/stacyshki/TemperatureChangeVisualization/blob/main/Metadata/Scoping%20document.docx">Scoping
