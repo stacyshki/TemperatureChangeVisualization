@@ -1202,9 +1202,12 @@ document.addEventListener('DOMContentLoaded', function () {
 			.style('pointer-events', 'none')
 			.style('font-size', '12px')
 
-		const width = 1425
-		const height = 520
-		const margin = { top: 30, right: 60, bottom: 40, left: 60 }
+		const containerWidth = container.node().getBoundingClientRect().width
+		const containerHeight =
+			container.node().getBoundingClientRect().height || 470
+		const margin = { top: 40, right: 20, bottom: 60, left: 90 }
+		const width = containerWidth - margin.left - margin.right
+		const height = containerHeight - margin.top - margin.bottom
 
 		const svg = container
 			.append('svg')
@@ -1399,11 +1402,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	function drawGraph9() {
 		const container = d3.select('#graph9')
-		container.html('').style('width', '1450px')
+		container.html('')
 
-		const margin = { top: 60, right: 60, bottom: 50, left: 60 },
-			width = 1450 - margin.left - margin.right,
-			height = 500 - margin.top - margin.bottom
+		const containerWidth = container.node().getBoundingClientRect().width
+		const containerHeight =
+			container.node().getBoundingClientRect().height || 470
+		const margin = { top: 40, right: 20, bottom: 60, left: 90 }
+		const width = containerWidth - margin.left - margin.right
+		const height = containerHeight - margin.top - margin.bottom
 
 		const svg = container
 			.append('svg')
@@ -1665,11 +1671,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	function drawGraph11() {
 		const container = d3.select('#graph11')
-		container.html('').style('width', '1450px')
+		container.html('')
 
-		const margin = { top: 60, right: 60, bottom: 50, left: 60 },
-			width = 1450 - margin.left - margin.right,
-			height = 500 - margin.top - margin.bottom
+		const containerWidth = container.node().getBoundingClientRect().width
+		const containerHeight =
+			container.node().getBoundingClientRect().height || 470
+		const margin = { top: 40, right: 20, bottom: 60, left: 90 }
+		const width = containerWidth - margin.left - margin.right
+		const height = containerHeight - margin.top - margin.bottom
 
 		const svg = container
 			.append('svg')
@@ -1791,10 +1800,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	function drawGraph12() {
 		const container = d3.select('#graph12')
-		container.html('').style('width', '1450px').style('height', '800px')
+		container.html('')
 
-		const width = 1450,
-			height = 800
+		const containerWidth = container.node().getBoundingClientRect().width
+		const containerHeight =
+			container.node().getBoundingClientRect().height || 470
+		const margin = { top: 40, right: 20, bottom: 60, left: 90 }
+		const width = containerWidth - margin.left - margin.right
+		const height = containerHeight
 
 		const svg = container
 			.append('svg')
@@ -1946,12 +1959,14 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 
 	function drawGraph13() {
-		const margin = { top: 40, right: 20, bottom: 60, left: 90 },
-			boxWidth = 120,
-			width = 1450 - margin.left - margin.right,
-			height = 500
-
-		d3.select('#graph13').html('')
+		const graphContainer = d3.select('#graph13').html('')
+		const containerWidth = graphContainer.node().getBoundingClientRect().width
+		const containerHeight =
+			graphContainer.node().getBoundingClientRect().height || 470
+		const margin = { top: 40, right: 20, bottom: 60, left: 90 }
+		const width = containerWidth - margin.left - margin.right
+		const boxWidth = 120
+		const height = containerHeight - margin.top - margin.bottom
 
 		const svg = d3
 			.select('#graph13')
@@ -2146,12 +2161,14 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 
 	function drawGraph14() {
-		const margin = { top: 40, right: 20, bottom: 60, left: 90 },
-			boxWidth = 120,
-			width = 1450 - margin.left - margin.right,
-			height = 500
-
-		d3.select('#graph14').html('')
+		const graphContainer = d3.select('#graph14').html('')
+		const containerWidth = graphContainer.node().getBoundingClientRect().width
+		const containerHeight =
+			graphContainer.node().getBoundingClientRect().height || 470
+		const margin = { top: 40, right: 20, bottom: 60, left: 90 }
+		const width = containerWidth - margin.left - margin.right
+		const boxWidth = 120
+		const height = containerHeight - margin.top - margin.bottom
 
 		const svg = d3
 			.select('#graph14')
