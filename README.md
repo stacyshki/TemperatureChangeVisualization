@@ -21,3 +21,21 @@ document</a></p>
 2. <a href = "https://ourworldindata.org/climate-change">World in data</a><br />
 3. <a href = "https://scied.ucar.edu/learning-zone/climate-change-impacts/predictions-future-global-climate">UCAR education</a>
 </p>
+<h3>Navigation</h3>
+<p>
+Described_parts: folder with csv files generated during the analysis from the original dataset<br />
+Graphs: folder with png files of graphs we plotted during the analysis<br />
+Images: folder with the teaser and the thumbnail images of the project<br />
+Metadata: folder with the requirements, the scoping document, and the progress log<br />
+Splitted_data: folder with 2 csv files - one contains the temperature changes for countries, the other one has the standard deviation<br />
+Website: folder with the full logic of our website<br />
+Environment_Temperature_change_E_All_Data_NOFLAG.csv: the dataset<br />
+FINAL PROJECT.ipynb: jupyter notebook with the analysis<br />
+</p>
+<h3>Running the project</h3>
+<h4>To visit the website</h4>
+<p>Go to <a href = "https://stacyshki.github.io">https://stacyshki.github.io</a></p>
+<h4>Other</h4>
+<p>1. Clone the repository<br />
+2. Run "FINAL PROJECT.ipynb" to see the main data analysis, before this check <a href = "https://github.com/stacyshki/TemperatureChangeVisualization/blob/main/Metadata/requirements.txt">the requirements</a><br />
+3. Run the Live Server in the Website folder to see the website</p>

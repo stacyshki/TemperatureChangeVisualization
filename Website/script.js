@@ -492,7 +492,7 @@ d3.csv('tables/stdDescYear.csv').then(function (data) {
 		.attr('y', -margin.left + 15)
 		.style('font-size', '16px')
 		.style('fill', '#444')
-		.text('Mean temperature')
+		.text('Mean temperature (°C)')
 
 	const legend = svg
 		.append('g')
@@ -807,7 +807,7 @@ d3.csv('tables/temperatureChange.csv').then(function (data) {
 		.style('font-size', '16px')
 		.style('font-weight', 'bold')
 		.style('fill', '#444')
-		.text('Temperature change over time by country')
+		.text('Temperature change over time by area')
 
 	svg
 		.append('text')
@@ -1182,7 +1182,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			.append('label')
 			.attr('for', 'country-select8')
 			.style('margin-right', '6px')
-			.text('Country:')
+			.text('Area:')
 
 		const select = controls
 			.append('select')
@@ -1285,6 +1285,15 @@ document.addEventListener('DOMContentLoaded', function () {
 				.append('stop')
 				.attr('offset', d => `${d * 100}%`)
 				.attr('stop-color', 'white')
+
+			legend
+				.append('text')
+				.attr('x', -10) // Adjust position as needed
+				.attr('y', -10)
+				.attr('text-anchor', 'end')
+				.style('font-size', '14px')
+				.style('fill', '#444')
+				.text('Density')
 
 			legend
 				.append('rect')
