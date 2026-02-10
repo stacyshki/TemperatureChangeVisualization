@@ -33,7 +33,7 @@ FINAL PROJECT.ipynb: jupyter notebook with the analysis<br />
 </p>
 <h3>Running the project</h3>
 <h4>To visit the website</h4>
-<p>Go to <a href = "https://stacyshki.github.io">https://stacyshki.github.io</a></p>
+<p>[Currently unavailable]</p>
 <h4>Other</h4>
 <p>1. Clone the repository<br />
 2. Run "FINAL PROJECT.ipynb" to see the main data analysis, before this check <a href = "https://github.com/stacyshki/TemperatureChangeVisualization/blob/main/Metadata/requirements.txt">the requirements</a><br />
